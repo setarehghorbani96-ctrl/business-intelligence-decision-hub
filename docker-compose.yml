@@ -1,0 +1,54 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: bi_decision_hub_postgres
+    environment:
+      POSTGRES_DB: ${DATABASE_NAME:-bi_decision_hub}
+      POSTGRES_USER: ${DATABASE_USER:-postgres}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:-postgres}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DATABASE_USER:-postgres} -d ${DATABASE_NAME:-bi_decision_hub}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    container_name: bi_decision_hub_api
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/workspace
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: app/Dockerfile
+    container_name: bi_decision_hub_streamlit
+    env_file:
+      - .env
+    depends_on:
+      api:
+        condition: service_started
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/workspace
+    command: streamlit run app/streamlit_app.py --server.address=0.0.0.0 --server.port=8501
+
+volumes:
+  postgres_data:
