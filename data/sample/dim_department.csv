@@ -1,0 +1,9 @@
+department_id,department_name,department_type
+1,Executive,Leadership
+2,Finance,Corporate
+3,Sales,Commercial
+4,Operations,Operational
+5,Assets,Operational
+6,ESG,Sustainability
+7,Customer Service,Support
+8,Digital Transformation,Strategic Enablement

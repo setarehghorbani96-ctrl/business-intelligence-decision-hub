@@ -2,7 +2,7 @@
 
 Business Intelligence Decision Hub is a professional portfolio project for a role-based business intelligence and decision-support platform built around the fictional company NovaEnergy Services.
 
-This repository now includes PostgreSQL Schema v1 in addition to the Docker-ready project foundation. The current implementation provides a dimensional database design, starter regional and departmental reference data, a placeholder FastAPI backend, a placeholder Streamlit frontend, shared environment configuration, and project documentation for the next phases.
+The current implementation includes the Docker-ready project foundation, PostgreSQL Schema v1, and a reproducible synthetic data generator that produces analytics-friendly CSV datasets aligned to the warehouse model.
 
 ## Current Scope
 
@@ -10,6 +10,8 @@ This repository now includes PostgreSQL Schema v1 in addition to the Docker-read
 - PostgreSQL service initialization from the `database/` folder
 - PostgreSQL Schema v1 for NovaEnergy Services
 - Starter seed data for regions and departments
+- Synthetic data generator for dimensions, fact tables, and KPI targets
+- Sample CSV outputs in `data/sample/`
 - FastAPI placeholder service with a health endpoint
 - Streamlit placeholder application shell
 - Starter folders for ETL, AI insights, analytics assets, tests, and documentation
@@ -28,6 +30,30 @@ Copy-Item .env.example .env
 docker compose up --build
 ```
 
+## Generate Synthetic Data
+
+From the project root, run:
+
+```bash
+python -m data_generation.generate_synthetic_data
+```
+
+The generator creates schema-aligned CSV files in `data/sample/` for:
+
+- `dim_date`
+- `dim_region`
+- `dim_department`
+- `dim_customer`
+- `dim_asset`
+- `fact_finance`
+- `fact_service_requests`
+- `fact_maintenance`
+- `fact_customer_feedback`
+- `fact_esg`
+- `fact_targets`
+
+The synthetic data is intentionally relationship-driven rather than random. It simulates how older assets increase maintenance and downtime, how downtime affects SLA performance, how SLA performance influences customer satisfaction and churn risk, and how asset age and regional mix affect energy consumption and CO2 emissions.
+
 ## Service Endpoints
 
 - FastAPI: http://localhost:8000
@@ -37,20 +63,11 @@ docker compose up --build
 
 ## PostgreSQL Schema v1
 
-Schema v1 introduces the first analytics-ready PostgreSQL structure for NovaEnergy Services, including shared dimensions, core fact tables, starter reference seeds, and placeholder semantic-layer view definitions for future KPI work.
+Schema v1 introduces the first analytics-ready PostgreSQL structure for NovaEnergy Services, including shared dimensions, core fact tables, starter reference seeds, and a stable warehouse contract for future ETL and KPI work.
 
 If you change the schema and need a clean database reset in Windows PowerShell, run:
 
 ```powershell
-docker compose down -v
-docker compose up --build
-```
-
-## Troubleshooting
-
-If containers or volumes get into a bad state, recreate the stack:
-
-```bash
 docker compose down -v
 docker compose up --build
 ```
@@ -63,6 +80,7 @@ docker compose up --build
 |-- ai_insights/
 |-- app/
 |-- data/
+|-- data_generation/
 |-- database/
 |-- docs/
 |-- etl/
@@ -78,12 +96,12 @@ docker compose up --build
 
 ## What Is Not Implemented Yet
 
-- Synthetic company data generation
 - ETL logic
-- Dashboard pages and metrics
+- Dashboard pages and KPI visualizations
+- FastAPI business endpoints beyond placeholders
 - AI insight generation
 - Scenario analysis workflows
 
 ## Next Planned Phase
 
-The next recommended step is to populate the dimensions and fact tables with representative company data and then define KPI logic on top of the validated schema.
+The next recommended step is to build the ETL flow that validates and loads the synthetic CSV datasets into PostgreSQL before adding KPI views and dashboard logic.

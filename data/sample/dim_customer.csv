@@ -1,0 +1,751 @@
+customer_id,customer_name,customer_segment,region_id,contract_type,start_date,status,annual_contract_value
+1,Orion Commercial South 0001,Commercial,4,On-Demand Support,2022-09-08,Active,166568.51
+2,Helios Industrial South 0002,Industrial,4,Performance Contract,2025-10-30,Suspended,335754.98
+3,Helios Industrial NorthEast 0003,Industrial,2,Performance Contract,2020-12-08,Active,265803.73
+4,Green Residential NorthEast 0004,Residential,2,On-Demand Support,2023-06-04,Active,34927.64
+5,Atlas Industrial NorthWest 0005,Industrial,1,Performance Contract,2025-05-04,Suspended,448204.26
+6,Atlas Industrial NorthWest 0006,Industrial,1,Performance Contract,2021-08-05,Active,361991.98
+7,Easy Residential South 0007,Residential,4,Preventive Care,2025-04-15,Lost,27394.38
+8,Helios Industrial NorthWest 0008,Industrial,1,Managed Services,2021-01-07,Active,531352.78
+9,Urban Commercial South 0009,Commercial,4,Preventive Care,2022-01-29,Active,110117.45
+10,Family Residential Central 0010,Residential,3,On-Demand Support,2023-09-06,Active,29916.8
+11,Prime Commercial NorthWest 0011,Commercial,1,Managed Services,2024-10-02,Lost,118063.55
+12,Public Public NorthEast 0012,Public Sector,2,Performance Contract,2019-05-30,Active,256037.61
+13,Forge Industrial South 0013,Industrial,4,Managed Services,2023-11-17,Active,267979.96
+14,Vector Industrial Central 0014,Industrial,3,Performance Contract,2022-03-27,Active,413242.02
+15,Prime Commercial Central 0015,Commercial,3,Managed Services,2022-06-19,Suspended,109408.92
+16,Home Residential Islands 0016,Residential,5,On-Demand Support,2023-11-25,Active,24695.54
+17,Central Public Islands 0017,Public Sector,5,Performance Contract,2022-10-30,Active,181573.99
+18,Bright Residential South 0018,Residential,4,Preventive Care,2020-03-28,Active,29442.11
+19,Vista Commercial NorthWest 0019,Commercial,1,Managed Services,2023-08-17,Active,165301.81
+20,Titan Industrial Central 0020,Industrial,3,On-Demand Support,2020-01-05,Active,447068.15
+21,Green Residential NorthWest 0021,Residential,1,On-Demand Support,2020-12-06,Active,37253.37
+22,Community Public Islands 0022,Public Sector,5,Performance Contract,2022-05-29,Active,176853.93
+23,Forge Industrial NorthEast 0023,Industrial,2,Preventive Care,2021-02-11,Active,546706.73
+24,Vista Commercial Central 0024,Commercial,3,Preventive Care,2022-11-17,Active,182152.7
+25,Orion Commercial Islands 0025,Commercial,5,Managed Services,2021-03-03,Active,146374.85
+26,Casa Residential NorthEast 0026,Residential,2,Preventive Care,2024-10-22,Active,28501.57
+27,Mercury Industrial NorthWest 0027,Industrial,1,Performance Contract,2024-12-02,Suspended,619460.29
+28,Vista Commercial Central 0028,Commercial,3,Preventive Care,2025-03-27,Active,174840.86
+29,Vista Commercial South 0029,Commercial,4,On-Demand Support,2019-06-22,Active,123590.32
+30,Orion Commercial NorthWest 0030,Commercial,1,On-Demand Support,2024-10-26,Active,131906.81
+31,Regional Public Islands 0031,Public Sector,5,Managed Services,2020-12-15,Active,125212.69
+32,Orion Commercial NorthWest 0032,Commercial,1,Preventive Care,2019-12-04,Active,173553.83
+33,Green Residential South 0033,Residential,4,Performance Contract,2025-10-24,Suspended,15126.35
+34,Bright Residential Central 0034,Residential,3,Preventive Care,2021-02-08,Active,41370.98
+35,Helios Industrial Central 0035,Industrial,3,Managed Services,2020-04-09,Suspended,369417.38
+36,Family Residential NorthEast 0036,Residential,2,Managed Services,2025-07-13,Lost,15287.7
+37,Public Public Central 0037,Public Sector,3,Preventive Care,2019-11-01,Active,237370.7
+38,Easy Residential Central 0038,Residential,3,Preventive Care,2021-08-14,Active,22699.16
+39,Vector Industrial South 0039,Industrial,4,Managed Services,2020-05-06,Active,419941.38
+40,Home Residential NorthWest 0040,Residential,1,Preventive Care,2024-10-09,Active,24708.71
+41,Atlas Industrial NorthWest 0041,Industrial,1,Managed Services,2022-08-12,Active,274760.63
+42,Prime Commercial NorthEast 0042,Commercial,2,On-Demand Support,2023-10-07,Active,194974.87
+43,Titan Industrial NorthWest 0043,Industrial,1,Performance Contract,2019-01-19,Active,422030.02
+44,Casa Residential NorthWest 0044,Residential,1,Managed Services,2021-08-13,Active,43063.08
+45,Home Residential Islands 0045,Residential,5,On-Demand Support,2023-04-25,Active,31801.47
+46,Harbor Commercial Central 0046,Commercial,3,On-Demand Support,2024-06-14,Active,156026.59
+47,Atlas Industrial NorthWest 0047,Industrial,1,Performance Contract,2021-05-14,Active,422202.73
+48,Urban Commercial NorthEast 0048,Commercial,2,Preventive Care,2021-07-28,Suspended,130640.08
+49,Harbor Commercial NorthEast 0049,Commercial,2,On-Demand Support,2022-11-15,Active,170331.28
+50,Civic Public NorthEast 0050,Public Sector,2,Performance Contract,2022-09-24,Active,243564.76
+51,Helios Industrial Central 0051,Industrial,3,Performance Contract,2025-09-20,Suspended,239026.62
+52,Bright Residential Central 0052,Residential,3,On-Demand Support,2025-09-17,Active,42588.99
+53,Harbor Commercial NorthWest 0053,Commercial,1,Managed Services,2022-05-01,Active,171962.67
+54,Home Residential South 0054,Residential,4,On-Demand Support,2022-04-06,Suspended,24165.15
+55,Summit Commercial NorthWest 0055,Commercial,1,Performance Contract,2024-02-11,Active,195696.95
+56,Vista Commercial South 0056,Commercial,4,Performance Contract,2021-05-03,Active,131635.58
+57,Orion Commercial Islands 0057,Commercial,5,Performance Contract,2025-08-23,Active,162591.53
+58,Summit Commercial NorthEast 0058,Commercial,2,On-Demand Support,2025-07-21,Suspended,148596.33
+59,Helios Industrial Central 0059,Industrial,3,Performance Contract,2019-09-02,Active,476785.8
+60,Vista Commercial NorthEast 0060,Commercial,2,Performance Contract,2022-03-07,Lost,119451.9
+61,Bright Residential Islands 0061,Residential,5,Preventive Care,2023-08-30,Active,33504.62
+62,Forge Industrial Central 0062,Industrial,3,Preventive Care,2025-12-29,Active,243219.67
+63,Vista Commercial South 0063,Commercial,4,On-Demand Support,2019-01-14,Active,162403.68
+64,Easy Residential Central 0064,Residential,3,Preventive Care,2019-01-14,Active,38060.66
+65,Home Residential Islands 0065,Residential,5,On-Demand Support,2022-03-12,Active,33539.44
+66,Easy Residential Central 0066,Residential,3,On-Demand Support,2020-05-30,Active,38125.36
+67,Titan Industrial NorthWest 0067,Industrial,1,Performance Contract,2022-07-26,Active,645468.13
+68,Family Residential NorthWest 0068,Residential,1,On-Demand Support,2019-05-20,Active,21152.51
+69,Central Public Islands 0069,Public Sector,5,Preventive Care,2022-02-15,Active,215008.06
+70,Harbor Commercial NorthEast 0070,Commercial,2,Preventive Care,2020-01-07,Suspended,143174.82
+71,Urban Commercial NorthEast 0071,Commercial,2,Managed Services,2019-08-27,Active,114817.07
+72,Community Public Central 0072,Public Sector,3,Performance Contract,2021-02-18,Active,216311.11
+73,Titan Industrial NorthEast 0073,Industrial,2,Performance Contract,2019-09-01,Active,411702.34
+74,Community Public Central 0074,Public Sector,3,Performance Contract,2023-01-03,Active,205112.07
+75,Central Public NorthEast 0075,Public Sector,2,Performance Contract,2022-11-28,Active,222831.12
+76,Public Public Central 0076,Public Sector,3,Preventive Care,2025-03-16,Active,204883.8
+77,Vector Industrial NorthWest 0077,Industrial,1,Preventive Care,2022-12-16,Active,276425.99
+78,Public Public NorthEast 0078,Public Sector,2,Managed Services,2021-05-04,Active,263036.18
+79,Prime Commercial NorthWest 0079,Commercial,1,Managed Services,2022-02-23,Suspended,147917.34
+80,Metro Public Central 0080,Public Sector,3,Performance Contract,2024-05-28,Active,241839.03
+81,Mercury Industrial Central 0081,Industrial,3,Managed Services,2020-05-27,Suspended,478774.68
+82,Urban Commercial NorthWest 0082,Commercial,1,Performance Contract,2024-11-15,Active,111291.2
+83,Vector Industrial NorthEast 0083,Industrial,2,Managed Services,2023-06-05,Active,552547.29
+84,Summit Commercial NorthEast 0084,Commercial,2,Performance Contract,2020-08-18,Active,105597.59
+85,Community Public Central 0085,Public Sector,3,Performance Contract,2024-01-28,Active,258170.13
+86,Casa Residential NorthEast 0086,Residential,2,On-Demand Support,2021-07-26,Lost,28091.42
+87,Green Residential Central 0087,Residential,3,Preventive Care,2022-08-14,Active,28759.66
+88,Home Residential Islands 0088,Residential,5,Preventive Care,2019-09-26,Active,22409.61
+89,Regional Public Islands 0089,Public Sector,5,Performance Contract,2021-11-28,Active,211034.66
+90,Easy Residential Central 0090,Residential,3,On-Demand Support,2020-12-11,Lost,25448.68
+91,Bright Residential Islands 0091,Residential,5,On-Demand Support,2023-07-20,Lost,12812.59
+92,Home Residential Islands 0092,Residential,5,Preventive Care,2022-11-15,Lost,23752.21
+93,Public Public NorthWest 0093,Public Sector,1,Performance Contract,2021-04-11,Active,324203.81
+94,Forge Industrial South 0094,Industrial,4,Performance Contract,2025-11-05,Suspended,453816.91
+95,Mercury Industrial NorthEast 0095,Industrial,2,Managed Services,2023-08-08,Active,463850.43
+96,Casa Residential South 0096,Residential,4,Managed Services,2024-06-01,Active,20786.44
+97,Orion Commercial NorthWest 0097,Commercial,1,Preventive Care,2023-11-25,Active,97031.81
+98,Bright Residential NorthWest 0098,Residential,1,Preventive Care,2025-04-09,Active,39770.15
+99,Helios Industrial NorthEast 0099,Industrial,2,Preventive Care,2023-09-23,Active,326211.07
+100,Bright Residential South 0100,Residential,4,Preventive Care,2021-05-24,Active,24970.52
+101,Green Residential Islands 0101,Residential,5,On-Demand Support,2021-05-29,Suspended,21072.49
+102,Atlas Industrial NorthWest 0102,Industrial,1,Managed Services,2019-12-10,Active,432014.18
+103,Family Residential NorthEast 0103,Residential,2,On-Demand Support,2021-06-05,Active,29036.39
+104,Bright Residential NorthEast 0104,Residential,2,On-Demand Support,2025-04-12,Active,33877.72
+105,Helios Industrial NorthEast 0105,Industrial,2,Managed Services,2019-06-05,Lost,238761.34
+106,Orion Commercial South 0106,Commercial,4,Performance Contract,2022-12-06,Active,221537.65
+107,Casa Residential Islands 0107,Residential,5,Preventive Care,2021-12-28,Active,26824.76
+108,Vista Commercial Central 0108,Commercial,3,Managed Services,2023-07-28,Active,221935.64
+109,Forge Industrial NorthWest 0109,Industrial,1,Performance Contract,2019-05-02,Active,448128.35
+110,Atlas Industrial NorthEast 0110,Industrial,2,Performance Contract,2019-05-11,Active,333531.65
+111,Atlas Industrial NorthEast 0111,Industrial,2,Managed Services,2019-10-12,Active,530571.76
+112,Prime Commercial NorthEast 0112,Commercial,2,Preventive Care,2022-07-23,Active,193442.64
+113,Vista Commercial NorthWest 0113,Commercial,1,Preventive Care,2020-09-23,Active,136350.56
+114,Central Public NorthEast 0114,Public Sector,2,Managed Services,2025-07-06,Active,151836.64
+115,Titan Industrial NorthWest 0115,Industrial,1,Managed Services,2022-04-30,Active,310877.48
+116,Home Residential Central 0116,Residential,3,Managed Services,2020-09-09,Active,38210.02
+117,Casa Residential South 0117,Residential,4,Preventive Care,2025-10-11,Active,38262.43
+118,Family Residential NorthEast 0118,Residential,2,Preventive Care,2023-03-23,Active,35573.33
+119,Vista Commercial NorthEast 0119,Commercial,2,Managed Services,2021-09-07,Active,91398.59
+120,Home Residential South 0120,Residential,4,On-Demand Support,2019-02-18,Lost,19041.38
+121,Central Public NorthWest 0121,Public Sector,1,Performance Contract,2025-06-21,Suspended,193812.2
+122,Titan Industrial Central 0122,Industrial,3,Preventive Care,2019-02-12,Active,550038.14
+123,Forge Industrial NorthWest 0123,Industrial,1,Performance Contract,2025-11-02,Active,385662.25
+124,Harbor Commercial Central 0124,Commercial,3,On-Demand Support,2024-11-08,Active,134198.18
+125,Public Public NorthEast 0125,Public Sector,2,Preventive Care,2024-01-09,Active,228522.73
+126,Forge Industrial Central 0126,Industrial,3,Preventive Care,2025-11-19,Active,431557.64
+127,Summit Commercial South 0127,Commercial,4,Preventive Care,2023-10-10,Suspended,94471.94
+128,Harbor Commercial Islands 0128,Commercial,5,Performance Contract,2020-05-25,Lost,127689.95
+129,Casa Residential South 0129,Residential,4,On-Demand Support,2024-06-14,Active,28214.38
+130,Mercury Industrial South 0130,Industrial,4,Managed Services,2025-04-30,Active,461484.4
+131,Community Public NorthEast 0131,Public Sector,2,On-Demand Support,2021-06-09,Active,210302.18
+132,Urban Commercial NorthEast 0132,Commercial,2,On-Demand Support,2023-04-06,Active,153268.84
+133,Vector Industrial NorthEast 0133,Industrial,2,Managed Services,2019-03-02,Active,466588.33
+134,Metro Public NorthWest 0134,Public Sector,1,On-Demand Support,2025-09-07,Active,208201.25
+135,Harbor Commercial Central 0135,Commercial,3,Managed Services,2019-08-18,Active,98224.37
+136,Mercury Industrial NorthEast 0136,Industrial,2,Managed Services,2025-09-19,Active,362960.82
+137,Family Residential Islands 0137,Residential,5,On-Demand Support,2021-11-14,Active,38351.14
+138,Forge Industrial Central 0138,Industrial,3,Preventive Care,2019-12-19,Active,456698.45
+139,Atlas Industrial NorthWest 0139,Industrial,1,Preventive Care,2024-03-06,Active,466205.13
+140,Central Public NorthEast 0140,Public Sector,2,Preventive Care,2021-01-26,Suspended,155554.43
+141,Vector Industrial NorthWest 0141,Industrial,1,Preventive Care,2019-06-07,Active,343256.99
+142,Family Residential South 0142,Residential,4,On-Demand Support,2022-02-24,Active,23447.98
+143,Titan Industrial NorthWest 0143,Industrial,1,On-Demand Support,2020-12-22,Lost,469193.78
+144,Summit Commercial Central 0144,Commercial,3,Managed Services,2022-06-08,Suspended,103298.41
+145,Summit Commercial NorthWest 0145,Commercial,1,Managed Services,2021-08-30,Active,139619.68
+146,Prime Commercial NorthEast 0146,Commercial,2,Performance Contract,2019-11-01,Active,147091.67
+147,Green Residential Islands 0147,Residential,5,On-Demand Support,2024-10-20,Active,25066.44
+148,Orion Commercial NorthWest 0148,Commercial,1,Preventive Care,2025-06-12,Active,177794.73
+149,Family Residential NorthWest 0149,Residential,1,Preventive Care,2022-11-14,Active,33176.64
+150,Urban Commercial NorthWest 0150,Commercial,1,Managed Services,2025-12-15,Active,125100.23
+151,Urban Commercial Islands 0151,Commercial,5,Preventive Care,2023-08-11,Active,138889.88
+152,Urban Commercial Islands 0152,Commercial,5,Managed Services,2023-03-14,Lost,111550.36
+153,Casa Residential Islands 0153,Residential,5,On-Demand Support,2020-03-16,Active,26232.84
+154,Community Public NorthEast 0154,Public Sector,2,Performance Contract,2021-02-12,Active,227970.48
+155,Vista Commercial Islands 0155,Commercial,5,Preventive Care,2022-04-02,Active,128547.67
+156,Metro Public NorthWest 0156,Public Sector,1,Performance Contract,2022-01-30,Active,254543.91
+157,Metro Public NorthWest 0157,Public Sector,1,Preventive Care,2020-03-16,Active,203556.42
+158,Titan Industrial NorthWest 0158,Industrial,1,Performance Contract,2019-11-27,Active,589012.73
+159,Casa Residential Central 0159,Residential,3,On-Demand Support,2019-06-13,Active,22909.86
+160,Community Public NorthEast 0160,Public Sector,2,Managed Services,2021-03-30,Active,210915.74
+161,Bright Residential NorthEast 0161,Residential,2,On-Demand Support,2023-12-07,Active,24223.68
+162,Helios Industrial NorthEast 0162,Industrial,2,On-Demand Support,2022-06-06,Lost,514539.81
+163,Family Residential South 0163,Residential,4,On-Demand Support,2023-03-31,Active,25970.62
+164,Prime Commercial NorthWest 0164,Commercial,1,Performance Contract,2023-07-07,Lost,120123.34
+165,Forge Industrial NorthWest 0165,Industrial,1,Preventive Care,2023-11-25,Active,552891.65
+166,Bright Residential NorthEast 0166,Residential,2,Preventive Care,2024-06-02,Active,19231.92
+167,Bright Residential Islands 0167,Residential,5,Managed Services,2022-05-02,Lost,12876.05
+168,Bright Residential NorthWest 0168,Residential,1,Preventive Care,2025-03-12,Active,28254.87
+169,Regional Public Central 0169,Public Sector,3,On-Demand Support,2019-09-28,Active,325464.53
+170,Orion Commercial Islands 0170,Commercial,5,Performance Contract,2019-09-01,Active,135884.53
+171,Easy Residential NorthEast 0171,Residential,2,On-Demand Support,2021-10-06,Active,36293.38
+172,Civic Public South 0172,Public Sector,4,On-Demand Support,2021-04-02,Lost,119965.67
+173,Forge Industrial Central 0173,Industrial,3,Managed Services,2024-12-15,Active,192821.31
+174,Bright Residential Central 0174,Residential,3,Preventive Care,2024-06-03,Lost,17063.87
+175,Titan Industrial South 0175,Industrial,4,Performance Contract,2021-04-16,Active,459670.3
+176,Regional Public South 0176,Public Sector,4,Performance Contract,2024-04-07,Active,178389.33
+177,Forge Industrial NorthWest 0177,Industrial,1,Managed Services,2023-11-23,Lost,268995.34
+178,Prime Commercial Central 0178,Commercial,3,Performance Contract,2025-12-07,Suspended,193081.08
+179,Orion Commercial NorthWest 0179,Commercial,1,Performance Contract,2024-03-22,Active,190553.07
+180,Vector Industrial South 0180,Industrial,4,Managed Services,2022-11-09,Active,421730.26
+181,Community Public NorthEast 0181,Public Sector,2,Preventive Care,2024-04-13,Active,227906.41
+182,Prime Commercial NorthEast 0182,Commercial,2,Preventive Care,2020-11-23,Active,101606.86
+183,Casa Residential Islands 0183,Residential,5,Preventive Care,2024-10-23,Active,35385.47
+184,Vector Industrial NorthWest 0184,Industrial,1,Performance Contract,2022-05-02,Active,349826.24
+185,Vector Industrial NorthWest 0185,Industrial,1,Performance Contract,2023-07-24,Active,341842.85
+186,Vector Industrial NorthEast 0186,Industrial,2,Managed Services,2025-01-08,Active,353477.47
+187,Home Residential South 0187,Residential,4,Performance Contract,2022-03-21,Active,16544.12
+188,Green Residential South 0188,Residential,4,On-Demand Support,2023-05-04,Suspended,22591.7
+189,Green Residential NorthEast 0189,Residential,2,On-Demand Support,2024-08-11,Active,35797.04
+190,Home Residential NorthEast 0190,Residential,2,Preventive Care,2025-11-07,Active,26013.95
+191,Atlas Industrial NorthEast 0191,Industrial,2,Managed Services,2023-01-16,Active,532108.04
+192,Metro Public NorthEast 0192,Public Sector,2,On-Demand Support,2021-07-06,Active,285317.17
+193,Urban Commercial NorthEast 0193,Commercial,2,Performance Contract,2021-08-03,Active,170967.28
+194,Vector Industrial NorthEast 0194,Industrial,2,Managed Services,2021-03-31,Active,478448.53
+195,Home Residential Central 0195,Residential,3,Preventive Care,2019-09-25,Suspended,33876.48
+196,Vista Commercial Islands 0196,Commercial,5,On-Demand Support,2023-09-07,Active,148393.32
+197,Public Public Central 0197,Public Sector,3,Managed Services,2020-09-04,Active,255324.76
+198,Community Public NorthWest 0198,Public Sector,1,Performance Contract,2022-06-23,Active,289711.57
+199,Mercury Industrial NorthWest 0199,Industrial,1,Preventive Care,2020-09-07,Active,443191.21
+200,Vista Commercial South 0200,Commercial,4,Preventive Care,2025-10-04,Active,189720.86
+201,Public Public South 0201,Public Sector,4,Performance Contract,2025-05-16,Active,288456.23
+202,Vector Industrial NorthEast 0202,Industrial,2,Preventive Care,2021-12-22,Active,519731.64
+203,Helios Industrial South 0203,Industrial,4,Performance Contract,2023-01-22,Active,389238.14
+204,Prime Commercial NorthEast 0204,Commercial,2,Managed Services,2020-02-22,Active,152743.83
+205,Mercury Industrial NorthWest 0205,Industrial,1,Managed Services,2020-07-28,Suspended,267081.71
+206,Urban Commercial NorthWest 0206,Commercial,1,On-Demand Support,2024-08-30,Active,179010.83
+207,Prime Commercial NorthWest 0207,Commercial,1,On-Demand Support,2020-06-04,Active,230663.16
+208,Forge Industrial Islands 0208,Industrial,5,On-Demand Support,2023-12-10,Active,472673.76
+209,Atlas Industrial South 0209,Industrial,4,Performance Contract,2023-12-16,Active,530284.13
+210,Casa Residential NorthWest 0210,Residential,1,Preventive Care,2021-10-12,Active,21729.73
+211,Home Residential NorthWest 0211,Residential,1,On-Demand Support,2021-07-14,Suspended,36795.38
+212,Public Public South 0212,Public Sector,4,Performance Contract,2025-08-09,Suspended,243916.27
+213,Orion Commercial NorthEast 0213,Commercial,2,Performance Contract,2024-01-25,Active,146231.36
+214,Family Residential NorthEast 0214,Residential,2,On-Demand Support,2019-07-18,Active,13397.92
+215,Vista Commercial Islands 0215,Commercial,5,Performance Contract,2022-12-10,Suspended,164266.42
+216,Titan Industrial NorthWest 0216,Industrial,1,Performance Contract,2019-05-06,Active,590280.15
+217,Family Residential NorthWest 0217,Residential,1,On-Demand Support,2019-10-14,Suspended,35065.98
+218,Family Residential NorthEast 0218,Residential,2,Preventive Care,2019-08-20,Active,34699.37
+219,Metro Public NorthEast 0219,Public Sector,2,Performance Contract,2024-05-16,Active,214740.77
+220,Titan Industrial Islands 0220,Industrial,5,Managed Services,2024-01-20,Active,379633.05
+221,Bright Residential NorthEast 0221,Residential,2,On-Demand Support,2025-10-24,Active,27746.84
+222,Summit Commercial NorthWest 0222,Commercial,1,Managed Services,2019-06-20,Active,239252.12
+223,Titan Industrial NorthEast 0223,Industrial,2,Preventive Care,2025-04-28,Active,456045.53
+224,Central Public South 0224,Public Sector,4,Performance Contract,2021-12-30,Active,227855.72
+225,Prime Commercial NorthEast 0225,Commercial,2,On-Demand Support,2022-06-06,Active,156579.65
+226,Mercury Industrial South 0226,Industrial,4,Managed Services,2022-03-21,Active,428206.7
+227,Titan Industrial NorthWest 0227,Industrial,1,On-Demand Support,2021-10-07,Active,332340.65
+228,Green Residential South 0228,Residential,4,On-Demand Support,2021-01-14,Active,19005.06
+229,Forge Industrial NorthWest 0229,Industrial,1,Managed Services,2024-10-21,Active,319464.54
+230,Easy Residential NorthEast 0230,Residential,2,On-Demand Support,2023-12-08,Active,36087.74
+231,Orion Commercial NorthWest 0231,Commercial,1,Managed Services,2024-01-13,Active,162843.01
+232,Atlas Industrial NorthEast 0232,Industrial,2,Managed Services,2020-09-08,Active,402955.25
+233,Central Public NorthWest 0233,Public Sector,1,On-Demand Support,2019-03-02,Active,235178.48
+234,Home Residential Central 0234,Residential,3,On-Demand Support,2025-01-26,Active,36065.73
+235,Summit Commercial NorthWest 0235,Commercial,1,Performance Contract,2024-05-06,Active,156993.39
+236,Mercury Industrial NorthWest 0236,Industrial,1,Preventive Care,2022-11-12,Suspended,529467.98
+237,Prime Commercial NorthEast 0237,Commercial,2,Managed Services,2025-12-18,Suspended,144463.36
+238,Mercury Industrial NorthWest 0238,Industrial,1,Managed Services,2022-11-25,Active,615424.74
+239,Forge Industrial Central 0239,Industrial,3,Managed Services,2025-06-13,Active,520061.3
+240,Green Residential Central 0240,Residential,3,Preventive Care,2025-05-24,Suspended,20207.13
+241,Vector Industrial NorthEast 0241,Industrial,2,Preventive Care,2024-03-01,Active,494696.12
+242,Harbor Commercial NorthWest 0242,Commercial,1,On-Demand Support,2024-11-05,Active,100184.86
+243,Vector Industrial South 0243,Industrial,4,Performance Contract,2020-08-27,Active,462580.74
+244,Summit Commercial NorthEast 0244,Commercial,2,On-Demand Support,2020-04-27,Active,169277.8
+245,Vista Commercial NorthEast 0245,Commercial,2,On-Demand Support,2019-08-11,Active,130513.47
+246,Helios Industrial NorthEast 0246,Industrial,2,Managed Services,2024-04-13,Active,409184.42
+247,Casa Residential Islands 0247,Residential,5,Preventive Care,2020-12-05,Active,20893.08
+248,Forge Industrial NorthEast 0248,Industrial,2,Preventive Care,2019-12-12,Active,392708.71
+249,Home Residential Central 0249,Residential,3,Preventive Care,2019-07-05,Lost,36341.05
+250,Orion Commercial South 0250,Commercial,4,Preventive Care,2020-08-05,Active,173499.75
+251,Easy Residential Islands 0251,Residential,5,Preventive Care,2025-11-22,Active,34869.69
+252,Harbor Commercial South 0252,Commercial,4,Managed Services,2024-03-19,Active,123280.74
+253,Orion Commercial Central 0253,Commercial,3,Preventive Care,2024-06-02,Active,210303.13
+254,Mercury Industrial Central 0254,Industrial,3,Preventive Care,2024-02-27,Active,600407.89
+255,Summit Commercial Islands 0255,Commercial,5,Preventive Care,2023-03-08,Suspended,116705.94
+256,Easy Residential NorthEast 0256,Residential,2,Preventive Care,2021-11-20,Lost,33951.14
+257,Orion Commercial NorthEast 0257,Commercial,2,Preventive Care,2022-03-10,Active,191710.61
+258,Urban Commercial Central 0258,Commercial,3,Managed Services,2020-07-16,Lost,102405.66
+259,Vector Industrial Islands 0259,Industrial,5,Preventive Care,2024-02-22,Lost,275997.7
+260,Casa Residential Central 0260,Residential,3,Preventive Care,2025-03-14,Active,22191.08
+261,Community Public South 0261,Public Sector,4,Preventive Care,2019-11-11,Active,213837.96
+262,Home Residential NorthWest 0262,Residential,1,On-Demand Support,2022-02-23,Active,26453.36
+263,Home Residential Islands 0263,Residential,5,On-Demand Support,2021-01-14,Active,22259.94
+264,Helios Industrial NorthWest 0264,Industrial,1,On-Demand Support,2020-06-25,Active,289372.44
+265,Easy Residential Central 0265,Residential,3,On-Demand Support,2022-01-30,Active,39363.4
+266,Prime Commercial NorthEast 0266,Commercial,2,Performance Contract,2022-08-28,Active,120358.05
+267,Forge Industrial NorthWest 0267,Industrial,1,Preventive Care,2023-07-10,Active,396941.24
+268,Harbor Commercial South 0268,Commercial,4,Managed Services,2024-12-29,Suspended,143196.72
+269,Orion Commercial NorthEast 0269,Commercial,2,Preventive Care,2025-06-22,Active,166117.05
+270,Civic Public Central 0270,Public Sector,3,Managed Services,2019-12-12,Active,220541.49
+271,Urban Commercial NorthWest 0271,Commercial,1,Preventive Care,2019-04-05,Lost,112781.01
+272,Harbor Commercial NorthEast 0272,Commercial,2,On-Demand Support,2024-04-28,Active,155381.31
+273,Mercury Industrial South 0273,Industrial,4,Performance Contract,2022-11-26,Suspended,351698.07
+274,Atlas Industrial NorthEast 0274,Industrial,2,Managed Services,2022-04-12,Active,284512.93
+275,Family Residential South 0275,Residential,4,Managed Services,2019-09-27,Active,28215.39
+276,Prime Commercial Central 0276,Commercial,3,Preventive Care,2025-08-03,Active,151303.6
+277,Metro Public Islands 0277,Public Sector,5,Preventive Care,2024-01-30,Suspended,207340.46
+278,Harbor Commercial NorthWest 0278,Commercial,1,On-Demand Support,2021-01-03,Active,244117.83
+279,Casa Residential South 0279,Residential,4,Preventive Care,2025-07-28,Lost,20991.52
+280,Bright Residential Islands 0280,Residential,5,On-Demand Support,2022-01-29,Active,20768.7
+281,Prime Commercial Central 0281,Commercial,3,Preventive Care,2024-08-27,Active,150923.97
+282,Helios Industrial NorthWest 0282,Industrial,1,Preventive Care,2021-05-02,Active,430159.0
+283,Forge Industrial Central 0283,Industrial,3,Managed Services,2025-03-30,Active,328775.6
+284,Harbor Commercial NorthWest 0284,Commercial,1,Managed Services,2020-12-04,Active,206784.46
+285,Summit Commercial NorthEast 0285,Commercial,2,Managed Services,2022-11-02,Lost,131998.57
+286,Titan Industrial Central 0286,Industrial,3,Managed Services,2020-04-01,Active,468984.0
+287,Civic Public Islands 0287,Public Sector,5,Performance Contract,2024-03-08,Active,199410.24
+288,Community Public NorthEast 0288,Public Sector,2,Managed Services,2020-07-27,Active,215216.75
+289,Family Residential South 0289,Residential,4,On-Demand Support,2023-05-07,Active,16351.65
+290,Helios Industrial NorthWest 0290,Industrial,1,Performance Contract,2023-03-23,Active,421386.43
+291,Orion Commercial Islands 0291,Commercial,5,On-Demand Support,2022-07-26,Suspended,75902.2
+292,Casa Residential Islands 0292,Residential,5,On-Demand Support,2019-01-31,Active,26594.37
+293,Civic Public Central 0293,Public Sector,3,Performance Contract,2023-08-22,Active,233831.61
+294,Casa Residential South 0294,Residential,4,On-Demand Support,2024-03-06,Active,27013.28
+295,Orion Commercial South 0295,Commercial,4,Managed Services,2023-02-25,Active,121022.92
+296,Bright Residential NorthWest 0296,Residential,1,Preventive Care,2025-08-07,Active,39706.22
+297,Orion Commercial Islands 0297,Commercial,5,Preventive Care,2022-02-26,Active,207437.32
+298,Atlas Industrial NorthEast 0298,Industrial,2,Performance Contract,2019-08-15,Active,488483.43
+299,Central Public South 0299,Public Sector,4,Preventive Care,2020-04-30,Suspended,188551.04
+300,Vector Industrial NorthEast 0300,Industrial,2,Managed Services,2019-10-24,Active,467475.86
+301,Harbor Commercial NorthWest 0301,Commercial,1,Performance Contract,2021-12-24,Active,167861.91
+302,Public Public NorthEast 0302,Public Sector,2,Managed Services,2019-03-23,Active,137555.81
+303,Bright Residential NorthEast 0303,Residential,2,Preventive Care,2020-01-06,Active,28818.71
+304,Harbor Commercial NorthEast 0304,Commercial,2,Managed Services,2019-02-25,Suspended,152538.48
+305,Urban Commercial South 0305,Commercial,4,Preventive Care,2024-02-28,Suspended,154835.56
+306,Atlas Industrial Central 0306,Industrial,3,Managed Services,2019-04-19,Active,630228.8
+307,Vista Commercial South 0307,Commercial,4,Performance Contract,2019-02-17,Active,212856.87
+308,Summit Commercial Islands 0308,Commercial,5,Performance Contract,2019-12-01,Active,97281.74
+309,Casa Residential Central 0309,Residential,3,Preventive Care,2019-11-26,Lost,23062.15
+310,Vista Commercial NorthEast 0310,Commercial,2,On-Demand Support,2020-12-15,Active,122763.71
+311,Atlas Industrial NorthEast 0311,Industrial,2,Performance Contract,2021-08-11,Active,323767.24
+312,Community Public NorthEast 0312,Public Sector,2,Performance Contract,2020-11-04,Active,206440.79
+313,Family Residential NorthWest 0313,Residential,1,Preventive Care,2022-11-16,Active,14535.11
+314,Helios Industrial South 0314,Industrial,4,Preventive Care,2019-11-13,Active,542728.0
+315,Family Residential South 0315,Residential,4,Preventive Care,2024-10-11,Active,18598.86
+316,Forge Industrial Central 0316,Industrial,3,On-Demand Support,2022-09-25,Active,360771.57
+317,Atlas Industrial NorthWest 0317,Industrial,1,Managed Services,2025-05-22,Active,380551.03
+318,Orion Commercial NorthEast 0318,Commercial,2,Managed Services,2021-08-26,Active,89707.92
+319,Easy Residential Islands 0319,Residential,5,On-Demand Support,2019-03-27,Active,26240.6
+320,Casa Residential South 0320,Residential,4,Preventive Care,2024-06-01,Lost,25263.47
+321,Easy Residential NorthWest 0321,Residential,1,On-Demand Support,2019-12-08,Active,17802.76
+322,Public Public South 0322,Public Sector,4,Preventive Care,2019-03-29,Active,157347.2
+323,Prime Commercial NorthWest 0323,Commercial,1,Managed Services,2019-05-04,Active,155506.03
+324,Prime Commercial Islands 0324,Commercial,5,Performance Contract,2025-02-26,Active,142175.83
+325,Vector Industrial Central 0325,Industrial,3,Managed Services,2022-05-20,Active,443073.94
+326,Bright Residential Islands 0326,Residential,5,On-Demand Support,2024-10-07,Active,33544.47
+327,Easy Residential NorthWest 0327,Residential,1,On-Demand Support,2021-06-22,Suspended,20173.2
+328,Prime Commercial NorthWest 0328,Commercial,1,On-Demand Support,2022-12-12,Active,108323.92
+329,Titan Industrial Central 0329,Industrial,3,On-Demand Support,2020-10-28,Active,557351.14
+330,Summit Commercial South 0330,Commercial,4,Managed Services,2021-04-06,Suspended,92583.21
+331,Green Residential NorthEast 0331,Residential,2,Performance Contract,2021-05-30,Suspended,17004.13
+332,Orion Commercial NorthEast 0332,Commercial,2,Managed Services,2021-03-15,Active,203091.06
+333,Mercury Industrial NorthWest 0333,Industrial,1,Performance Contract,2022-02-13,Active,399650.67
+334,Bright Residential South 0334,Residential,4,Performance Contract,2019-08-29,Active,22995.85
+335,Vector Industrial NorthEast 0335,Industrial,2,Managed Services,2020-04-26,Active,350108.92
+336,Urban Commercial Central 0336,Commercial,3,Performance Contract,2020-05-18,Active,162354.68
+337,Easy Residential Central 0337,Residential,3,On-Demand Support,2023-12-23,Lost,28952.55
+338,Regional Public Islands 0338,Public Sector,5,Managed Services,2022-01-02,Active,207388.0
+339,Central Public Central 0339,Public Sector,3,Preventive Care,2022-02-15,Active,240402.47
+340,Atlas Industrial South 0340,Industrial,4,Performance Contract,2024-04-13,Lost,270070.84
+341,Helios Industrial NorthWest 0341,Industrial,1,Performance Contract,2022-06-19,Active,353354.86
+342,Vector Industrial NorthWest 0342,Industrial,1,On-Demand Support,2025-03-20,Active,503402.89
+343,Mercury Industrial NorthEast 0343,Industrial,2,Performance Contract,2025-09-09,Active,250799.19
+344,Community Public South 0344,Public Sector,4,Performance Contract,2024-02-09,Active,204432.94
+345,Prime Commercial NorthEast 0345,Commercial,2,On-Demand Support,2021-09-29,Active,233128.56
+346,Summit Commercial NorthEast 0346,Commercial,2,Managed Services,2021-09-10,Active,182883.78
+347,Vector Industrial NorthWest 0347,Industrial,1,Performance Contract,2021-10-13,Active,293354.18
+348,Orion Commercial NorthWest 0348,Commercial,1,Performance Contract,2025-11-26,Active,173486.45
+349,Vista Commercial NorthWest 0349,Commercial,1,Preventive Care,2022-11-21,Active,210110.92
+350,Forge Industrial NorthWest 0350,Industrial,1,Performance Contract,2022-12-22,Active,383457.0
+351,Family Residential South 0351,Residential,4,Performance Contract,2022-10-23,Active,11840.4
+352,Summit Commercial Central 0352,Commercial,3,Preventive Care,2024-12-22,Active,158364.49
+353,Family Residential NorthWest 0353,Residential,1,Managed Services,2025-06-06,Suspended,27111.7
+354,Prime Commercial NorthEast 0354,Commercial,2,Preventive Care,2023-10-19,Active,152788.42
+355,Orion Commercial NorthWest 0355,Commercial,1,Managed Services,2023-01-08,Active,210801.29
+356,Orion Commercial South 0356,Commercial,4,Managed Services,2019-12-09,Active,77750.15
+357,Atlas Industrial Islands 0357,Industrial,5,Preventive Care,2021-05-27,Active,246487.2
+358,Vista Commercial NorthWest 0358,Commercial,1,On-Demand Support,2024-04-17,Active,140183.78
+359,Community Public Central 0359,Public Sector,3,Preventive Care,2020-06-04,Lost,225210.65
+360,Harbor Commercial NorthEast 0360,Commercial,2,On-Demand Support,2020-09-24,Suspended,153038.21
+361,Forge Industrial NorthEast 0361,Industrial,2,Managed Services,2024-12-15,Active,424537.96
+362,Civic Public NorthWest 0362,Public Sector,1,Managed Services,2025-07-09,Active,294614.73
+363,Metro Public Central 0363,Public Sector,3,Preventive Care,2025-02-26,Active,268700.93
+364,Easy Residential Central 0364,Residential,3,On-Demand Support,2023-02-07,Active,32498.47
+365,Forge Industrial Islands 0365,Industrial,5,Managed Services,2024-11-13,Active,388803.72
+366,Harbor Commercial NorthEast 0366,Commercial,2,Preventive Care,2023-01-01,Active,170820.36
+367,Community Public South 0367,Public Sector,4,Performance Contract,2019-09-25,Active,221540.15
+368,Easy Residential South 0368,Residential,4,Performance Contract,2020-11-29,Active,28682.08
+369,Regional Public South 0369,Public Sector,4,Performance Contract,2024-11-10,Active,193794.9
+370,Urban Commercial Central 0370,Commercial,3,Managed Services,2025-01-18,Active,118691.13
+371,Public Public Islands 0371,Public Sector,5,Performance Contract,2019-04-05,Active,152046.07
+372,Home Residential South 0372,Residential,4,Performance Contract,2024-09-16,Suspended,25558.62
+373,Green Residential Islands 0373,Residential,5,On-Demand Support,2024-03-24,Active,26631.69
+374,Civic Public NorthWest 0374,Public Sector,1,On-Demand Support,2024-09-26,Active,279853.12
+375,Home Residential Islands 0375,Residential,5,On-Demand Support,2023-10-12,Active,28473.08
+376,Titan Industrial NorthWest 0376,Industrial,1,Preventive Care,2021-12-09,Active,328398.04
+377,Forge Industrial NorthWest 0377,Industrial,1,Performance Contract,2021-01-16,Active,408347.4
+378,Bright Residential Islands 0378,Residential,5,On-Demand Support,2025-05-21,Active,28235.95
+379,Forge Industrial Central 0379,Industrial,3,On-Demand Support,2020-01-02,Active,448270.3
+380,Harbor Commercial Central 0380,Commercial,3,Performance Contract,2021-08-22,Active,143985.41
+381,Green Residential NorthEast 0381,Residential,2,Preventive Care,2022-11-07,Active,24159.58
+382,Family Residential Central 0382,Residential,3,Preventive Care,2022-10-21,Active,33227.57
+383,Titan Industrial NorthEast 0383,Industrial,2,Performance Contract,2020-09-26,Active,464734.93
+384,Titan Industrial NorthEast 0384,Industrial,2,Managed Services,2022-08-13,Suspended,376626.55
+385,Home Residential South 0385,Residential,4,On-Demand Support,2024-08-10,Active,29278.85
+386,Forge Industrial Islands 0386,Industrial,5,Preventive Care,2025-01-05,Active,249211.62
+387,Summit Commercial NorthEast 0387,Commercial,2,Managed Services,2024-12-25,Active,151790.85
+388,Atlas Industrial Central 0388,Industrial,3,Managed Services,2024-05-16,Active,567613.5
+389,Home Residential Islands 0389,Residential,5,Preventive Care,2023-12-10,Active,29026.18
+390,Summit Commercial NorthWest 0390,Commercial,1,Managed Services,2024-04-10,Active,182471.23
+391,Central Public South 0391,Public Sector,4,Preventive Care,2021-02-05,Active,185506.52
+392,Casa Residential South 0392,Residential,4,On-Demand Support,2020-05-19,Active,40537.45
+393,Vista Commercial Central 0393,Commercial,3,Preventive Care,2023-09-08,Active,144290.62
+394,Green Residential NorthEast 0394,Residential,2,On-Demand Support,2020-09-09,Active,28622.98
+395,Family Residential NorthWest 0395,Residential,1,Preventive Care,2021-01-03,Lost,29132.63
+396,Green Residential South 0396,Residential,4,On-Demand Support,2025-01-15,Lost,27821.76
+397,Home Residential South 0397,Residential,4,Preventive Care,2021-11-12,Active,38660.42
+398,Green Residential NorthWest 0398,Residential,1,Preventive Care,2022-12-16,Active,27558.67
+399,Green Residential South 0399,Residential,4,Managed Services,2021-02-10,Active,28315.63
+400,Orion Commercial NorthEast 0400,Commercial,2,Preventive Care,2023-04-20,Active,156169.2
+401,Prime Commercial South 0401,Commercial,4,On-Demand Support,2019-08-09,Active,185865.04
+402,Summit Commercial South 0402,Commercial,4,Preventive Care,2023-01-29,Active,125226.86
+403,Home Residential NorthEast 0403,Residential,2,On-Demand Support,2024-08-10,Active,38259.99
+404,Easy Residential NorthEast 0404,Residential,2,On-Demand Support,2024-09-26,Active,28866.56
+405,Summit Commercial Central 0405,Commercial,3,On-Demand Support,2022-11-28,Active,131217.3
+406,Titan Industrial NorthWest 0406,Industrial,1,Managed Services,2023-07-02,Active,562713.24
+407,Vector Industrial Islands 0407,Industrial,5,Performance Contract,2023-09-04,Lost,297881.79
+408,Family Residential South 0408,Residential,4,Performance Contract,2021-11-15,Lost,17277.03
+409,Orion Commercial Central 0409,Commercial,3,Managed Services,2019-05-27,Active,155775.37
+410,Atlas Industrial Central 0410,Industrial,3,Preventive Care,2022-09-16,Active,327951.61
+411,Orion Commercial South 0411,Commercial,4,Managed Services,2025-08-15,Active,148247.45
+412,Helios Industrial South 0412,Industrial,4,Preventive Care,2020-07-30,Lost,409271.08
+413,Central Public Central 0413,Public Sector,3,On-Demand Support,2019-03-10,Active,169453.39
+414,Regional Public NorthEast 0414,Public Sector,2,Preventive Care,2019-07-05,Active,308729.86
+415,Vector Industrial South 0415,Industrial,4,Preventive Care,2022-11-19,Active,362064.51
+416,Vector Industrial NorthWest 0416,Industrial,1,Managed Services,2022-08-07,Active,481483.71
+417,Civic Public Central 0417,Public Sector,3,Performance Contract,2022-10-10,Active,291882.91
+418,Green Residential South 0418,Residential,4,On-Demand Support,2024-11-07,Active,28416.56
+419,Home Residential Central 0419,Residential,3,On-Demand Support,2022-02-27,Active,28628.45
+420,Forge Industrial NorthWest 0420,Industrial,1,Performance Contract,2023-03-04,Active,345057.57
+421,Bright Residential South 0421,Residential,4,Managed Services,2022-08-26,Active,12221.69
+422,Casa Residential NorthEast 0422,Residential,2,Preventive Care,2020-12-23,Active,32202.5
+423,Green Residential Islands 0423,Residential,5,On-Demand Support,2019-11-27,Lost,16791.66
+424,Family Residential NorthEast 0424,Residential,2,On-Demand Support,2020-07-21,Active,31321.99
+425,Vector Industrial NorthEast 0425,Industrial,2,Preventive Care,2024-04-23,Active,401479.3
+426,Urban Commercial Central 0426,Commercial,3,Managed Services,2020-09-19,Active,187135.73
+427,Easy Residential NorthEast 0427,Residential,2,Preventive Care,2025-09-13,Suspended,31549.72
+428,Urban Commercial NorthEast 0428,Commercial,2,Preventive Care,2022-01-08,Active,138721.87
+429,Urban Commercial NorthWest 0429,Commercial,1,Preventive Care,2024-04-02,Active,222942.94
+430,Atlas Industrial NorthWest 0430,Industrial,1,Managed Services,2023-05-09,Active,358173.34
+431,Titan Industrial Central 0431,Industrial,3,Managed Services,2021-02-28,Active,289544.72
+432,Forge Industrial NorthWest 0432,Industrial,1,On-Demand Support,2021-04-21,Active,309629.98
+433,Family Residential Islands 0433,Residential,5,On-Demand Support,2021-09-29,Active,40979.9
+434,Summit Commercial Central 0434,Commercial,3,Performance Contract,2025-10-27,Active,214317.06
+435,Civic Public NorthEast 0435,Public Sector,2,On-Demand Support,2023-04-16,Lost,127878.07
+436,Central Public Central 0436,Public Sector,3,Performance Contract,2023-12-07,Active,180593.88
+437,Civic Public NorthWest 0437,Public Sector,1,On-Demand Support,2019-11-05,Active,141489.91
+438,Community Public Central 0438,Public Sector,3,Performance Contract,2023-09-20,Active,211214.58
+439,Vista Commercial NorthWest 0439,Commercial,1,On-Demand Support,2024-03-01,Active,182558.2
+440,Vector Industrial NorthWest 0440,Industrial,1,On-Demand Support,2021-04-02,Lost,265600.94
+441,Vista Commercial NorthEast 0441,Commercial,2,Preventive Care,2019-08-28,Lost,159071.72
+442,Metro Public Islands 0442,Public Sector,5,Performance Contract,2024-06-08,Active,161252.87
+443,Bright Residential Islands 0443,Residential,5,On-Demand Support,2019-10-17,Active,15552.09
+444,Harbor Commercial NorthEast 0444,Commercial,2,Preventive Care,2020-10-19,Active,122318.2
+445,Easy Residential NorthWest 0445,Residential,1,On-Demand Support,2023-10-05,Active,38503.18
+446,Civic Public South 0446,Public Sector,4,Performance Contract,2023-12-21,Active,157697.89
+447,Helios Industrial NorthWest 0447,Industrial,1,Performance Contract,2023-03-26,Active,334991.82
+448,Prime Commercial NorthEast 0448,Commercial,2,Preventive Care,2024-07-15,Active,153731.93
+449,Forge Industrial Islands 0449,Industrial,5,Preventive Care,2020-12-18,Active,401449.9
+450,Metro Public South 0450,Public Sector,4,Managed Services,2024-03-21,Active,153161.4
+451,Home Residential South 0451,Residential,4,On-Demand Support,2024-05-21,Active,21966.3
+452,Titan Industrial NorthEast 0452,Industrial,2,Performance Contract,2025-08-21,Active,484670.09
+453,Helios Industrial NorthEast 0453,Industrial,2,Managed Services,2023-06-26,Active,529186.34
+454,Titan Industrial NorthWest 0454,Industrial,1,Managed Services,2021-08-24,Active,652480.09
+455,Helios Industrial NorthWest 0455,Industrial,1,Performance Contract,2022-02-11,Suspended,384845.77
+456,Central Public Islands 0456,Public Sector,5,Performance Contract,2022-02-17,Active,256175.46
+457,Vista Commercial NorthWest 0457,Commercial,1,Preventive Care,2022-03-25,Active,176950.9
+458,Mercury Industrial NorthWest 0458,Industrial,1,Performance Contract,2023-04-28,Active,428990.04
+459,Vista Commercial NorthEast 0459,Commercial,2,Performance Contract,2019-06-18,Active,122123.43
+460,Bright Residential Islands 0460,Residential,5,On-Demand Support,2022-02-20,Suspended,30118.37
+461,Orion Commercial Central 0461,Commercial,3,Managed Services,2021-02-12,Active,113666.4
+462,Mercury Industrial NorthEast 0462,Industrial,2,Performance Contract,2024-06-19,Lost,383093.72
+463,Family Residential South 0463,Residential,4,On-Demand Support,2021-04-01,Active,13567.86
+464,Easy Residential NorthWest 0464,Residential,1,Preventive Care,2021-09-24,Lost,38064.34
+465,Regional Public NorthEast 0465,Public Sector,2,Performance Contract,2023-10-08,Active,286695.73
+466,Prime Commercial Central 0466,Commercial,3,Preventive Care,2020-10-14,Active,121311.23
+467,Vector Industrial NorthWest 0467,Industrial,1,Managed Services,2019-06-09,Active,397265.8
+468,Mercury Industrial Central 0468,Industrial,3,Performance Contract,2020-05-01,Active,587313.71
+469,Atlas Industrial NorthWest 0469,Industrial,1,Performance Contract,2019-07-02,Lost,371683.75
+470,Titan Industrial NorthEast 0470,Industrial,2,On-Demand Support,2024-06-09,Active,265701.88
+471,Green Residential South 0471,Residential,4,On-Demand Support,2020-02-27,Active,19280.46
+472,Mercury Industrial NorthWest 0472,Industrial,1,Managed Services,2023-03-11,Active,286840.68
+473,Easy Residential NorthEast 0473,Residential,2,On-Demand Support,2019-07-18,Active,18810.51
+474,Helios Industrial NorthWest 0474,Industrial,1,Managed Services,2023-03-17,Suspended,434396.94
+475,Bright Residential Islands 0475,Residential,5,Managed Services,2023-11-20,Active,34519.62
+476,Vista Commercial Islands 0476,Commercial,5,Performance Contract,2019-01-12,Active,110021.34
+477,Bright Residential South 0477,Residential,4,Performance Contract,2023-04-03,Active,22213.46
+478,Civic Public Central 0478,Public Sector,3,Performance Contract,2019-03-10,Active,231979.79
+479,Green Residential Islands 0479,Residential,5,On-Demand Support,2022-09-04,Active,36489.5
+480,Helios Industrial NorthWest 0480,Industrial,1,Managed Services,2025-07-01,Active,302408.22
+481,Metro Public South 0481,Public Sector,4,Managed Services,2023-04-12,Active,238535.47
+482,Forge Industrial NorthEast 0482,Industrial,2,Preventive Care,2019-02-03,Active,490572.4
+483,Home Residential South 0483,Residential,4,Preventive Care,2020-03-05,Active,29910.0
+484,Atlas Industrial Central 0484,Industrial,3,Managed Services,2022-01-28,Suspended,266948.11
+485,Bright Residential NorthEast 0485,Residential,2,On-Demand Support,2019-12-04,Active,40237.81
+486,Family Residential NorthEast 0486,Residential,2,On-Demand Support,2019-10-21,Suspended,24953.84
+487,Forge Industrial NorthEast 0487,Industrial,2,Preventive Care,2020-12-01,Active,287847.52
+488,Metro Public NorthWest 0488,Public Sector,1,Managed Services,2022-12-16,Active,232919.11
+489,Regional Public NorthWest 0489,Public Sector,1,On-Demand Support,2020-03-19,Suspended,168255.04
+490,Home Residential Central 0490,Residential,3,On-Demand Support,2023-06-29,Active,29481.69
+491,Titan Industrial Central 0491,Industrial,3,Managed Services,2024-11-13,Active,289914.59
+492,Titan Industrial NorthEast 0492,Industrial,2,Performance Contract,2023-06-22,Active,380026.27
+493,Vista Commercial NorthEast 0493,Commercial,2,On-Demand Support,2025-01-12,Active,181921.97
+494,Vista Commercial Islands 0494,Commercial,5,Managed Services,2022-05-10,Active,217162.99
+495,Titan Industrial NorthWest 0495,Industrial,1,Performance Contract,2022-09-19,Suspended,276374.59
+496,Vector Industrial NorthEast 0496,Industrial,2,Performance Contract,2022-10-28,Active,288031.74
+497,Urban Commercial NorthWest 0497,Commercial,1,Preventive Care,2020-05-27,Active,199472.48
+498,Civic Public South 0498,Public Sector,4,Performance Contract,2024-12-05,Active,274540.91
+499,Urban Commercial NorthWest 0499,Commercial,1,Performance Contract,2025-04-27,Lost,128497.98
+500,Helios Industrial South 0500,Industrial,4,Managed Services,2022-08-24,Active,398245.33
+501,Family Residential Central 0501,Residential,3,Preventive Care,2025-04-06,Active,13495.36
+502,Orion Commercial NorthEast 0502,Commercial,2,Preventive Care,2019-04-10,Active,154408.83
+503,Orion Commercial NorthEast 0503,Commercial,2,Preventive Care,2023-10-29,Active,164780.86
+504,Mercury Industrial Central 0504,Industrial,3,Performance Contract,2021-04-24,Active,556291.38
+505,Prime Commercial NorthWest 0505,Commercial,1,Performance Contract,2021-01-29,Suspended,78027.5
+506,Bright Residential South 0506,Residential,4,On-Demand Support,2025-09-06,Active,19862.7
+507,Vista Commercial Islands 0507,Commercial,5,Managed Services,2020-09-07,Active,105066.81
+508,Bright Residential South 0508,Residential,4,Managed Services,2025-10-26,Active,16657.78
+509,Family Residential NorthWest 0509,Residential,1,On-Demand Support,2021-11-20,Lost,37031.01
+510,Forge Industrial Central 0510,Industrial,3,Performance Contract,2022-08-12,Active,310092.23
+511,Mercury Industrial NorthEast 0511,Industrial,2,Performance Contract,2019-06-15,Active,500017.63
+512,Civic Public NorthEast 0512,Public Sector,2,Performance Contract,2024-12-14,Active,176760.86
+513,Family Residential South 0513,Residential,4,On-Demand Support,2025-04-23,Active,28062.04
+514,Harbor Commercial NorthWest 0514,Commercial,1,Performance Contract,2025-11-22,Active,147925.41
+515,Helios Industrial NorthWest 0515,Industrial,1,Managed Services,2019-02-22,Lost,315239.8
+516,Home Residential NorthEast 0516,Residential,2,On-Demand Support,2023-10-03,Active,29426.74
+517,Green Residential Islands 0517,Residential,5,On-Demand Support,2019-07-21,Active,35869.95
+518,Titan Industrial South 0518,Industrial,4,Managed Services,2024-07-17,Active,463931.08
+519,Urban Commercial NorthEast 0519,Commercial,2,On-Demand Support,2024-07-22,Active,150713.31
+520,Urban Commercial Central 0520,Commercial,3,On-Demand Support,2022-11-13,Suspended,189480.37
+521,Easy Residential Central 0521,Residential,3,On-Demand Support,2020-07-13,Active,33417.79
+522,Vista Commercial NorthWest 0522,Commercial,1,Preventive Care,2023-09-26,Lost,67823.14
+523,Home Residential South 0523,Residential,4,On-Demand Support,2025-10-16,Lost,19484.38
+524,Regional Public Central 0524,Public Sector,3,Performance Contract,2022-12-29,Active,225805.64
+525,Bright Residential NorthWest 0525,Residential,1,On-Demand Support,2025-03-30,Suspended,46010.92
+526,Urban Commercial NorthWest 0526,Commercial,1,Preventive Care,2024-04-15,Lost,121484.28
+527,Vista Commercial Central 0527,Commercial,3,Managed Services,2022-05-24,Lost,97093.92
+528,Titan Industrial NorthEast 0528,Industrial,2,Performance Contract,2019-05-05,Active,503142.86
+529,Atlas Industrial NorthWest 0529,Industrial,1,Preventive Care,2019-12-17,Lost,341342.91
+530,Green Residential NorthEast 0530,Residential,2,Performance Contract,2021-04-23,Lost,30713.11
+531,Orion Commercial Central 0531,Commercial,3,Preventive Care,2021-12-30,Suspended,145404.28
+532,Green Residential Central 0532,Residential,3,Preventive Care,2022-08-08,Lost,39663.06
+533,Prime Commercial South 0533,Commercial,4,Preventive Care,2025-03-23,Active,110217.92
+534,Easy Residential NorthEast 0534,Residential,2,Preventive Care,2022-02-13,Active,33961.09
+535,Orion Commercial South 0535,Commercial,4,Preventive Care,2019-10-19,Lost,154329.11
+536,Home Residential NorthEast 0536,Residential,2,Preventive Care,2022-05-23,Active,35790.56
+537,Home Residential Islands 0537,Residential,5,On-Demand Support,2023-10-09,Active,38249.34
+538,Prime Commercial Central 0538,Commercial,3,On-Demand Support,2021-01-03,Active,79778.59
+539,Titan Industrial NorthWest 0539,Industrial,1,Performance Contract,2019-02-09,Active,396107.44
+540,Prime Commercial Central 0540,Commercial,3,Managed Services,2025-03-26,Suspended,129618.62
+541,Family Residential NorthEast 0541,Residential,2,On-Demand Support,2025-05-27,Lost,24977.7
+542,Home Residential NorthWest 0542,Residential,1,On-Demand Support,2023-07-02,Active,28072.37
+543,Orion Commercial South 0543,Commercial,4,On-Demand Support,2023-12-30,Active,151339.29
+544,Vector Industrial NorthWest 0544,Industrial,1,Preventive Care,2019-03-19,Active,402991.15
+545,Vista Commercial South 0545,Commercial,4,Managed Services,2024-05-02,Active,131100.41
+546,Summit Commercial NorthWest 0546,Commercial,1,On-Demand Support,2021-03-23,Active,105686.47
+547,Green Residential Islands 0547,Residential,5,Preventive Care,2021-05-04,Active,24114.77
+548,Orion Commercial Central 0548,Commercial,3,Preventive Care,2019-11-25,Active,139220.44
+549,Prime Commercial South 0549,Commercial,4,Preventive Care,2019-06-07,Active,127796.33
+550,Summit Commercial NorthEast 0550,Commercial,2,Managed Services,2024-03-01,Active,107712.58
+551,Orion Commercial Central 0551,Commercial,3,Managed Services,2024-07-07,Active,168591.65
+552,Summit Commercial NorthEast 0552,Commercial,2,Managed Services,2022-10-19,Active,89544.41
+553,Orion Commercial NorthWest 0553,Commercial,1,Preventive Care,2023-08-17,Active,106623.14
+554,Central Public NorthEast 0554,Public Sector,2,Preventive Care,2021-04-27,Suspended,235375.83
+555,Bright Residential South 0555,Residential,4,On-Demand Support,2020-02-28,Active,39058.95
+556,Orion Commercial South 0556,Commercial,4,On-Demand Support,2023-06-21,Suspended,152894.34
+557,Casa Residential South 0557,Residential,4,On-Demand Support,2025-04-30,Active,28288.74
+558,Metro Public NorthWest 0558,Public Sector,1,Preventive Care,2020-03-03,Active,228913.44
+559,Metro Public South 0559,Public Sector,4,Managed Services,2025-01-10,Active,234489.29
+560,Atlas Industrial NorthWest 0560,Industrial,1,Performance Contract,2025-02-18,Active,431341.83
+561,Vector Industrial NorthEast 0561,Industrial,2,Managed Services,2020-01-22,Active,564654.74
+562,Atlas Industrial NorthWest 0562,Industrial,1,Managed Services,2025-12-01,Active,532553.33
+563,Regional Public Central 0563,Public Sector,3,On-Demand Support,2023-08-19,Active,300345.57
+564,Central Public NorthEast 0564,Public Sector,2,Managed Services,2024-09-22,Suspended,210006.89
+565,Orion Commercial Islands 0565,Commercial,5,Preventive Care,2025-06-26,Suspended,159667.14
+566,Titan Industrial NorthWest 0566,Industrial,1,Managed Services,2021-06-11,Active,331932.2
+567,Family Residential Central 0567,Residential,3,Preventive Care,2020-11-29,Active,23429.8
+568,Mercury Industrial NorthWest 0568,Industrial,1,Managed Services,2020-06-12,Active,490017.36
+569,Public Public South 0569,Public Sector,4,Managed Services,2024-01-15,Active,217108.43
+570,Titan Industrial NorthEast 0570,Industrial,2,Performance Contract,2022-01-06,Active,521079.06
+571,Mercury Industrial Central 0571,Industrial,3,Performance Contract,2019-11-28,Active,437743.05
+572,Prime Commercial Central 0572,Commercial,3,Preventive Care,2021-04-18,Active,151446.25
+573,Community Public NorthEast 0573,Public Sector,2,Managed Services,2021-07-02,Active,257764.85
+574,Regional Public Central 0574,Public Sector,3,On-Demand Support,2023-10-12,Active,227021.39
+575,Titan Industrial NorthWest 0575,Industrial,1,Performance Contract,2024-12-03,Active,379992.83
+576,Green Residential NorthWest 0576,Residential,1,Preventive Care,2021-09-26,Active,34957.05
+577,Metro Public NorthWest 0577,Public Sector,1,Performance Contract,2020-12-11,Active,308311.75
+578,Vista Commercial Central 0578,Commercial,3,Performance Contract,2022-12-12,Active,127731.36
+579,Orion Commercial Islands 0579,Commercial,5,Managed Services,2024-09-17,Active,195950.5
+580,Casa Residential Islands 0580,Residential,5,On-Demand Support,2021-12-06,Active,39826.06
+581,Bright Residential South 0581,Residential,4,Preventive Care,2022-05-20,Active,17891.14
+582,Family Residential Islands 0582,Residential,5,Preventive Care,2022-08-12,Active,23715.27
+583,Easy Residential NorthWest 0583,Residential,1,On-Demand Support,2022-07-17,Active,30619.55
+584,Central Public South 0584,Public Sector,4,Preventive Care,2023-09-06,Active,211849.3
+585,Urban Commercial NorthEast 0585,Commercial,2,Performance Contract,2021-09-16,Active,157701.03
+586,Bright Residential NorthWest 0586,Residential,1,Preventive Care,2023-08-16,Active,42958.95
+587,Bright Residential Central 0587,Residential,3,Performance Contract,2024-07-15,Active,40618.09
+588,Urban Commercial NorthWest 0588,Commercial,1,Managed Services,2023-02-07,Active,150195.2
+589,Mercury Industrial NorthWest 0589,Industrial,1,Managed Services,2024-10-26,Active,347964.83
+590,Mercury Industrial NorthWest 0590,Industrial,1,Preventive Care,2020-03-30,Active,385849.62
+591,Green Residential Islands 0591,Residential,5,Managed Services,2023-09-04,Suspended,26404.32
+592,Forge Industrial NorthEast 0592,Industrial,2,Performance Contract,2019-09-29,Active,356392.77
+593,Vector Industrial NorthEast 0593,Industrial,2,Performance Contract,2025-12-08,Suspended,259230.12
+594,Titan Industrial NorthWest 0594,Industrial,1,Managed Services,2022-08-27,Active,325368.16
+595,Prime Commercial NorthWest 0595,Commercial,1,Preventive Care,2020-07-12,Active,137149.37
+596,Home Residential NorthEast 0596,Residential,2,On-Demand Support,2019-07-03,Active,44270.08
+597,Vector Industrial NorthEast 0597,Industrial,2,Managed Services,2024-01-11,Active,284537.91
+598,Prime Commercial South 0598,Commercial,4,On-Demand Support,2021-05-18,Active,123591.09
+599,Mercury Industrial NorthEast 0599,Industrial,2,Managed Services,2025-12-20,Active,446147.4
+600,Vista Commercial NorthWest 0600,Commercial,1,Preventive Care,2020-03-16,Active,139289.63
+601,Harbor Commercial South 0601,Commercial,4,Managed Services,2020-10-11,Lost,115249.84
+602,Harbor Commercial Central 0602,Commercial,3,On-Demand Support,2025-08-18,Active,160295.67
+603,Atlas Industrial Central 0603,Industrial,3,Performance Contract,2019-04-17,Lost,294755.49
+604,Vector Industrial South 0604,Industrial,4,On-Demand Support,2024-10-01,Active,393150.06
+605,Urban Commercial NorthWest 0605,Commercial,1,Preventive Care,2020-04-03,Active,227925.14
+606,Easy Residential South 0606,Residential,4,Preventive Care,2022-10-31,Active,40135.98
+607,Family Residential Islands 0607,Residential,5,Preventive Care,2019-12-14,Active,27300.56
+608,Green Residential Central 0608,Residential,3,Preventive Care,2024-07-10,Active,26448.51
+609,Atlas Industrial NorthWest 0609,Industrial,1,Performance Contract,2019-05-30,Active,484884.25
+610,Mercury Industrial NorthEast 0610,Industrial,2,Performance Contract,2020-02-04,Active,367489.85
+611,Central Public Central 0611,Public Sector,3,Managed Services,2024-03-21,Active,184719.48
+612,Helios Industrial NorthWest 0612,Industrial,1,Managed Services,2024-05-09,Active,468101.77
+613,Vista Commercial Islands 0613,Commercial,5,Preventive Care,2021-03-12,Active,146777.85
+614,Easy Residential South 0614,Residential,4,On-Demand Support,2025-05-09,Active,27183.37
+615,Metro Public South 0615,Public Sector,4,Preventive Care,2021-06-24,Active,185080.84
+616,Casa Residential NorthEast 0616,Residential,2,On-Demand Support,2025-01-21,Active,38763.21
+617,Urban Commercial NorthWest 0617,Commercial,1,Performance Contract,2024-06-21,Suspended,185053.92
+618,Orion Commercial Central 0618,Commercial,3,Managed Services,2023-05-22,Lost,136629.64
+619,Vista Commercial NorthEast 0619,Commercial,2,Managed Services,2021-12-25,Active,145403.76
+620,Urban Commercial Central 0620,Commercial,3,Performance Contract,2020-10-14,Active,133745.35
+621,Prime Commercial NorthEast 0621,Commercial,2,Managed Services,2023-10-03,Active,204903.2
+622,Prime Commercial Central 0622,Commercial,3,On-Demand Support,2022-02-27,Active,149758.61
+623,Prime Commercial NorthWest 0623,Commercial,1,Preventive Care,2021-02-08,Suspended,150102.52
+624,Central Public South 0624,Public Sector,4,Performance Contract,2025-12-20,Active,290445.77
+625,Forge Industrial South 0625,Industrial,4,Performance Contract,2023-07-26,Suspended,370774.11
+626,Summit Commercial NorthWest 0626,Commercial,1,Managed Services,2019-09-24,Active,189187.78
+627,Prime Commercial NorthWest 0627,Commercial,1,Managed Services,2025-04-07,Active,213108.01
+628,Vector Industrial South 0628,Industrial,4,Performance Contract,2019-09-19,Active,462297.85
+629,Vista Commercial NorthWest 0629,Commercial,1,Managed Services,2019-06-18,Active,186264.87
+630,Vector Industrial Central 0630,Industrial,3,Performance Contract,2022-02-22,Suspended,254827.79
+631,Titan Industrial NorthWest 0631,Industrial,1,Managed Services,2025-03-20,Lost,298766.03
+632,Family Residential NorthWest 0632,Residential,1,Managed Services,2020-03-27,Lost,25518.88
+633,Bright Residential NorthEast 0633,Residential,2,On-Demand Support,2019-12-11,Lost,27889.37
+634,Orion Commercial South 0634,Commercial,4,On-Demand Support,2022-05-02,Active,83663.27
+635,Atlas Industrial NorthEast 0635,Industrial,2,Managed Services,2024-11-24,Lost,304319.69
+636,Orion Commercial Islands 0636,Commercial,5,On-Demand Support,2019-03-19,Active,182937.51
+637,Summit Commercial Central 0637,Commercial,3,Performance Contract,2019-03-11,Active,193641.09
+638,Green Residential NorthEast 0638,Residential,2,On-Demand Support,2024-04-19,Active,21157.92
+639,Vista Commercial South 0639,Commercial,4,Preventive Care,2019-11-24,Active,76931.61
+640,Forge Industrial Islands 0640,Industrial,5,On-Demand Support,2023-04-23,Suspended,279124.9
+641,Titan Industrial NorthWest 0641,Industrial,1,Performance Contract,2020-06-13,Active,540324.26
+642,Civic Public Central 0642,Public Sector,3,Performance Contract,2022-02-11,Suspended,219176.88
+643,Orion Commercial NorthWest 0643,Commercial,1,Performance Contract,2019-03-07,Active,225289.43
+644,Casa Residential NorthWest 0644,Residential,1,Managed Services,2022-08-23,Suspended,30674.69
+645,Bright Residential NorthEast 0645,Residential,2,On-Demand Support,2024-09-20,Active,30744.66
+646,Central Public NorthWest 0646,Public Sector,1,Preventive Care,2020-05-30,Active,299697.04
+647,Harbor Commercial NorthWest 0647,Commercial,1,On-Demand Support,2025-09-07,Active,109005.92
+648,Helios Industrial South 0648,Industrial,4,Managed Services,2019-03-05,Active,413570.55
+649,Bright Residential Islands 0649,Residential,5,On-Demand Support,2025-12-31,Lost,19253.9
+650,Green Residential NorthWest 0650,Residential,1,On-Demand Support,2019-06-24,Active,44743.33
+651,Urban Commercial South 0651,Commercial,4,Preventive Care,2023-03-08,Suspended,151605.74
+652,Titan Industrial Central 0652,Industrial,3,Performance Contract,2019-10-30,Active,367110.5
+653,Vista Commercial NorthWest 0653,Commercial,1,Managed Services,2024-01-30,Active,189177.58
+654,Prime Commercial Central 0654,Commercial,3,Managed Services,2025-04-10,Lost,141353.57
+655,Community Public NorthWest 0655,Public Sector,1,Performance Contract,2020-11-06,Active,196244.44
+656,Orion Commercial NorthEast 0656,Commercial,2,Managed Services,2022-08-19,Active,181949.15
+657,Casa Residential South 0657,Residential,4,Managed Services,2025-05-03,Active,21825.13
+658,Easy Residential NorthEast 0658,Residential,2,Preventive Care,2023-03-03,Active,25411.04
+659,Titan Industrial NorthWest 0659,Industrial,1,Preventive Care,2021-01-11,Active,452936.55
+660,Atlas Industrial NorthEast 0660,Industrial,2,Performance Contract,2019-01-06,Active,341213.98
+661,Helios Industrial NorthWest 0661,Industrial,1,Managed Services,2024-08-19,Active,254019.83
+662,Prime Commercial NorthEast 0662,Commercial,2,Preventive Care,2025-04-25,Active,191584.99
+663,Atlas Industrial NorthEast 0663,Industrial,2,Managed Services,2025-05-02,Lost,389297.43
+664,Harbor Commercial NorthEast 0664,Commercial,2,Managed Services,2022-03-17,Suspended,177727.45
+665,Urban Commercial Central 0665,Commercial,3,Managed Services,2023-12-07,Active,167023.25
+666,Vista Commercial NorthEast 0666,Commercial,2,On-Demand Support,2024-10-09,Active,121116.67
+667,Home Residential Central 0667,Residential,3,Preventive Care,2019-02-19,Active,40411.27
+668,Central Public NorthEast 0668,Public Sector,2,Performance Contract,2023-07-15,Active,190291.67
+669,Regional Public NorthEast 0669,Public Sector,2,Preventive Care,2023-04-25,Active,190823.1
+670,Forge Industrial NorthWest 0670,Industrial,1,Performance Contract,2020-12-17,Lost,413981.28
+671,Urban Commercial NorthWest 0671,Commercial,1,Performance Contract,2022-02-14,Lost,143727.28
+672,Prime Commercial Central 0672,Commercial,3,Managed Services,2019-02-18,Active,149867.89
+673,Prime Commercial South 0673,Commercial,4,Preventive Care,2023-02-20,Lost,108867.42
+674,Urban Commercial NorthEast 0674,Commercial,2,Preventive Care,2019-10-20,Active,130439.0
+675,Family Residential South 0675,Residential,4,On-Demand Support,2025-10-07,Active,27967.21
+676,Bright Residential Central 0676,Residential,3,Preventive Care,2023-10-09,Active,32240.18
+677,Civic Public NorthWest 0677,Public Sector,1,Preventive Care,2025-06-12,Active,185307.76
+678,Regional Public Islands 0678,Public Sector,5,Performance Contract,2019-05-05,Suspended,152555.43
+679,Helios Industrial NorthEast 0679,Industrial,2,Performance Contract,2021-06-01,Active,194775.09
+680,Family Residential South 0680,Residential,4,Managed Services,2020-10-02,Suspended,26749.84
+681,Titan Industrial South 0681,Industrial,4,Performance Contract,2023-06-09,Active,465117.48
+682,Easy Residential NorthEast 0682,Residential,2,Preventive Care,2022-11-16,Lost,18730.04
+683,Orion Commercial NorthWest 0683,Commercial,1,Managed Services,2024-03-19,Lost,163026.7
+684,Public Public South 0684,Public Sector,4,On-Demand Support,2025-11-14,Lost,169678.46
+685,Prime Commercial South 0685,Commercial,4,Managed Services,2020-07-03,Active,212855.7
+686,Regional Public NorthEast 0686,Public Sector,2,On-Demand Support,2020-04-09,Active,305748.6
+687,Easy Residential NorthEast 0687,Residential,2,Preventive Care,2022-01-06,Suspended,16471.92
+688,Urban Commercial NorthEast 0688,Commercial,2,Performance Contract,2021-02-15,Active,115135.39
+689,Mercury Industrial Central 0689,Industrial,3,On-Demand Support,2023-06-10,Lost,335094.15
+690,Vector Industrial NorthEast 0690,Industrial,2,Managed Services,2023-05-12,Active,356100.05
+691,Prime Commercial NorthWest 0691,Commercial,1,Managed Services,2020-03-15,Active,149939.4
+692,Mercury Industrial NorthWest 0692,Industrial,1,Performance Contract,2020-03-25,Active,262789.05
+693,Vista Commercial Islands 0693,Commercial,5,Performance Contract,2022-03-02,Lost,121933.27
+694,Home Residential NorthEast 0694,Residential,2,On-Demand Support,2019-11-19,Active,17388.71
+695,Easy Residential Central 0695,Residential,3,Preventive Care,2019-09-24,Active,16604.96
+696,Home Residential NorthEast 0696,Residential,2,Preventive Care,2021-11-10,Active,19360.18
+697,Central Public NorthEast 0697,Public Sector,2,Managed Services,2023-12-03,Active,168364.63
+698,Vector Industrial Islands 0698,Industrial,5,Preventive Care,2019-07-18,Suspended,383171.51
+699,Casa Residential NorthEast 0699,Residential,2,On-Demand Support,2021-12-22,Active,27616.16
+700,Regional Public NorthEast 0700,Public Sector,2,Performance Contract,2024-02-02,Active,219350.49
+701,Civic Public Islands 0701,Public Sector,5,Performance Contract,2024-11-24,Active,189098.76
+702,Titan Industrial NorthEast 0702,Industrial,2,Managed Services,2021-01-29,Active,502498.54
+703,Civic Public Islands 0703,Public Sector,5,Performance Contract,2019-05-28,Active,185982.89
+704,Urban Commercial NorthEast 0704,Commercial,2,Managed Services,2022-07-19,Active,166321.93
+705,Urban Commercial South 0705,Commercial,4,Preventive Care,2021-10-27,Active,140800.67
+706,Home Residential NorthWest 0706,Residential,1,On-Demand Support,2025-05-31,Active,34288.21
+707,Forge Industrial Central 0707,Industrial,3,Managed Services,2022-11-10,Active,507640.51
+708,Harbor Commercial NorthEast 0708,Commercial,2,On-Demand Support,2019-07-03,Active,110784.14
+709,Vista Commercial NorthEast 0709,Commercial,2,On-Demand Support,2023-06-06,Active,160017.85
+710,Public Public Islands 0710,Public Sector,5,Performance Contract,2025-12-04,Active,256932.63
+711,Urban Commercial NorthWest 0711,Commercial,1,Preventive Care,2019-04-24,Active,134449.05
+712,Vista Commercial NorthWest 0712,Commercial,1,Managed Services,2023-07-05,Active,110124.43
+713,Summit Commercial NorthWest 0713,Commercial,1,Performance Contract,2021-10-14,Suspended,227460.14
+714,Civic Public NorthEast 0714,Public Sector,2,Managed Services,2025-10-08,Active,242254.96
+715,Casa Residential NorthWest 0715,Residential,1,Preventive Care,2022-02-15,Active,21451.77
+716,Orion Commercial South 0716,Commercial,4,Managed Services,2022-05-10,Active,91776.36
+717,Orion Commercial South 0717,Commercial,4,Preventive Care,2020-04-02,Active,143121.59
+718,Bright Residential Central 0718,Residential,3,Preventive Care,2022-08-16,Active,11892.25
+719,Public Public Central 0719,Public Sector,3,Preventive Care,2021-08-18,Active,199549.73
+720,Vector Industrial NorthEast 0720,Industrial,2,Performance Contract,2023-12-06,Lost,415321.0
+721,Home Residential Central 0721,Residential,3,Preventive Care,2021-10-26,Active,37234.45
+722,Green Residential NorthWest 0722,Residential,1,Preventive Care,2019-01-28,Active,24428.69
+723,Helios Industrial NorthEast 0723,Industrial,2,Performance Contract,2019-03-30,Active,304952.87
+724,Titan Industrial South 0724,Industrial,4,Managed Services,2020-05-30,Active,551204.14
+725,Titan Industrial NorthWest 0725,Industrial,1,Performance Contract,2025-07-22,Active,575549.29
+726,Atlas Industrial NorthWest 0726,Industrial,1,Managed Services,2024-06-05,Active,429157.55
+727,Regional Public NorthWest 0727,Public Sector,1,Performance Contract,2024-07-21,Active,237486.94
+728,Urban Commercial NorthEast 0728,Commercial,2,Managed Services,2020-07-21,Active,164819.44
+729,Family Residential South 0729,Residential,4,Performance Contract,2023-06-27,Active,31020.5
+730,Prime Commercial NorthEast 0730,Commercial,2,Managed Services,2025-12-31,Active,174499.47
+731,Casa Residential Central 0731,Residential,3,On-Demand Support,2025-03-26,Active,28759.91
+732,Metro Public South 0732,Public Sector,4,Preventive Care,2020-04-04,Active,162221.6
+733,Orion Commercial NorthWest 0733,Commercial,1,Performance Contract,2019-06-15,Active,225603.65
+734,Family Residential Central 0734,Residential,3,Preventive Care,2024-09-14,Active,26374.44
+735,Metro Public South 0735,Public Sector,4,Performance Contract,2021-03-31,Active,177942.52
+736,Civic Public South 0736,Public Sector,4,Preventive Care,2024-01-07,Active,182823.96
+737,Community Public NorthEast 0737,Public Sector,2,Performance Contract,2021-09-03,Active,182565.19
+738,Community Public Islands 0738,Public Sector,5,Preventive Care,2019-05-17,Active,210698.42
+739,Summit Commercial Central 0739,Commercial,3,Preventive Care,2025-07-27,Suspended,112950.45
+740,Urban Commercial NorthWest 0740,Commercial,1,Preventive Care,2020-08-28,Active,126147.49
+741,Titan Industrial NorthWest 0741,Industrial,1,Managed Services,2023-01-25,Active,409036.85
+742,Atlas Industrial Central 0742,Industrial,3,Managed Services,2019-03-21,Active,546354.33
+743,Forge Industrial NorthEast 0743,Industrial,2,Preventive Care,2023-07-21,Lost,416898.24
+744,Vista Commercial NorthEast 0744,Commercial,2,Preventive Care,2021-03-05,Lost,89038.15
+745,Green Residential South 0745,Residential,4,Preventive Care,2025-06-02,Active,28750.64
+746,Vista Commercial NorthEast 0746,Commercial,2,Managed Services,2020-03-06,Active,171401.1
+747,Prime Commercial NorthWest 0747,Commercial,1,Preventive Care,2024-09-11,Active,180790.59
+748,Titan Industrial Central 0748,Industrial,3,Performance Contract,2021-10-27,Active,336665.45
+749,Harbor Commercial NorthEast 0749,Commercial,2,Performance Contract,2022-04-11,Lost,185229.19
+750,Vista Commercial Central 0750,Commercial,3,Performance Contract,2023-05-29,Active,167787.55

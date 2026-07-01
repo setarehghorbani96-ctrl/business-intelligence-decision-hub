@@ -1,0 +1,2521 @@
+target_id,date_id,region_id,department_id,kpi_name,target_value,target_unit,target_period
+1,20240101,1,1.0,Revenue,190782.31,EUR,Monthly
+2,20240101,1,1.0,Operating Margin,38.3,Percent,Monthly
+3,20240101,1,2.0,Revenue,235348.11,EUR,Monthly
+4,20240101,1,2.0,Operating Margin,33.82,Percent,Monthly
+5,20240101,1,3.0,Revenue,1256252.47,EUR,Monthly
+6,20240101,1,3.0,Operating Margin,34.67,Percent,Monthly
+7,20240101,1,4.0,Revenue,1029714.29,EUR,Monthly
+8,20240101,1,4.0,Operating Margin,22.13,Percent,Monthly
+9,20240101,1,5.0,Revenue,752112.54,EUR,Monthly
+10,20240101,1,5.0,Operating Margin,14.6,Percent,Monthly
+11,20240101,1,6.0,Revenue,288155.14,EUR,Monthly
+12,20240101,1,6.0,Operating Margin,28.99,Percent,Monthly
+13,20240101,1,7.0,Revenue,578800.15,EUR,Monthly
+14,20240101,1,7.0,Operating Margin,26.43,Percent,Monthly
+15,20240101,1,8.0,Revenue,440717.14,EUR,Monthly
+16,20240101,1,8.0,Operating Margin,22.67,Percent,Monthly
+17,20240101,2,1.0,Revenue,137008.58,EUR,Monthly
+18,20240101,2,1.0,Operating Margin,42.0,Percent,Monthly
+19,20240101,2,2.0,Revenue,179694.54,EUR,Monthly
+20,20240101,2,2.0,Operating Margin,42.0,Percent,Monthly
+21,20240101,2,3.0,Revenue,918135.54,EUR,Monthly
+22,20240101,2,3.0,Operating Margin,41.06,Percent,Monthly
+23,20240101,2,4.0,Revenue,778523.12,EUR,Monthly
+24,20240101,2,4.0,Operating Margin,34.74,Percent,Monthly
+25,20240101,2,5.0,Revenue,534751.27,EUR,Monthly
+26,20240101,2,5.0,Operating Margin,38.91,Percent,Monthly
+27,20240101,2,6.0,Revenue,217433.92,EUR,Monthly
+28,20240101,2,6.0,Operating Margin,41.78,Percent,Monthly
+29,20240101,2,7.0,Revenue,419264.18,EUR,Monthly
+30,20240101,2,7.0,Operating Margin,39.87,Percent,Monthly
+31,20240101,2,8.0,Revenue,301914.33,EUR,Monthly
+32,20240101,2,8.0,Operating Margin,34.39,Percent,Monthly
+33,20240101,3,1.0,Revenue,102083.48,EUR,Monthly
+34,20240101,3,1.0,Operating Margin,42.0,Percent,Monthly
+35,20240101,3,2.0,Revenue,125104.67,EUR,Monthly
+36,20240101,3,2.0,Operating Margin,36.33,Percent,Monthly
+37,20240101,3,3.0,Revenue,632885.45,EUR,Monthly
+38,20240101,3,3.0,Operating Margin,38.16,Percent,Monthly
+39,20240101,3,4.0,Revenue,589785.27,EUR,Monthly
+40,20240101,3,4.0,Operating Margin,29.3,Percent,Monthly
+41,20240101,3,5.0,Revenue,393649.89,EUR,Monthly
+42,20240101,3,5.0,Operating Margin,22.47,Percent,Monthly
+43,20240101,3,6.0,Revenue,153164.65,EUR,Monthly
+44,20240101,3,6.0,Operating Margin,35.27,Percent,Monthly
+45,20240101,3,7.0,Revenue,311725.89,EUR,Monthly
+46,20240101,3,7.0,Operating Margin,29.39,Percent,Monthly
+47,20240101,3,8.0,Revenue,239300.12,EUR,Monthly
+48,20240101,3,8.0,Operating Margin,29.77,Percent,Monthly
+49,20240101,4,1.0,Revenue,65379.35,EUR,Monthly
+50,20240101,4,1.0,Operating Margin,42.0,Percent,Monthly
+51,20240101,4,2.0,Revenue,80631.68,EUR,Monthly
+52,20240101,4,2.0,Operating Margin,37.89,Percent,Monthly
+53,20240101,4,3.0,Revenue,431866.33,EUR,Monthly
+54,20240101,4,3.0,Operating Margin,39.86,Percent,Monthly
+55,20240101,4,4.0,Revenue,338727.22,EUR,Monthly
+56,20240101,4,4.0,Operating Margin,26.77,Percent,Monthly
+57,20240101,4,5.0,Revenue,255777.98,EUR,Monthly
+58,20240101,4,5.0,Operating Margin,18.8,Percent,Monthly
+59,20240101,4,6.0,Revenue,95983.03,EUR,Monthly
+60,20240101,4,6.0,Operating Margin,36.72,Percent,Monthly
+61,20240101,4,7.0,Revenue,189900.44,EUR,Monthly
+62,20240101,4,7.0,Operating Margin,28.16,Percent,Monthly
+63,20240101,4,8.0,Revenue,139561.62,EUR,Monthly
+64,20240101,4,8.0,Operating Margin,28.24,Percent,Monthly
+65,20240101,5,1.0,Revenue,26730.64,EUR,Monthly
+66,20240101,5,1.0,Operating Margin,35.82,Percent,Monthly
+67,20240101,5,2.0,Revenue,34612.61,EUR,Monthly
+68,20240101,5,2.0,Operating Margin,28.69,Percent,Monthly
+69,20240101,5,3.0,Revenue,173036.42,EUR,Monthly
+70,20240101,5,3.0,Operating Margin,35.91,Percent,Monthly
+71,20240101,5,4.0,Revenue,153694.88,EUR,Monthly
+72,20240101,5,4.0,Operating Margin,14.99,Percent,Monthly
+73,20240101,5,5.0,Revenue,107458.55,EUR,Monthly
+74,20240101,5,5.0,Operating Margin,9.0,Percent,Monthly
+75,20240101,5,6.0,Revenue,43112.12,EUR,Monthly
+76,20240101,5,6.0,Operating Margin,28.24,Percent,Monthly
+77,20240101,5,7.0,Revenue,81301.47,EUR,Monthly
+78,20240101,5,7.0,Operating Margin,17.07,Percent,Monthly
+79,20240101,5,8.0,Revenue,59741.11,EUR,Monthly
+80,20240101,5,8.0,Operating Margin,16.38,Percent,Monthly
+81,20240201,1,1.0,Revenue,197510.48,EUR,Monthly
+82,20240201,1,1.0,Operating Margin,37.31,Percent,Monthly
+83,20240201,1,2.0,Revenue,255247.31,EUR,Monthly
+84,20240201,1,2.0,Operating Margin,32.63,Percent,Monthly
+85,20240201,1,3.0,Revenue,1268311.79,EUR,Monthly
+86,20240201,1,3.0,Operating Margin,34.3,Percent,Monthly
+87,20240201,1,4.0,Revenue,1120891.06,EUR,Monthly
+88,20240201,1,4.0,Operating Margin,23.38,Percent,Monthly
+89,20240201,1,5.0,Revenue,782169.43,EUR,Monthly
+90,20240201,1,5.0,Operating Margin,15.2,Percent,Monthly
+91,20240201,1,6.0,Revenue,290286.99,EUR,Monthly
+92,20240201,1,6.0,Operating Margin,29.65,Percent,Monthly
+93,20240201,1,7.0,Revenue,616723.15,EUR,Monthly
+94,20240201,1,7.0,Operating Margin,26.52,Percent,Monthly
+95,20240201,1,8.0,Revenue,454789.19,EUR,Monthly
+96,20240201,1,8.0,Operating Margin,21.93,Percent,Monthly
+97,20240201,2,1.0,Revenue,143501.31,EUR,Monthly
+98,20240201,2,1.0,Operating Margin,42.0,Percent,Monthly
+99,20240201,2,2.0,Revenue,176588.18,EUR,Monthly
+100,20240201,2,2.0,Operating Margin,42.0,Percent,Monthly
+101,20240201,2,3.0,Revenue,919948.1,EUR,Monthly
+102,20240201,2,3.0,Operating Margin,40.98,Percent,Monthly
+103,20240201,2,4.0,Revenue,758553.72,EUR,Monthly
+104,20240201,2,4.0,Operating Margin,34.14,Percent,Monthly
+105,20240201,2,5.0,Revenue,576817.36,EUR,Monthly
+106,20240201,2,5.0,Operating Margin,37.97,Percent,Monthly
+107,20240201,2,6.0,Revenue,223548.52,EUR,Monthly
+108,20240201,2,6.0,Operating Margin,39.11,Percent,Monthly
+109,20240201,2,7.0,Revenue,420643.33,EUR,Monthly
+110,20240201,2,7.0,Operating Margin,38.7,Percent,Monthly
+111,20240201,2,8.0,Revenue,315195.64,EUR,Monthly
+112,20240201,2,8.0,Operating Margin,35.23,Percent,Monthly
+113,20240201,3,1.0,Revenue,110632.67,EUR,Monthly
+114,20240201,3,1.0,Operating Margin,42.0,Percent,Monthly
+115,20240201,3,2.0,Revenue,127039.52,EUR,Monthly
+116,20240201,3,2.0,Operating Margin,42.0,Percent,Monthly
+117,20240201,3,3.0,Revenue,665444.01,EUR,Monthly
+118,20240201,3,3.0,Operating Margin,41.13,Percent,Monthly
+119,20240201,3,4.0,Revenue,596637.66,EUR,Monthly
+120,20240201,3,4.0,Operating Margin,32.09,Percent,Monthly
+121,20240201,3,5.0,Revenue,403405.38,EUR,Monthly
+122,20240201,3,5.0,Operating Margin,32.75,Percent,Monthly
+123,20240201,3,6.0,Revenue,152091.26,EUR,Monthly
+124,20240201,3,6.0,Operating Margin,40.63,Percent,Monthly
+125,20240201,3,7.0,Revenue,305294.77,EUR,Monthly
+126,20240201,3,7.0,Operating Margin,37.41,Percent,Monthly
+127,20240201,3,8.0,Revenue,244974.31,EUR,Monthly
+128,20240201,3,8.0,Operating Margin,32.78,Percent,Monthly
+129,20240201,4,1.0,Revenue,64934.61,EUR,Monthly
+130,20240201,4,1.0,Operating Margin,42.0,Percent,Monthly
+131,20240201,4,2.0,Revenue,81593.05,EUR,Monthly
+132,20240201,4,2.0,Operating Margin,39.48,Percent,Monthly
+133,20240201,4,3.0,Revenue,434094.04,EUR,Monthly
+134,20240201,4,3.0,Operating Margin,42.0,Percent,Monthly
+135,20240201,4,4.0,Revenue,360478.06,EUR,Monthly
+136,20240201,4,4.0,Operating Margin,29.84,Percent,Monthly
+137,20240201,4,5.0,Revenue,266433.81,EUR,Monthly
+138,20240201,4,5.0,Operating Margin,26.47,Percent,Monthly
+139,20240201,4,6.0,Revenue,101035.18,EUR,Monthly
+140,20240201,4,6.0,Operating Margin,37.03,Percent,Monthly
+141,20240201,4,7.0,Revenue,192080.89,EUR,Monthly
+142,20240201,4,7.0,Operating Margin,33.0,Percent,Monthly
+143,20240201,4,8.0,Revenue,154384.32,EUR,Monthly
+144,20240201,4,8.0,Operating Margin,31.39,Percent,Monthly
+145,20240201,5,1.0,Revenue,27906.86,EUR,Monthly
+146,20240201,5,1.0,Operating Margin,37.23,Percent,Monthly
+147,20240201,5,2.0,Revenue,35108.02,EUR,Monthly
+148,20240201,5,2.0,Operating Margin,27.0,Percent,Monthly
+149,20240201,5,3.0,Revenue,178437.6,EUR,Monthly
+150,20240201,5,3.0,Operating Margin,34.09,Percent,Monthly
+151,20240201,5,4.0,Revenue,157028.51,EUR,Monthly
+152,20240201,5,4.0,Operating Margin,13.01,Percent,Monthly
+153,20240201,5,5.0,Revenue,111966.51,EUR,Monthly
+154,20240201,5,5.0,Operating Margin,9.27,Percent,Monthly
+155,20240201,5,6.0,Revenue,43091.79,EUR,Monthly
+156,20240201,5,6.0,Operating Margin,25.59,Percent,Monthly
+157,20240201,5,7.0,Revenue,84778.08,EUR,Monthly
+158,20240201,5,7.0,Operating Margin,20.09,Percent,Monthly
+159,20240201,5,8.0,Revenue,65200.92,EUR,Monthly
+160,20240201,5,8.0,Operating Margin,16.52,Percent,Monthly
+161,20240301,1,1.0,Revenue,206511.46,EUR,Monthly
+162,20240301,1,1.0,Operating Margin,36.67,Percent,Monthly
+163,20240301,1,2.0,Revenue,258916.24,EUR,Monthly
+164,20240301,1,2.0,Operating Margin,32.79,Percent,Monthly
+165,20240301,1,3.0,Revenue,1314748.12,EUR,Monthly
+166,20240301,1,3.0,Operating Margin,35.93,Percent,Monthly
+167,20240301,1,4.0,Revenue,1187532.61,EUR,Monthly
+168,20240301,1,4.0,Operating Margin,24.11,Percent,Monthly
+169,20240301,1,5.0,Revenue,827410.21,EUR,Monthly
+170,20240301,1,5.0,Operating Margin,11.56,Percent,Monthly
+171,20240301,1,6.0,Revenue,317648.42,EUR,Monthly
+172,20240301,1,6.0,Operating Margin,28.64,Percent,Monthly
+173,20240301,1,7.0,Revenue,643720.59,EUR,Monthly
+174,20240301,1,7.0,Operating Margin,24.3,Percent,Monthly
+175,20240301,1,8.0,Revenue,491600.98,EUR,Monthly
+176,20240301,1,8.0,Operating Margin,19.99,Percent,Monthly
+177,20240301,2,1.0,Revenue,146825.27,EUR,Monthly
+178,20240301,2,1.0,Operating Margin,42.0,Percent,Monthly
+179,20240301,2,2.0,Revenue,193224.11,EUR,Monthly
+180,20240301,2,2.0,Operating Margin,42.0,Percent,Monthly
+181,20240301,2,3.0,Revenue,1018943.82,EUR,Monthly
+182,20240301,2,3.0,Operating Margin,41.18,Percent,Monthly
+183,20240301,2,4.0,Revenue,795941.83,EUR,Monthly
+184,20240301,2,4.0,Operating Margin,34.53,Percent,Monthly
+185,20240301,2,5.0,Revenue,590683.46,EUR,Monthly
+186,20240301,2,5.0,Operating Margin,35.77,Percent,Monthly
+187,20240301,2,6.0,Revenue,231280.9,EUR,Monthly
+188,20240301,2,6.0,Operating Margin,39.32,Percent,Monthly
+189,20240301,2,7.0,Revenue,451166.42,EUR,Monthly
+190,20240301,2,7.0,Operating Margin,38.84,Percent,Monthly
+191,20240301,2,8.0,Revenue,344059.75,EUR,Monthly
+192,20240301,2,8.0,Operating Margin,32.84,Percent,Monthly
+193,20240301,3,1.0,Revenue,111620.13,EUR,Monthly
+194,20240301,3,1.0,Operating Margin,42.0,Percent,Monthly
+195,20240301,3,2.0,Revenue,134751.51,EUR,Monthly
+196,20240301,3,2.0,Operating Margin,37.67,Percent,Monthly
+197,20240301,3,3.0,Revenue,696874.29,EUR,Monthly
+198,20240301,3,3.0,Operating Margin,37.27,Percent,Monthly
+199,20240301,3,4.0,Revenue,603959.94,EUR,Monthly
+200,20240301,3,4.0,Operating Margin,28.76,Percent,Monthly
+201,20240301,3,5.0,Revenue,458531.0,EUR,Monthly
+202,20240301,3,5.0,Operating Margin,23.1,Percent,Monthly
+203,20240301,3,6.0,Revenue,164726.86,EUR,Monthly
+204,20240301,3,6.0,Operating Margin,36.29,Percent,Monthly
+205,20240301,3,7.0,Revenue,326585.32,EUR,Monthly
+206,20240301,3,7.0,Operating Margin,29.63,Percent,Monthly
+207,20240301,3,8.0,Revenue,248312.45,EUR,Monthly
+208,20240301,3,8.0,Operating Margin,27.31,Percent,Monthly
+209,20240301,4,1.0,Revenue,66158.65,EUR,Monthly
+210,20240301,4,1.0,Operating Margin,42.0,Percent,Monthly
+211,20240301,4,2.0,Revenue,84069.53,EUR,Monthly
+212,20240301,4,2.0,Operating Margin,39.93,Percent,Monthly
+213,20240301,4,3.0,Revenue,434312.07,EUR,Monthly
+214,20240301,4,3.0,Operating Margin,41.38,Percent,Monthly
+215,20240301,4,4.0,Revenue,375007.33,EUR,Monthly
+216,20240301,4,4.0,Operating Margin,30.54,Percent,Monthly
+217,20240301,4,5.0,Revenue,284366.77,EUR,Monthly
+218,20240301,4,5.0,Operating Margin,27.85,Percent,Monthly
+219,20240301,4,6.0,Revenue,100714.07,EUR,Monthly
+220,20240301,4,6.0,Operating Margin,38.69,Percent,Monthly
+221,20240301,4,7.0,Revenue,194359.26,EUR,Monthly
+222,20240301,4,7.0,Operating Margin,34.28,Percent,Monthly
+223,20240301,4,8.0,Revenue,148920.67,EUR,Monthly
+224,20240301,4,8.0,Operating Margin,29.32,Percent,Monthly
+225,20240301,5,1.0,Revenue,27817.35,EUR,Monthly
+226,20240301,5,1.0,Operating Margin,32.22,Percent,Monthly
+227,20240301,5,2.0,Revenue,35982.45,EUR,Monthly
+228,20240301,5,2.0,Operating Margin,24.88,Percent,Monthly
+229,20240301,5,3.0,Revenue,192083.1,EUR,Monthly
+230,20240301,5,3.0,Operating Margin,34.35,Percent,Monthly
+231,20240301,5,4.0,Revenue,157489.14,EUR,Monthly
+232,20240301,5,4.0,Operating Margin,6.84,Percent,Monthly
+233,20240301,5,5.0,Revenue,120353.02,EUR,Monthly
+234,20240301,5,5.0,Operating Margin,8.95,Percent,Monthly
+235,20240301,5,6.0,Revenue,44645.62,EUR,Monthly
+236,20240301,5,6.0,Operating Margin,21.14,Percent,Monthly
+237,20240301,5,7.0,Revenue,86747.67,EUR,Monthly
+238,20240301,5,7.0,Operating Margin,13.98,Percent,Monthly
+239,20240301,5,8.0,Revenue,67179.09,EUR,Monthly
+240,20240301,5,8.0,Operating Margin,14.86,Percent,Monthly
+241,20240401,1,1.0,Revenue,223910.74,EUR,Monthly
+242,20240401,1,1.0,Operating Margin,39.8,Percent,Monthly
+243,20240401,1,2.0,Revenue,264563.15,EUR,Monthly
+244,20240401,1,2.0,Operating Margin,32.84,Percent,Monthly
+245,20240401,1,3.0,Revenue,1355866.53,EUR,Monthly
+246,20240401,1,3.0,Operating Margin,36.35,Percent,Monthly
+247,20240401,1,4.0,Revenue,1171921.81,EUR,Monthly
+248,20240401,1,4.0,Operating Margin,25.08,Percent,Monthly
+249,20240401,1,5.0,Revenue,910153.91,EUR,Monthly
+250,20240401,1,5.0,Operating Margin,17.57,Percent,Monthly
+251,20240401,1,6.0,Revenue,319754.55,EUR,Monthly
+252,20240401,1,6.0,Operating Margin,32.79,Percent,Monthly
+253,20240401,1,7.0,Revenue,652019.54,EUR,Monthly
+254,20240401,1,7.0,Operating Margin,26.69,Percent,Monthly
+255,20240401,1,8.0,Revenue,489975.62,EUR,Monthly
+256,20240401,1,8.0,Operating Margin,24.64,Percent,Monthly
+257,20240401,2,1.0,Revenue,151731.25,EUR,Monthly
+258,20240401,2,1.0,Operating Margin,42.0,Percent,Monthly
+259,20240401,2,2.0,Revenue,186216.53,EUR,Monthly
+260,20240401,2,2.0,Operating Margin,42.0,Percent,Monthly
+261,20240401,2,3.0,Revenue,963299.29,EUR,Monthly
+262,20240401,2,3.0,Operating Margin,42.0,Percent,Monthly
+263,20240401,2,4.0,Revenue,834684.91,EUR,Monthly
+264,20240401,2,4.0,Operating Margin,35.9,Percent,Monthly
+265,20240401,2,5.0,Revenue,600333.53,EUR,Monthly
+266,20240401,2,5.0,Operating Margin,36.02,Percent,Monthly
+267,20240401,2,6.0,Revenue,219610.98,EUR,Monthly
+268,20240401,2,6.0,Operating Margin,41.59,Percent,Monthly
+269,20240401,2,7.0,Revenue,489400.85,EUR,Monthly
+270,20240401,2,7.0,Operating Margin,36.16,Percent,Monthly
+271,20240401,2,8.0,Revenue,331432.27,EUR,Monthly
+272,20240401,2,8.0,Operating Margin,35.55,Percent,Monthly
+273,20240401,3,1.0,Revenue,122126.25,EUR,Monthly
+274,20240401,3,1.0,Operating Margin,42.0,Percent,Monthly
+275,20240401,3,2.0,Revenue,146792.62,EUR,Monthly
+276,20240401,3,2.0,Operating Margin,38.63,Percent,Monthly
+277,20240401,3,3.0,Revenue,743589.55,EUR,Monthly
+278,20240401,3,3.0,Operating Margin,40.17,Percent,Monthly
+279,20240401,3,4.0,Revenue,612846.54,EUR,Monthly
+280,20240401,3,4.0,Operating Margin,27.52,Percent,Monthly
+281,20240401,3,5.0,Revenue,447855.21,EUR,Monthly
+282,20240401,3,5.0,Operating Margin,23.79,Percent,Monthly
+283,20240401,3,6.0,Revenue,177052.32,EUR,Monthly
+284,20240401,3,6.0,Operating Margin,37.64,Percent,Monthly
+285,20240401,3,7.0,Revenue,344559.8,EUR,Monthly
+286,20240401,3,7.0,Operating Margin,31.96,Percent,Monthly
+287,20240401,3,8.0,Revenue,265854.38,EUR,Monthly
+288,20240401,3,8.0,Operating Margin,29.5,Percent,Monthly
+289,20240401,4,1.0,Revenue,71934.98,EUR,Monthly
+290,20240401,4,1.0,Operating Margin,42.0,Percent,Monthly
+291,20240401,4,2.0,Revenue,88279.83,EUR,Monthly
+292,20240401,4,2.0,Operating Margin,40.21,Percent,Monthly
+293,20240401,4,3.0,Revenue,444497.87,EUR,Monthly
+294,20240401,4,3.0,Operating Margin,41.61,Percent,Monthly
+295,20240401,4,4.0,Revenue,384971.89,EUR,Monthly
+296,20240401,4,4.0,Operating Margin,30.09,Percent,Monthly
+297,20240401,4,5.0,Revenue,288569.73,EUR,Monthly
+298,20240401,4,5.0,Operating Margin,25.46,Percent,Monthly
+299,20240401,4,6.0,Revenue,105660.75,EUR,Monthly
+300,20240401,4,6.0,Operating Margin,37.28,Percent,Monthly
+301,20240401,4,7.0,Revenue,207838.53,EUR,Monthly
+302,20240401,4,7.0,Operating Margin,33.31,Percent,Monthly
+303,20240401,4,8.0,Revenue,152617.96,EUR,Monthly
+304,20240401,4,8.0,Operating Margin,28.78,Percent,Monthly
+305,20240401,5,1.0,Revenue,31779.8,EUR,Monthly
+306,20240401,5,1.0,Operating Margin,37.07,Percent,Monthly
+307,20240401,5,2.0,Revenue,40047.12,EUR,Monthly
+308,20240401,5,2.0,Operating Margin,28.78,Percent,Monthly
+309,20240401,5,3.0,Revenue,202312.0,EUR,Monthly
+310,20240401,5,3.0,Operating Margin,35.65,Percent,Monthly
+311,20240401,5,4.0,Revenue,162572.05,EUR,Monthly
+312,20240401,5,4.0,Operating Margin,13.75,Percent,Monthly
+313,20240401,5,5.0,Revenue,120355.86,EUR,Monthly
+314,20240401,5,5.0,Operating Margin,7.67,Percent,Monthly
+315,20240401,5,6.0,Revenue,44764.53,EUR,Monthly
+316,20240401,5,6.0,Operating Margin,26.88,Percent,Monthly
+317,20240401,5,7.0,Revenue,92801.06,EUR,Monthly
+318,20240401,5,7.0,Operating Margin,19.11,Percent,Monthly
+319,20240401,5,8.0,Revenue,65439.82,EUR,Monthly
+320,20240401,5,8.0,Operating Margin,20.0,Percent,Monthly
+321,20240501,1,1.0,Revenue,218990.79,EUR,Monthly
+322,20240501,1,1.0,Operating Margin,37.86,Percent,Monthly
+323,20240501,1,2.0,Revenue,274724.9,EUR,Monthly
+324,20240501,1,2.0,Operating Margin,31.85,Percent,Monthly
+325,20240501,1,3.0,Revenue,1471243.55,EUR,Monthly
+326,20240501,1,3.0,Operating Margin,35.29,Percent,Monthly
+327,20240501,1,4.0,Revenue,1258981.04,EUR,Monthly
+328,20240501,1,4.0,Operating Margin,21.5,Percent,Monthly
+329,20240501,1,5.0,Revenue,935427.5,EUR,Monthly
+330,20240501,1,5.0,Operating Margin,17.09,Percent,Monthly
+331,20240501,1,6.0,Revenue,334801.92,EUR,Monthly
+332,20240501,1,6.0,Operating Margin,28.94,Percent,Monthly
+333,20240501,1,7.0,Revenue,659971.94,EUR,Monthly
+334,20240501,1,7.0,Operating Margin,24.85,Percent,Monthly
+335,20240501,1,8.0,Revenue,497571.62,EUR,Monthly
+336,20240501,1,8.0,Operating Margin,23.07,Percent,Monthly
+337,20240501,2,1.0,Revenue,161948.83,EUR,Monthly
+338,20240501,2,1.0,Operating Margin,42.0,Percent,Monthly
+339,20240501,2,2.0,Revenue,195352.25,EUR,Monthly
+340,20240501,2,2.0,Operating Margin,42.0,Percent,Monthly
+341,20240501,2,3.0,Revenue,1042406.11,EUR,Monthly
+342,20240501,2,3.0,Operating Margin,40.49,Percent,Monthly
+343,20240501,2,4.0,Revenue,868593.58,EUR,Monthly
+344,20240501,2,4.0,Operating Margin,33.6,Percent,Monthly
+345,20240501,2,5.0,Revenue,649580.49,EUR,Monthly
+346,20240501,2,5.0,Operating Margin,36.79,Percent,Monthly
+347,20240501,2,6.0,Revenue,251742.41,EUR,Monthly
+348,20240501,2,6.0,Operating Margin,38.41,Percent,Monthly
+349,20240501,2,7.0,Revenue,458648.23,EUR,Monthly
+350,20240501,2,7.0,Operating Margin,37.77,Percent,Monthly
+351,20240501,2,8.0,Revenue,367314.66,EUR,Monthly
+352,20240501,2,8.0,Operating Margin,34.08,Percent,Monthly
+353,20240501,3,1.0,Revenue,123870.69,EUR,Monthly
+354,20240501,3,1.0,Operating Margin,42.0,Percent,Monthly
+355,20240501,3,2.0,Revenue,149319.84,EUR,Monthly
+356,20240501,3,2.0,Operating Margin,40.35,Percent,Monthly
+357,20240501,3,3.0,Revenue,754560.75,EUR,Monthly
+358,20240501,3,3.0,Operating Margin,40.73,Percent,Monthly
+359,20240501,3,4.0,Revenue,666176.81,EUR,Monthly
+360,20240501,3,4.0,Operating Margin,31.14,Percent,Monthly
+361,20240501,3,5.0,Revenue,484159.3,EUR,Monthly
+362,20240501,3,5.0,Operating Margin,31.45,Percent,Monthly
+363,20240501,3,6.0,Revenue,176907.4,EUR,Monthly
+364,20240501,3,6.0,Operating Margin,40.3,Percent,Monthly
+365,20240501,3,7.0,Revenue,348747.51,EUR,Monthly
+366,20240501,3,7.0,Operating Margin,37.38,Percent,Monthly
+367,20240501,3,8.0,Revenue,276841.18,EUR,Monthly
+368,20240501,3,8.0,Operating Margin,32.52,Percent,Monthly
+369,20240501,4,1.0,Revenue,70402.01,EUR,Monthly
+370,20240501,4,1.0,Operating Margin,42.0,Percent,Monthly
+371,20240501,4,2.0,Revenue,92343.14,EUR,Monthly
+372,20240501,4,2.0,Operating Margin,42.0,Percent,Monthly
+373,20240501,4,3.0,Revenue,447651.28,EUR,Monthly
+374,20240501,4,3.0,Operating Margin,41.31,Percent,Monthly
+375,20240501,4,4.0,Revenue,384409.52,EUR,Monthly
+376,20240501,4,4.0,Operating Margin,29.78,Percent,Monthly
+377,20240501,4,5.0,Revenue,274173.59,EUR,Monthly
+378,20240501,4,5.0,Operating Margin,23.91,Percent,Monthly
+379,20240501,4,6.0,Revenue,114272.94,EUR,Monthly
+380,20240501,4,6.0,Operating Margin,37.86,Percent,Monthly
+381,20240501,4,7.0,Revenue,208814.9,EUR,Monthly
+382,20240501,4,7.0,Operating Margin,34.65,Percent,Monthly
+383,20240501,4,8.0,Revenue,165361.29,EUR,Monthly
+384,20240501,4,8.0,Operating Margin,31.29,Percent,Monthly
+385,20240501,5,1.0,Revenue,32343.2,EUR,Monthly
+386,20240501,5,1.0,Operating Margin,33.72,Percent,Monthly
+387,20240501,5,2.0,Revenue,39224.39,EUR,Monthly
+388,20240501,5,2.0,Operating Margin,24.57,Percent,Monthly
+389,20240501,5,3.0,Revenue,195000.23,EUR,Monthly
+390,20240501,5,3.0,Operating Margin,34.84,Percent,Monthly
+391,20240501,5,4.0,Revenue,180690.64,EUR,Monthly
+392,20240501,5,4.0,Operating Margin,10.43,Percent,Monthly
+393,20240501,5,5.0,Revenue,127433.81,EUR,Monthly
+394,20240501,5,5.0,Operating Margin,9.85,Percent,Monthly
+395,20240501,5,6.0,Revenue,48551.63,EUR,Monthly
+396,20240501,5,6.0,Operating Margin,24.99,Percent,Monthly
+397,20240501,5,7.0,Revenue,97166.65,EUR,Monthly
+398,20240501,5,7.0,Operating Margin,17.22,Percent,Monthly
+399,20240501,5,8.0,Revenue,70599.74,EUR,Monthly
+400,20240501,5,8.0,Operating Margin,16.81,Percent,Monthly
+401,20240601,1,1.0,Revenue,217407.38,EUR,Monthly
+402,20240601,1,1.0,Operating Margin,39.54,Percent,Monthly
+403,20240601,1,2.0,Revenue,272358.56,EUR,Monthly
+404,20240601,1,2.0,Operating Margin,33.06,Percent,Monthly
+405,20240601,1,3.0,Revenue,1510761.82,EUR,Monthly
+406,20240601,1,3.0,Operating Margin,35.77,Percent,Monthly
+407,20240601,1,4.0,Revenue,1278353.36,EUR,Monthly
+408,20240601,1,4.0,Operating Margin,25.71,Percent,Monthly
+409,20240601,1,5.0,Revenue,890266.06,EUR,Monthly
+410,20240601,1,5.0,Operating Margin,17.58,Percent,Monthly
+411,20240601,1,6.0,Revenue,351776.35,EUR,Monthly
+412,20240601,1,6.0,Operating Margin,30.31,Percent,Monthly
+413,20240601,1,7.0,Revenue,690685.55,EUR,Monthly
+414,20240601,1,7.0,Operating Margin,27.03,Percent,Monthly
+415,20240601,1,8.0,Revenue,515273.48,EUR,Monthly
+416,20240601,1,8.0,Operating Margin,25.59,Percent,Monthly
+417,20240601,2,1.0,Revenue,165307.16,EUR,Monthly
+418,20240601,2,1.0,Operating Margin,42.0,Percent,Monthly
+419,20240601,2,2.0,Revenue,206012.68,EUR,Monthly
+420,20240601,2,2.0,Operating Margin,42.0,Percent,Monthly
+421,20240601,2,3.0,Revenue,1037333.72,EUR,Monthly
+422,20240601,2,3.0,Operating Margin,40.72,Percent,Monthly
+423,20240601,2,4.0,Revenue,875293.59,EUR,Monthly
+424,20240601,2,4.0,Operating Margin,36.77,Percent,Monthly
+425,20240601,2,5.0,Revenue,627335.37,EUR,Monthly
+426,20240601,2,5.0,Operating Margin,36.27,Percent,Monthly
+427,20240601,2,6.0,Revenue,242820.37,EUR,Monthly
+428,20240601,2,6.0,Operating Margin,41.54,Percent,Monthly
+429,20240601,2,7.0,Revenue,494447.47,EUR,Monthly
+430,20240601,2,7.0,Operating Margin,39.82,Percent,Monthly
+431,20240601,2,8.0,Revenue,358983.05,EUR,Monthly
+432,20240601,2,8.0,Operating Margin,34.63,Percent,Monthly
+433,20240601,3,1.0,Revenue,121496.95,EUR,Monthly
+434,20240601,3,1.0,Operating Margin,42.0,Percent,Monthly
+435,20240601,3,2.0,Revenue,148884.6,EUR,Monthly
+436,20240601,3,2.0,Operating Margin,42.0,Percent,Monthly
+437,20240601,3,3.0,Revenue,764572.55,EUR,Monthly
+438,20240601,3,3.0,Operating Margin,38.75,Percent,Monthly
+439,20240601,3,4.0,Revenue,663574.29,EUR,Monthly
+440,20240601,3,4.0,Operating Margin,33.72,Percent,Monthly
+441,20240601,3,5.0,Revenue,500685.75,EUR,Monthly
+442,20240601,3,5.0,Operating Margin,29.42,Percent,Monthly
+443,20240601,3,6.0,Revenue,186333.31,EUR,Monthly
+444,20240601,3,6.0,Operating Margin,38.37,Percent,Monthly
+445,20240601,3,7.0,Revenue,372481.61,EUR,Monthly
+446,20240601,3,7.0,Operating Margin,32.16,Percent,Monthly
+447,20240601,3,8.0,Revenue,264649.31,EUR,Monthly
+448,20240601,3,8.0,Operating Margin,32.41,Percent,Monthly
+449,20240601,4,1.0,Revenue,73616.62,EUR,Monthly
+450,20240601,4,1.0,Operating Margin,42.0,Percent,Monthly
+451,20240601,4,2.0,Revenue,95508.21,EUR,Monthly
+452,20240601,4,2.0,Operating Margin,39.18,Percent,Monthly
+453,20240601,4,3.0,Revenue,505330.0,EUR,Monthly
+454,20240601,4,3.0,Operating Margin,41.11,Percent,Monthly
+455,20240601,4,4.0,Revenue,405682.25,EUR,Monthly
+456,20240601,4,4.0,Operating Margin,29.27,Percent,Monthly
+457,20240601,4,5.0,Revenue,310657.31,EUR,Monthly
+458,20240601,4,5.0,Operating Margin,22.72,Percent,Monthly
+459,20240601,4,6.0,Revenue,115602.3,EUR,Monthly
+460,20240601,4,6.0,Operating Margin,36.89,Percent,Monthly
+461,20240601,4,7.0,Revenue,219198.98,EUR,Monthly
+462,20240601,4,7.0,Operating Margin,33.16,Percent,Monthly
+463,20240601,4,8.0,Revenue,171329.19,EUR,Monthly
+464,20240601,4,8.0,Operating Margin,30.83,Percent,Monthly
+465,20240601,5,1.0,Revenue,32636.49,EUR,Monthly
+466,20240601,5,1.0,Operating Margin,35.74,Percent,Monthly
+467,20240601,5,2.0,Revenue,41554.46,EUR,Monthly
+468,20240601,5,2.0,Operating Margin,25.62,Percent,Monthly
+469,20240601,5,3.0,Revenue,203620.66,EUR,Monthly
+470,20240601,5,3.0,Operating Margin,33.78,Percent,Monthly
+471,20240601,5,4.0,Revenue,172598.16,EUR,Monthly
+472,20240601,5,4.0,Operating Margin,14.07,Percent,Monthly
+473,20240601,5,5.0,Revenue,129859.53,EUR,Monthly
+474,20240601,5,5.0,Operating Margin,8.99,Percent,Monthly
+475,20240601,5,6.0,Revenue,47423.26,EUR,Monthly
+476,20240601,5,6.0,Operating Margin,21.4,Percent,Monthly
+477,20240601,5,7.0,Revenue,93719.11,EUR,Monthly
+478,20240601,5,7.0,Operating Margin,16.32,Percent,Monthly
+479,20240601,5,8.0,Revenue,71831.97,EUR,Monthly
+480,20240601,5,8.0,Operating Margin,17.44,Percent,Monthly
+481,20240701,1,1.0,Revenue,234509.83,EUR,Monthly
+482,20240701,1,1.0,Operating Margin,38.66,Percent,Monthly
+483,20240701,1,2.0,Revenue,277883.88,EUR,Monthly
+484,20240701,1,2.0,Operating Margin,34.77,Percent,Monthly
+485,20240701,1,3.0,Revenue,1573828.12,EUR,Monthly
+486,20240701,1,3.0,Operating Margin,34.53,Percent,Monthly
+487,20240701,1,4.0,Revenue,1203665.12,EUR,Monthly
+488,20240701,1,4.0,Operating Margin,24.48,Percent,Monthly
+489,20240701,1,5.0,Revenue,926513.9,EUR,Monthly
+490,20240701,1,5.0,Operating Margin,19.08,Percent,Monthly
+491,20240701,1,6.0,Revenue,335899.44,EUR,Monthly
+492,20240701,1,6.0,Operating Margin,32.52,Percent,Monthly
+493,20240701,1,7.0,Revenue,688197.02,EUR,Monthly
+494,20240701,1,7.0,Operating Margin,28.95,Percent,Monthly
+495,20240701,1,8.0,Revenue,533992.74,EUR,Monthly
+496,20240701,1,8.0,Operating Margin,26.19,Percent,Monthly
+497,20240701,2,1.0,Revenue,168705.76,EUR,Monthly
+498,20240701,2,1.0,Operating Margin,42.0,Percent,Monthly
+499,20240701,2,2.0,Revenue,204006.84,EUR,Monthly
+500,20240701,2,2.0,Operating Margin,42.0,Percent,Monthly
+501,20240701,2,3.0,Revenue,1005678.24,EUR,Monthly
+502,20240701,2,3.0,Operating Margin,40.13,Percent,Monthly
+503,20240701,2,4.0,Revenue,881757.44,EUR,Monthly
+504,20240701,2,4.0,Operating Margin,34.45,Percent,Monthly
+505,20240701,2,5.0,Revenue,661834.61,EUR,Monthly
+506,20240701,2,5.0,Operating Margin,39.37,Percent,Monthly
+507,20240701,2,6.0,Revenue,241939.94,EUR,Monthly
+508,20240701,2,6.0,Operating Margin,42.0,Percent,Monthly
+509,20240701,2,7.0,Revenue,461241.5,EUR,Monthly
+510,20240701,2,7.0,Operating Margin,37.19,Percent,Monthly
+511,20240701,2,8.0,Revenue,383614.14,EUR,Monthly
+512,20240701,2,8.0,Operating Margin,34.24,Percent,Monthly
+513,20240701,3,1.0,Revenue,124672.44,EUR,Monthly
+514,20240701,3,1.0,Operating Margin,42.0,Percent,Monthly
+515,20240701,3,2.0,Revenue,151132.94,EUR,Monthly
+516,20240701,3,2.0,Operating Margin,38.93,Percent,Monthly
+517,20240701,3,3.0,Revenue,798288.62,EUR,Monthly
+518,20240701,3,3.0,Operating Margin,38.2,Percent,Monthly
+519,20240701,3,4.0,Revenue,644000.2,EUR,Monthly
+520,20240701,3,4.0,Operating Margin,29.91,Percent,Monthly
+521,20240701,3,5.0,Revenue,494863.4,EUR,Monthly
+522,20240701,3,5.0,Operating Margin,21.7,Percent,Monthly
+523,20240701,3,6.0,Revenue,185053.57,EUR,Monthly
+524,20240701,3,6.0,Operating Margin,34.86,Percent,Monthly
+525,20240701,3,7.0,Revenue,374655.95,EUR,Monthly
+526,20240701,3,7.0,Operating Margin,31.98,Percent,Monthly
+527,20240701,3,8.0,Revenue,271505.85,EUR,Monthly
+528,20240701,3,8.0,Operating Margin,27.14,Percent,Monthly
+529,20240701,4,1.0,Revenue,73984.23,EUR,Monthly
+530,20240701,4,1.0,Operating Margin,42.0,Percent,Monthly
+531,20240701,4,2.0,Revenue,94474.45,EUR,Monthly
+532,20240701,4,2.0,Operating Margin,41.85,Percent,Monthly
+533,20240701,4,3.0,Revenue,475435.2,EUR,Monthly
+534,20240701,4,3.0,Operating Margin,40.53,Percent,Monthly
+535,20240701,4,4.0,Revenue,406254.2,EUR,Monthly
+536,20240701,4,4.0,Operating Margin,33.62,Percent,Monthly
+537,20240701,4,5.0,Revenue,295344.43,EUR,Monthly
+538,20240701,4,5.0,Operating Margin,30.24,Percent,Monthly
+539,20240701,4,6.0,Revenue,117422.67,EUR,Monthly
+540,20240701,4,6.0,Operating Margin,40.89,Percent,Monthly
+541,20240701,4,7.0,Revenue,229016.19,EUR,Monthly
+542,20240701,4,7.0,Operating Margin,36.5,Percent,Monthly
+543,20240701,4,8.0,Revenue,167859.87,EUR,Monthly
+544,20240701,4,8.0,Operating Margin,32.12,Percent,Monthly
+545,20240701,5,1.0,Revenue,33093.96,EUR,Monthly
+546,20240701,5,1.0,Operating Margin,41.95,Percent,Monthly
+547,20240701,5,2.0,Revenue,39286.6,EUR,Monthly
+548,20240701,5,2.0,Operating Margin,33.62,Percent,Monthly
+549,20240701,5,3.0,Revenue,200167.95,EUR,Monthly
+550,20240701,5,3.0,Operating Margin,36.88,Percent,Monthly
+551,20240701,5,4.0,Revenue,179710.76,EUR,Monthly
+552,20240701,5,4.0,Operating Margin,19.87,Percent,Monthly
+553,20240701,5,5.0,Revenue,125287.51,EUR,Monthly
+554,20240701,5,5.0,Operating Margin,18.47,Percent,Monthly
+555,20240701,5,6.0,Revenue,48044.36,EUR,Monthly
+556,20240701,5,6.0,Operating Margin,34.09,Percent,Monthly
+557,20240701,5,7.0,Revenue,100244.56,EUR,Monthly
+558,20240701,5,7.0,Operating Margin,26.31,Percent,Monthly
+559,20240701,5,8.0,Revenue,69491.63,EUR,Monthly
+560,20240701,5,8.0,Operating Margin,22.61,Percent,Monthly
+561,20240801,1,1.0,Revenue,228179.53,EUR,Monthly
+562,20240801,1,1.0,Operating Margin,40.69,Percent,Monthly
+563,20240801,1,2.0,Revenue,286369.61,EUR,Monthly
+564,20240801,1,2.0,Operating Margin,37.17,Percent,Monthly
+565,20240801,1,3.0,Revenue,1447498.16,EUR,Monthly
+566,20240801,1,3.0,Operating Margin,35.39,Percent,Monthly
+567,20240801,1,4.0,Revenue,1243651.13,EUR,Monthly
+568,20240801,1,4.0,Operating Margin,25.98,Percent,Monthly
+569,20240801,1,5.0,Revenue,934954.15,EUR,Monthly
+570,20240801,1,5.0,Operating Margin,22.14,Percent,Monthly
+571,20240801,1,6.0,Revenue,347564.81,EUR,Monthly
+572,20240801,1,6.0,Operating Margin,31.28,Percent,Monthly
+573,20240801,1,7.0,Revenue,708048.83,EUR,Monthly
+574,20240801,1,7.0,Operating Margin,27.56,Percent,Monthly
+575,20240801,1,8.0,Revenue,523897.7,EUR,Monthly
+576,20240801,1,8.0,Operating Margin,25.12,Percent,Monthly
+577,20240801,2,1.0,Revenue,159561.16,EUR,Monthly
+578,20240801,2,1.0,Operating Margin,42.0,Percent,Monthly
+579,20240801,2,2.0,Revenue,201714.85,EUR,Monthly
+580,20240801,2,2.0,Operating Margin,42.0,Percent,Monthly
+581,20240801,2,3.0,Revenue,1056760.0,EUR,Monthly
+582,20240801,2,3.0,Operating Margin,40.88,Percent,Monthly
+583,20240801,2,4.0,Revenue,899099.06,EUR,Monthly
+584,20240801,2,4.0,Operating Margin,36.75,Percent,Monthly
+585,20240801,2,5.0,Revenue,633187.41,EUR,Monthly
+586,20240801,2,5.0,Operating Margin,36.82,Percent,Monthly
+587,20240801,2,6.0,Revenue,247906.54,EUR,Monthly
+588,20240801,2,6.0,Operating Margin,41.48,Percent,Monthly
+589,20240801,2,7.0,Revenue,504899.63,EUR,Monthly
+590,20240801,2,7.0,Operating Margin,38.01,Percent,Monthly
+591,20240801,2,8.0,Revenue,357964.95,EUR,Monthly
+592,20240801,2,8.0,Operating Margin,33.33,Percent,Monthly
+593,20240801,3,1.0,Revenue,122592.82,EUR,Monthly
+594,20240801,3,1.0,Operating Margin,42.0,Percent,Monthly
+595,20240801,3,2.0,Revenue,160136.67,EUR,Monthly
+596,20240801,3,2.0,Operating Margin,39.65,Percent,Monthly
+597,20240801,3,3.0,Revenue,838586.59,EUR,Monthly
+598,20240801,3,3.0,Operating Margin,37.89,Percent,Monthly
+599,20240801,3,4.0,Revenue,666196.04,EUR,Monthly
+600,20240801,3,4.0,Operating Margin,30.11,Percent,Monthly
+601,20240801,3,5.0,Revenue,478177.0,EUR,Monthly
+602,20240801,3,5.0,Operating Margin,27.72,Percent,Monthly
+603,20240801,3,6.0,Revenue,181697.94,EUR,Monthly
+604,20240801,3,6.0,Operating Margin,38.04,Percent,Monthly
+605,20240801,3,7.0,Revenue,363717.75,EUR,Monthly
+606,20240801,3,7.0,Operating Margin,33.64,Percent,Monthly
+607,20240801,3,8.0,Revenue,279632.64,EUR,Monthly
+608,20240801,3,8.0,Operating Margin,30.06,Percent,Monthly
+609,20240801,4,1.0,Revenue,70707.7,EUR,Monthly
+610,20240801,4,1.0,Operating Margin,42.0,Percent,Monthly
+611,20240801,4,2.0,Revenue,92886.02,EUR,Monthly
+612,20240801,4,2.0,Operating Margin,42.0,Percent,Monthly
+613,20240801,4,3.0,Revenue,468302.9,EUR,Monthly
+614,20240801,4,3.0,Operating Margin,40.91,Percent,Monthly
+615,20240801,4,4.0,Revenue,400786.98,EUR,Monthly
+616,20240801,4,4.0,Operating Margin,30.98,Percent,Monthly
+617,20240801,4,5.0,Revenue,284939.12,EUR,Monthly
+618,20240801,4,5.0,Operating Margin,28.4,Percent,Monthly
+619,20240801,4,6.0,Revenue,108105.54,EUR,Monthly
+620,20240801,4,6.0,Operating Margin,40.06,Percent,Monthly
+621,20240801,4,7.0,Revenue,226577.97,EUR,Monthly
+622,20240801,4,7.0,Operating Margin,35.0,Percent,Monthly
+623,20240801,4,8.0,Revenue,160204.6,EUR,Monthly
+624,20240801,4,8.0,Operating Margin,31.64,Percent,Monthly
+625,20240801,5,1.0,Revenue,32415.53,EUR,Monthly
+626,20240801,5,1.0,Operating Margin,29.58,Percent,Monthly
+627,20240801,5,2.0,Revenue,40780.6,EUR,Monthly
+628,20240801,5,2.0,Operating Margin,21.05,Percent,Monthly
+629,20240801,5,3.0,Revenue,198134.84,EUR,Monthly
+630,20240801,5,3.0,Operating Margin,32.79,Percent,Monthly
+631,20240801,5,4.0,Revenue,177324.22,EUR,Monthly
+632,20240801,5,4.0,Operating Margin,8.61,Percent,Monthly
+633,20240801,5,5.0,Revenue,122701.42,EUR,Monthly
+634,20240801,5,5.0,Operating Margin,9.25,Percent,Monthly
+635,20240801,5,6.0,Revenue,49080.59,EUR,Monthly
+636,20240801,5,6.0,Operating Margin,18.26,Percent,Monthly
+637,20240801,5,7.0,Revenue,92250.14,EUR,Monthly
+638,20240801,5,7.0,Operating Margin,8.53,Percent,Monthly
+639,20240801,5,8.0,Revenue,72816.43,EUR,Monthly
+640,20240801,5,8.0,Operating Margin,12.52,Percent,Monthly
+641,20240901,1,1.0,Revenue,244965.26,EUR,Monthly
+642,20240901,1,1.0,Operating Margin,42.0,Percent,Monthly
+643,20240901,1,2.0,Revenue,305814.87,EUR,Monthly
+644,20240901,1,2.0,Operating Margin,35.71,Percent,Monthly
+645,20240901,1,3.0,Revenue,1517217.55,EUR,Monthly
+646,20240901,1,3.0,Operating Margin,34.44,Percent,Monthly
+647,20240901,1,4.0,Revenue,1404760.29,EUR,Monthly
+648,20240901,1,4.0,Operating Margin,25.47,Percent,Monthly
+649,20240901,1,5.0,Revenue,958771.63,EUR,Monthly
+650,20240901,1,5.0,Operating Margin,20.39,Percent,Monthly
+651,20240901,1,6.0,Revenue,360423.75,EUR,Monthly
+652,20240901,1,6.0,Operating Margin,31.01,Percent,Monthly
+653,20240901,1,7.0,Revenue,741039.34,EUR,Monthly
+654,20240901,1,7.0,Operating Margin,26.93,Percent,Monthly
+655,20240901,1,8.0,Revenue,575219.53,EUR,Monthly
+656,20240901,1,8.0,Operating Margin,26.85,Percent,Monthly
+657,20240901,2,1.0,Revenue,177651.21,EUR,Monthly
+658,20240901,2,1.0,Operating Margin,42.0,Percent,Monthly
+659,20240901,2,2.0,Revenue,208469.93,EUR,Monthly
+660,20240901,2,2.0,Operating Margin,42.0,Percent,Monthly
+661,20240901,2,3.0,Revenue,1086318.38,EUR,Monthly
+662,20240901,2,3.0,Operating Margin,42.0,Percent,Monthly
+663,20240901,2,4.0,Revenue,924378.44,EUR,Monthly
+664,20240901,2,4.0,Operating Margin,34.21,Percent,Monthly
+665,20240901,2,5.0,Revenue,695005.46,EUR,Monthly
+666,20240901,2,5.0,Operating Margin,35.26,Percent,Monthly
+667,20240901,2,6.0,Revenue,241332.16,EUR,Monthly
+668,20240901,2,6.0,Operating Margin,40.96,Percent,Monthly
+669,20240901,2,7.0,Revenue,516125.5,EUR,Monthly
+670,20240901,2,7.0,Operating Margin,39.27,Percent,Monthly
+671,20240901,2,8.0,Revenue,365684.82,EUR,Monthly
+672,20240901,2,8.0,Operating Margin,32.24,Percent,Monthly
+673,20240901,3,1.0,Revenue,125522.56,EUR,Monthly
+674,20240901,3,1.0,Operating Margin,42.0,Percent,Monthly
+675,20240901,3,2.0,Revenue,159226.31,EUR,Monthly
+676,20240901,3,2.0,Operating Margin,41.01,Percent,Monthly
+677,20240901,3,3.0,Revenue,874150.54,EUR,Monthly
+678,20240901,3,3.0,Operating Margin,40.93,Percent,Monthly
+679,20240901,3,4.0,Revenue,686649.83,EUR,Monthly
+680,20240901,3,4.0,Operating Margin,29.35,Percent,Monthly
+681,20240901,3,5.0,Revenue,536593.85,EUR,Monthly
+682,20240901,3,5.0,Operating Margin,28.93,Percent,Monthly
+683,20240901,3,6.0,Revenue,192786.57,EUR,Monthly
+684,20240901,3,6.0,Operating Margin,37.45,Percent,Monthly
+685,20240901,3,7.0,Revenue,389980.89,EUR,Monthly
+686,20240901,3,7.0,Operating Margin,32.86,Percent,Monthly
+687,20240901,3,8.0,Revenue,293725.44,EUR,Monthly
+688,20240901,3,8.0,Operating Margin,28.76,Percent,Monthly
+689,20240901,4,1.0,Revenue,76342.47,EUR,Monthly
+690,20240901,4,1.0,Operating Margin,42.0,Percent,Monthly
+691,20240901,4,2.0,Revenue,94289.19,EUR,Monthly
+692,20240901,4,2.0,Operating Margin,41.14,Percent,Monthly
+693,20240901,4,3.0,Revenue,483304.33,EUR,Monthly
+694,20240901,4,3.0,Operating Margin,42.0,Percent,Monthly
+695,20240901,4,4.0,Revenue,430166.67,EUR,Monthly
+696,20240901,4,4.0,Operating Margin,32.22,Percent,Monthly
+697,20240901,4,5.0,Revenue,322826.55,EUR,Monthly
+698,20240901,4,5.0,Operating Margin,28.63,Percent,Monthly
+699,20240901,4,6.0,Revenue,115979.88,EUR,Monthly
+700,20240901,4,6.0,Operating Margin,40.27,Percent,Monthly
+701,20240901,4,7.0,Revenue,232051.84,EUR,Monthly
+702,20240901,4,7.0,Operating Margin,33.93,Percent,Monthly
+703,20240901,4,8.0,Revenue,172798.82,EUR,Monthly
+704,20240901,4,8.0,Operating Margin,31.67,Percent,Monthly
+705,20240901,5,1.0,Revenue,33511.45,EUR,Monthly
+706,20240901,5,1.0,Operating Margin,30.52,Percent,Monthly
+707,20240901,5,2.0,Revenue,42155.86,EUR,Monthly
+708,20240901,5,2.0,Operating Margin,20.64,Percent,Monthly
+709,20240901,5,3.0,Revenue,226626.35,EUR,Monthly
+710,20240901,5,3.0,Operating Margin,34.23,Percent,Monthly
+711,20240901,5,4.0,Revenue,182692.77,EUR,Monthly
+712,20240901,5,4.0,Operating Margin,9.74,Percent,Monthly
+713,20240901,5,5.0,Revenue,138284.23,EUR,Monthly
+714,20240901,5,5.0,Operating Margin,8.73,Percent,Monthly
+715,20240901,5,6.0,Revenue,48735.75,EUR,Monthly
+716,20240901,5,6.0,Operating Margin,21.14,Percent,Monthly
+717,20240901,5,7.0,Revenue,98550.26,EUR,Monthly
+718,20240901,5,7.0,Operating Margin,9.79,Percent,Monthly
+719,20240901,5,8.0,Revenue,74869.17,EUR,Monthly
+720,20240901,5,8.0,Operating Margin,10.98,Percent,Monthly
+721,20241001,1,1.0,Revenue,240802.38,EUR,Monthly
+722,20241001,1,1.0,Operating Margin,42.0,Percent,Monthly
+723,20241001,1,2.0,Revenue,318341.22,EUR,Monthly
+724,20241001,1,2.0,Operating Margin,35.63,Percent,Monthly
+725,20241001,1,3.0,Revenue,1718182.3,EUR,Monthly
+726,20241001,1,3.0,Operating Margin,35.96,Percent,Monthly
+727,20241001,1,4.0,Revenue,1454813.98,EUR,Monthly
+728,20241001,1,4.0,Operating Margin,25.84,Percent,Monthly
+729,20241001,1,5.0,Revenue,996046.82,EUR,Monthly
+730,20241001,1,5.0,Operating Margin,23.97,Percent,Monthly
+731,20241001,1,6.0,Revenue,357561.63,EUR,Monthly
+732,20241001,1,6.0,Operating Margin,32.4,Percent,Monthly
+733,20241001,1,7.0,Revenue,767251.75,EUR,Monthly
+734,20241001,1,7.0,Operating Margin,30.01,Percent,Monthly
+735,20241001,1,8.0,Revenue,568214.13,EUR,Monthly
+736,20241001,1,8.0,Operating Margin,24.08,Percent,Monthly
+737,20241001,2,1.0,Revenue,176681.31,EUR,Monthly
+738,20241001,2,1.0,Operating Margin,42.0,Percent,Monthly
+739,20241001,2,2.0,Revenue,216213.1,EUR,Monthly
+740,20241001,2,2.0,Operating Margin,42.0,Percent,Monthly
+741,20241001,2,3.0,Revenue,1123923.43,EUR,Monthly
+742,20241001,2,3.0,Operating Margin,42.0,Percent,Monthly
+743,20241001,2,4.0,Revenue,987799.38,EUR,Monthly
+744,20241001,2,4.0,Operating Margin,37.29,Percent,Monthly
+745,20241001,2,5.0,Revenue,724503.04,EUR,Monthly
+746,20241001,2,5.0,Operating Margin,37.17,Percent,Monthly
+747,20241001,2,6.0,Revenue,258281.19,EUR,Monthly
+748,20241001,2,6.0,Operating Margin,41.88,Percent,Monthly
+749,20241001,2,7.0,Revenue,521837.42,EUR,Monthly
+750,20241001,2,7.0,Operating Margin,36.77,Percent,Monthly
+751,20241001,2,8.0,Revenue,377069.94,EUR,Monthly
+752,20241001,2,8.0,Operating Margin,33.99,Percent,Monthly
+753,20241001,3,1.0,Revenue,140035.67,EUR,Monthly
+754,20241001,3,1.0,Operating Margin,42.0,Percent,Monthly
+755,20241001,3,2.0,Revenue,164836.51,EUR,Monthly
+756,20241001,3,2.0,Operating Margin,38.22,Percent,Monthly
+757,20241001,3,3.0,Revenue,867836.12,EUR,Monthly
+758,20241001,3,3.0,Operating Margin,37.91,Percent,Monthly
+759,20241001,3,4.0,Revenue,735551.94,EUR,Monthly
+760,20241001,3,4.0,Operating Margin,31.81,Percent,Monthly
+761,20241001,3,5.0,Revenue,534681.58,EUR,Monthly
+762,20241001,3,5.0,Operating Margin,25.95,Percent,Monthly
+763,20241001,3,6.0,Revenue,213273.13,EUR,Monthly
+764,20241001,3,6.0,Operating Margin,37.69,Percent,Monthly
+765,20241001,3,7.0,Revenue,423869.68,EUR,Monthly
+766,20241001,3,7.0,Operating Margin,32.91,Percent,Monthly
+767,20241001,3,8.0,Revenue,295011.23,EUR,Monthly
+768,20241001,3,8.0,Operating Margin,28.51,Percent,Monthly
+769,20241001,4,1.0,Revenue,84179.34,EUR,Monthly
+770,20241001,4,1.0,Operating Margin,42.0,Percent,Monthly
+771,20241001,4,2.0,Revenue,105030.63,EUR,Monthly
+772,20241001,4,2.0,Operating Margin,39.62,Percent,Monthly
+773,20241001,4,3.0,Revenue,506491.7,EUR,Monthly
+774,20241001,4,3.0,Operating Margin,39.46,Percent,Monthly
+775,20241001,4,4.0,Revenue,444531.96,EUR,Monthly
+776,20241001,4,4.0,Operating Margin,30.97,Percent,Monthly
+777,20241001,4,5.0,Revenue,325724.71,EUR,Monthly
+778,20241001,4,5.0,Operating Margin,24.63,Percent,Monthly
+779,20241001,4,6.0,Revenue,117550.23,EUR,Monthly
+780,20241001,4,6.0,Operating Margin,36.97,Percent,Monthly
+781,20241001,4,7.0,Revenue,239962.06,EUR,Monthly
+782,20241001,4,7.0,Operating Margin,33.6,Percent,Monthly
+783,20241001,4,8.0,Revenue,176483.74,EUR,Monthly
+784,20241001,4,8.0,Operating Margin,29.84,Percent,Monthly
+785,20241001,5,1.0,Revenue,33557.87,EUR,Monthly
+786,20241001,5,1.0,Operating Margin,39.05,Percent,Monthly
+787,20241001,5,2.0,Revenue,43122.87,EUR,Monthly
+788,20241001,5,2.0,Operating Margin,30.99,Percent,Monthly
+789,20241001,5,3.0,Revenue,230959.3,EUR,Monthly
+790,20241001,5,3.0,Operating Margin,34.56,Percent,Monthly
+791,20241001,5,4.0,Revenue,193076.5,EUR,Monthly
+792,20241001,5,4.0,Operating Margin,18.92,Percent,Monthly
+793,20241001,5,5.0,Revenue,134425.03,EUR,Monthly
+794,20241001,5,5.0,Operating Margin,11.32,Percent,Monthly
+795,20241001,5,6.0,Revenue,49838.54,EUR,Monthly
+796,20241001,5,6.0,Operating Margin,28.87,Percent,Monthly
+797,20241001,5,7.0,Revenue,98286.01,EUR,Monthly
+798,20241001,5,7.0,Operating Margin,25.84,Percent,Monthly
+799,20241001,5,8.0,Revenue,80470.2,EUR,Monthly
+800,20241001,5,8.0,Operating Margin,23.62,Percent,Monthly
+801,20241101,1,1.0,Revenue,265508.13,EUR,Monthly
+802,20241101,1,1.0,Operating Margin,42.0,Percent,Monthly
+803,20241101,1,2.0,Revenue,316254.33,EUR,Monthly
+804,20241101,1,2.0,Operating Margin,38.43,Percent,Monthly
+805,20241101,1,3.0,Revenue,1632646.11,EUR,Monthly
+806,20241101,1,3.0,Operating Margin,36.09,Percent,Monthly
+807,20241101,1,4.0,Revenue,1420734.03,EUR,Monthly
+808,20241101,1,4.0,Operating Margin,29.15,Percent,Monthly
+809,20241101,1,5.0,Revenue,1022383.29,EUR,Monthly
+810,20241101,1,5.0,Operating Margin,25.86,Percent,Monthly
+811,20241101,1,6.0,Revenue,385578.99,EUR,Monthly
+812,20241101,1,6.0,Operating Margin,33.98,Percent,Monthly
+813,20241101,1,7.0,Revenue,781314.66,EUR,Monthly
+814,20241101,1,7.0,Operating Margin,31.61,Percent,Monthly
+815,20241101,1,8.0,Revenue,555264.97,EUR,Monthly
+816,20241101,1,8.0,Operating Margin,26.26,Percent,Monthly
+817,20241101,2,1.0,Revenue,176047.12,EUR,Monthly
+818,20241101,2,1.0,Operating Margin,42.0,Percent,Monthly
+819,20241101,2,2.0,Revenue,220503.7,EUR,Monthly
+820,20241101,2,2.0,Operating Margin,42.0,Percent,Monthly
+821,20241101,2,3.0,Revenue,1218683.99,EUR,Monthly
+822,20241101,2,3.0,Operating Margin,42.0,Percent,Monthly
+823,20241101,2,4.0,Revenue,1015052.32,EUR,Monthly
+824,20241101,2,4.0,Operating Margin,35.71,Percent,Monthly
+825,20241101,2,5.0,Revenue,706367.53,EUR,Monthly
+826,20241101,2,5.0,Operating Margin,35.11,Percent,Monthly
+827,20241101,2,6.0,Revenue,276232.9,EUR,Monthly
+828,20241101,2,6.0,Operating Margin,39.15,Percent,Monthly
+829,20241101,2,7.0,Revenue,552255.3,EUR,Monthly
+830,20241101,2,7.0,Operating Margin,37.68,Percent,Monthly
+831,20241101,2,8.0,Revenue,404707.74,EUR,Monthly
+832,20241101,2,8.0,Operating Margin,34.9,Percent,Monthly
+833,20241101,3,1.0,Revenue,144263.34,EUR,Monthly
+834,20241101,3,1.0,Operating Margin,42.0,Percent,Monthly
+835,20241101,3,2.0,Revenue,180993.31,EUR,Monthly
+836,20241101,3,2.0,Operating Margin,37.58,Percent,Monthly
+837,20241101,3,3.0,Revenue,890449.4,EUR,Monthly
+838,20241101,3,3.0,Operating Margin,40.3,Percent,Monthly
+839,20241101,3,4.0,Revenue,788065.0,EUR,Monthly
+840,20241101,3,4.0,Operating Margin,31.14,Percent,Monthly
+841,20241101,3,5.0,Revenue,564159.99,EUR,Monthly
+842,20241101,3,5.0,Operating Margin,29.1,Percent,Monthly
+843,20241101,3,6.0,Revenue,198728.47,EUR,Monthly
+844,20241101,3,6.0,Operating Margin,37.89,Percent,Monthly
+845,20241101,3,7.0,Revenue,433732.6,EUR,Monthly
+846,20241101,3,7.0,Operating Margin,34.74,Percent,Monthly
+847,20241101,3,8.0,Revenue,331765.14,EUR,Monthly
+848,20241101,3,8.0,Operating Margin,29.11,Percent,Monthly
+849,20241101,4,1.0,Revenue,84106.06,EUR,Monthly
+850,20241101,4,1.0,Operating Margin,42.0,Percent,Monthly
+851,20241101,4,2.0,Revenue,100214.75,EUR,Monthly
+852,20241101,4,2.0,Operating Margin,42.0,Percent,Monthly
+853,20241101,4,3.0,Revenue,511644.3,EUR,Monthly
+854,20241101,4,3.0,Operating Margin,40.54,Percent,Monthly
+855,20241101,4,4.0,Revenue,439940.83,EUR,Monthly
+856,20241101,4,4.0,Operating Margin,33.27,Percent,Monthly
+857,20241101,4,5.0,Revenue,330069.17,EUR,Monthly
+858,20241101,4,5.0,Operating Margin,28.67,Percent,Monthly
+859,20241101,4,6.0,Revenue,129988.04,EUR,Monthly
+860,20241101,4,6.0,Operating Margin,40.45,Percent,Monthly
+861,20241101,4,7.0,Revenue,243699.17,EUR,Monthly
+862,20241101,4,7.0,Operating Margin,37.54,Percent,Monthly
+863,20241101,4,8.0,Revenue,187651.62,EUR,Monthly
+864,20241101,4,8.0,Operating Margin,33.18,Percent,Monthly
+865,20241101,5,1.0,Revenue,37148.4,EUR,Monthly
+866,20241101,5,1.0,Operating Margin,38.88,Percent,Monthly
+867,20241101,5,2.0,Revenue,43152.18,EUR,Monthly
+868,20241101,5,2.0,Operating Margin,32.31,Percent,Monthly
+869,20241101,5,3.0,Revenue,242044.87,EUR,Monthly
+870,20241101,5,3.0,Operating Margin,34.38,Percent,Monthly
+871,20241101,5,4.0,Revenue,202848.3,EUR,Monthly
+872,20241101,5,4.0,Operating Margin,21.04,Percent,Monthly
+873,20241101,5,5.0,Revenue,140812.08,EUR,Monthly
+874,20241101,5,5.0,Operating Margin,15.32,Percent,Monthly
+875,20241101,5,6.0,Revenue,51560.82,EUR,Monthly
+876,20241101,5,6.0,Operating Margin,30.17,Percent,Monthly
+877,20241101,5,7.0,Revenue,105360.9,EUR,Monthly
+878,20241101,5,7.0,Operating Margin,27.27,Percent,Monthly
+879,20241101,5,8.0,Revenue,79948.16,EUR,Monthly
+880,20241101,5,8.0,Operating Margin,22.02,Percent,Monthly
+881,20241201,1,1.0,Revenue,279466.66,EUR,Monthly
+882,20241201,1,1.0,Operating Margin,42.0,Percent,Monthly
+883,20241201,1,2.0,Revenue,333884.11,EUR,Monthly
+884,20241201,1,2.0,Operating Margin,35.24,Percent,Monthly
+885,20241201,1,3.0,Revenue,1740813.66,EUR,Monthly
+886,20241201,1,3.0,Operating Margin,33.03,Percent,Monthly
+887,20241201,1,4.0,Revenue,1509006.26,EUR,Monthly
+888,20241201,1,4.0,Operating Margin,24.98,Percent,Monthly
+889,20241201,1,5.0,Revenue,1044115.55,EUR,Monthly
+890,20241201,1,5.0,Operating Margin,17.52,Percent,Monthly
+891,20241201,1,6.0,Revenue,402726.11,EUR,Monthly
+892,20241201,1,6.0,Operating Margin,29.75,Percent,Monthly
+893,20241201,1,7.0,Revenue,809746.06,EUR,Monthly
+894,20241201,1,7.0,Operating Margin,29.26,Percent,Monthly
+895,20241201,1,8.0,Revenue,609743.61,EUR,Monthly
+896,20241201,1,8.0,Operating Margin,25.94,Percent,Monthly
+897,20241201,2,1.0,Revenue,181448.19,EUR,Monthly
+898,20241201,2,1.0,Operating Margin,42.0,Percent,Monthly
+899,20241201,2,2.0,Revenue,228753.36,EUR,Monthly
+900,20241201,2,2.0,Operating Margin,42.0,Percent,Monthly
+901,20241201,2,3.0,Revenue,1231079.56,EUR,Monthly
+902,20241201,2,3.0,Operating Margin,42.0,Percent,Monthly
+903,20241201,2,4.0,Revenue,1015957.13,EUR,Monthly
+904,20241201,2,4.0,Operating Margin,35.16,Percent,Monthly
+905,20241201,2,5.0,Revenue,728127.97,EUR,Monthly
+906,20241201,2,5.0,Operating Margin,37.09,Percent,Monthly
+907,20241201,2,6.0,Revenue,286791.55,EUR,Monthly
+908,20241201,2,6.0,Operating Margin,41.23,Percent,Monthly
+909,20241201,2,7.0,Revenue,577231.63,EUR,Monthly
+910,20241201,2,7.0,Operating Margin,38.98,Percent,Monthly
+911,20241201,2,8.0,Revenue,410183.78,EUR,Monthly
+912,20241201,2,8.0,Operating Margin,35.07,Percent,Monthly
+913,20241201,3,1.0,Revenue,151466.53,EUR,Monthly
+914,20241201,3,1.0,Operating Margin,42.0,Percent,Monthly
+915,20241201,3,2.0,Revenue,174346.36,EUR,Monthly
+916,20241201,3,2.0,Operating Margin,41.17,Percent,Monthly
+917,20241201,3,3.0,Revenue,1006175.86,EUR,Monthly
+918,20241201,3,3.0,Operating Margin,39.99,Percent,Monthly
+919,20241201,3,4.0,Revenue,828018.48,EUR,Monthly
+920,20241201,3,4.0,Operating Margin,32.01,Percent,Monthly
+921,20241201,3,5.0,Revenue,570325.51,EUR,Monthly
+922,20241201,3,5.0,Operating Margin,30.37,Percent,Monthly
+923,20241201,3,6.0,Revenue,212460.1,EUR,Monthly
+924,20241201,3,6.0,Operating Margin,37.61,Percent,Monthly
+925,20241201,3,7.0,Revenue,430154.37,EUR,Monthly
+926,20241201,3,7.0,Operating Margin,35.91,Percent,Monthly
+927,20241201,3,8.0,Revenue,317388.44,EUR,Monthly
+928,20241201,3,8.0,Operating Margin,33.21,Percent,Monthly
+929,20241201,4,1.0,Revenue,87410.87,EUR,Monthly
+930,20241201,4,1.0,Operating Margin,42.0,Percent,Monthly
+931,20241201,4,2.0,Revenue,108012.11,EUR,Monthly
+932,20241201,4,2.0,Operating Margin,42.0,Percent,Monthly
+933,20241201,4,3.0,Revenue,588245.96,EUR,Monthly
+934,20241201,4,3.0,Operating Margin,42.0,Percent,Monthly
+935,20241201,4,4.0,Revenue,469178.25,EUR,Monthly
+936,20241201,4,4.0,Operating Margin,33.94,Percent,Monthly
+937,20241201,4,5.0,Revenue,354923.27,EUR,Monthly
+938,20241201,4,5.0,Operating Margin,31.12,Percent,Monthly
+939,20241201,4,6.0,Revenue,126553.76,EUR,Monthly
+940,20241201,4,6.0,Operating Margin,38.05,Percent,Monthly
+941,20241201,4,7.0,Revenue,247395.5,EUR,Monthly
+942,20241201,4,7.0,Operating Margin,35.64,Percent,Monthly
+943,20241201,4,8.0,Revenue,207029.67,EUR,Monthly
+944,20241201,4,8.0,Operating Margin,31.29,Percent,Monthly
+945,20241201,5,1.0,Revenue,37156.27,EUR,Monthly
+946,20241201,5,1.0,Operating Margin,42.0,Percent,Monthly
+947,20241201,5,2.0,Revenue,47506.34,EUR,Monthly
+948,20241201,5,2.0,Operating Margin,35.27,Percent,Monthly
+949,20241201,5,3.0,Revenue,234344.06,EUR,Monthly
+950,20241201,5,3.0,Operating Margin,36.96,Percent,Monthly
+951,20241201,5,4.0,Revenue,209617.81,EUR,Monthly
+952,20241201,5,4.0,Operating Margin,23.83,Percent,Monthly
+953,20241201,5,5.0,Revenue,156711.53,EUR,Monthly
+954,20241201,5,5.0,Operating Margin,22.55,Percent,Monthly
+955,20241201,5,6.0,Revenue,55163.42,EUR,Monthly
+956,20241201,5,6.0,Operating Margin,32.85,Percent,Monthly
+957,20241201,5,7.0,Revenue,108878.75,EUR,Monthly
+958,20241201,5,7.0,Operating Margin,30.24,Percent,Monthly
+959,20241201,5,8.0,Revenue,86760.92,EUR,Monthly
+960,20241201,5,8.0,Operating Margin,25.38,Percent,Monthly
+961,20250101,1,1.0,Revenue,236284.91,EUR,Monthly
+962,20250101,1,1.0,Operating Margin,39.31,Percent,Monthly
+963,20250101,1,2.0,Revenue,307345.43,EUR,Monthly
+964,20250101,1,2.0,Operating Margin,31.98,Percent,Monthly
+965,20250101,1,3.0,Revenue,1563962.5,EUR,Monthly
+966,20250101,1,3.0,Operating Margin,34.28,Percent,Monthly
+967,20250101,1,4.0,Revenue,1298208.49,EUR,Monthly
+968,20250101,1,4.0,Operating Margin,23.07,Percent,Monthly
+969,20250101,1,5.0,Revenue,1005501.71,EUR,Monthly
+970,20250101,1,5.0,Operating Margin,19.3,Percent,Monthly
+971,20250101,1,6.0,Revenue,384300.57,EUR,Monthly
+972,20250101,1,6.0,Operating Margin,30.45,Percent,Monthly
+973,20250101,1,7.0,Revenue,726855.43,EUR,Monthly
+974,20250101,1,7.0,Operating Margin,26.17,Percent,Monthly
+975,20250101,1,8.0,Revenue,564956.56,EUR,Monthly
+976,20250101,1,8.0,Operating Margin,24.76,Percent,Monthly
+977,20250101,2,1.0,Revenue,171475.61,EUR,Monthly
+978,20250101,2,1.0,Operating Margin,42.0,Percent,Monthly
+979,20250101,2,2.0,Revenue,209363.12,EUR,Monthly
+980,20250101,2,2.0,Operating Margin,42.0,Percent,Monthly
+981,20250101,2,3.0,Revenue,1052464.61,EUR,Monthly
+982,20250101,2,3.0,Operating Margin,40.64,Percent,Monthly
+983,20250101,2,4.0,Revenue,908516.0,EUR,Monthly
+984,20250101,2,4.0,Operating Margin,34.18,Percent,Monthly
+985,20250101,2,5.0,Revenue,672747.06,EUR,Monthly
+986,20250101,2,5.0,Operating Margin,37.15,Percent,Monthly
+987,20250101,2,6.0,Revenue,261658.57,EUR,Monthly
+988,20250101,2,6.0,Operating Margin,42.0,Percent,Monthly
+989,20250101,2,7.0,Revenue,487447.05,EUR,Monthly
+990,20250101,2,7.0,Operating Margin,39.93,Percent,Monthly
+991,20250101,2,8.0,Revenue,383127.95,EUR,Monthly
+992,20250101,2,8.0,Operating Margin,36.15,Percent,Monthly
+993,20250101,3,1.0,Revenue,129749.59,EUR,Monthly
+994,20250101,3,1.0,Operating Margin,42.0,Percent,Monthly
+995,20250101,3,2.0,Revenue,164568.14,EUR,Monthly
+996,20250101,3,2.0,Operating Margin,39.71,Percent,Monthly
+997,20250101,3,3.0,Revenue,840452.18,EUR,Monthly
+998,20250101,3,3.0,Operating Margin,40.91,Percent,Monthly
+999,20250101,3,4.0,Revenue,749641.29,EUR,Monthly
+1000,20250101,3,4.0,Operating Margin,33.1,Percent,Monthly
+1001,20250101,3,5.0,Revenue,544213.21,EUR,Monthly
+1002,20250101,3,5.0,Operating Margin,28.87,Percent,Monthly
+1003,20250101,3,6.0,Revenue,211478.64,EUR,Monthly
+1004,20250101,3,6.0,Operating Margin,38.29,Percent,Monthly
+1005,20250101,3,7.0,Revenue,413578.5,EUR,Monthly
+1006,20250101,3,7.0,Operating Margin,36.07,Percent,Monthly
+1007,20250101,3,8.0,Revenue,288402.12,EUR,Monthly
+1008,20250101,3,8.0,Operating Margin,28.82,Percent,Monthly
+1009,20250101,4,1.0,Revenue,76279.68,EUR,Monthly
+1010,20250101,4,1.0,Operating Margin,42.0,Percent,Monthly
+1011,20250101,4,2.0,Revenue,96391.06,EUR,Monthly
+1012,20250101,4,2.0,Operating Margin,40.33,Percent,Monthly
+1013,20250101,4,3.0,Revenue,503391.64,EUR,Monthly
+1014,20250101,4,3.0,Operating Margin,42.0,Percent,Monthly
+1015,20250101,4,4.0,Revenue,424302.75,EUR,Monthly
+1016,20250101,4,4.0,Operating Margin,30.75,Percent,Monthly
+1017,20250101,4,5.0,Revenue,311786.65,EUR,Monthly
+1018,20250101,4,5.0,Operating Margin,24.11,Percent,Monthly
+1019,20250101,4,6.0,Revenue,122755.29,EUR,Monthly
+1020,20250101,4,6.0,Operating Margin,38.38,Percent,Monthly
+1021,20250101,4,7.0,Revenue,239849.72,EUR,Monthly
+1022,20250101,4,7.0,Operating Margin,33.27,Percent,Monthly
+1023,20250101,4,8.0,Revenue,178767.07,EUR,Monthly
+1024,20250101,4,8.0,Operating Margin,33.18,Percent,Monthly
+1025,20250101,5,1.0,Revenue,34284.26,EUR,Monthly
+1026,20250101,5,1.0,Operating Margin,37.41,Percent,Monthly
+1027,20250101,5,2.0,Revenue,41984.65,EUR,Monthly
+1028,20250101,5,2.0,Operating Margin,32.73,Percent,Monthly
+1029,20250101,5,3.0,Revenue,211009.72,EUR,Monthly
+1030,20250101,5,3.0,Operating Margin,34.78,Percent,Monthly
+1031,20250101,5,4.0,Revenue,188053.88,EUR,Monthly
+1032,20250101,5,4.0,Operating Margin,17.55,Percent,Monthly
+1033,20250101,5,5.0,Revenue,138073.0,EUR,Monthly
+1034,20250101,5,5.0,Operating Margin,12.41,Percent,Monthly
+1035,20250101,5,6.0,Revenue,49034.68,EUR,Monthly
+1036,20250101,5,6.0,Operating Margin,26.33,Percent,Monthly
+1037,20250101,5,7.0,Revenue,99754.87,EUR,Monthly
+1038,20250101,5,7.0,Operating Margin,25.73,Percent,Monthly
+1039,20250101,5,8.0,Revenue,78641.5,EUR,Monthly
+1040,20250101,5,8.0,Operating Margin,21.69,Percent,Monthly
+1041,20250201,1,1.0,Revenue,246881.84,EUR,Monthly
+1042,20250201,1,1.0,Operating Margin,41.56,Percent,Monthly
+1043,20250201,1,2.0,Revenue,313413.65,EUR,Monthly
+1044,20250201,1,2.0,Operating Margin,33.46,Percent,Monthly
+1045,20250201,1,3.0,Revenue,1549648.3,EUR,Monthly
+1046,20250201,1,3.0,Operating Margin,34.71,Percent,Monthly
+1047,20250201,1,4.0,Revenue,1348386.17,EUR,Monthly
+1048,20250201,1,4.0,Operating Margin,24.6,Percent,Monthly
+1049,20250201,1,5.0,Revenue,989850.89,EUR,Monthly
+1050,20250201,1,5.0,Operating Margin,17.47,Percent,Monthly
+1051,20250201,1,6.0,Revenue,367050.29,EUR,Monthly
+1052,20250201,1,6.0,Operating Margin,29.33,Percent,Monthly
+1053,20250201,1,7.0,Revenue,723378.13,EUR,Monthly
+1054,20250201,1,7.0,Operating Margin,26.39,Percent,Monthly
+1055,20250201,1,8.0,Revenue,598999.72,EUR,Monthly
+1056,20250201,1,8.0,Operating Margin,26.26,Percent,Monthly
+1057,20250201,2,1.0,Revenue,179371.7,EUR,Monthly
+1058,20250201,2,1.0,Operating Margin,42.0,Percent,Monthly
+1059,20250201,2,2.0,Revenue,214992.67,EUR,Monthly
+1060,20250201,2,2.0,Operating Margin,42.0,Percent,Monthly
+1061,20250201,2,3.0,Revenue,1093640.8,EUR,Monthly
+1062,20250201,2,3.0,Operating Margin,39.98,Percent,Monthly
+1063,20250201,2,4.0,Revenue,954499.75,EUR,Monthly
+1064,20250201,2,4.0,Operating Margin,33.41,Percent,Monthly
+1065,20250201,2,5.0,Revenue,712290.99,EUR,Monthly
+1066,20250201,2,5.0,Operating Margin,37.5,Percent,Monthly
+1067,20250201,2,6.0,Revenue,257547.44,EUR,Monthly
+1068,20250201,2,6.0,Operating Margin,40.29,Percent,Monthly
+1069,20250201,2,7.0,Revenue,503524.6,EUR,Monthly
+1070,20250201,2,7.0,Operating Margin,37.49,Percent,Monthly
+1071,20250201,2,8.0,Revenue,383498.39,EUR,Monthly
+1072,20250201,2,8.0,Operating Margin,33.3,Percent,Monthly
+1073,20250201,3,1.0,Revenue,130661.42,EUR,Monthly
+1074,20250201,3,1.0,Operating Margin,42.0,Percent,Monthly
+1075,20250201,3,2.0,Revenue,165844.14,EUR,Monthly
+1076,20250201,3,2.0,Operating Margin,40.44,Percent,Monthly
+1077,20250201,3,3.0,Revenue,872831.69,EUR,Monthly
+1078,20250201,3,3.0,Operating Margin,40.08,Percent,Monthly
+1079,20250201,3,4.0,Revenue,724057.6,EUR,Monthly
+1080,20250201,3,4.0,Operating Margin,32.01,Percent,Monthly
+1081,20250201,3,5.0,Revenue,555095.7,EUR,Monthly
+1082,20250201,3,5.0,Operating Margin,27.33,Percent,Monthly
+1083,20250201,3,6.0,Revenue,211457.46,EUR,Monthly
+1084,20250201,3,6.0,Operating Margin,39.1,Percent,Monthly
+1085,20250201,3,7.0,Revenue,395757.59,EUR,Monthly
+1086,20250201,3,7.0,Operating Margin,35.11,Percent,Monthly
+1087,20250201,3,8.0,Revenue,326038.6,EUR,Monthly
+1088,20250201,3,8.0,Operating Margin,32.32,Percent,Monthly
+1089,20250201,4,1.0,Revenue,81274.45,EUR,Monthly
+1090,20250201,4,1.0,Operating Margin,42.0,Percent,Monthly
+1091,20250201,4,2.0,Revenue,98745.94,EUR,Monthly
+1092,20250201,4,2.0,Operating Margin,41.33,Percent,Monthly
+1093,20250201,4,3.0,Revenue,539549.77,EUR,Monthly
+1094,20250201,4,3.0,Operating Margin,41.36,Percent,Monthly
+1095,20250201,4,4.0,Revenue,452338.94,EUR,Monthly
+1096,20250201,4,4.0,Operating Margin,34.62,Percent,Monthly
+1097,20250201,4,5.0,Revenue,308810.28,EUR,Monthly
+1098,20250201,4,5.0,Operating Margin,28.8,Percent,Monthly
+1099,20250201,4,6.0,Revenue,117972.75,EUR,Monthly
+1100,20250201,4,6.0,Operating Margin,41.25,Percent,Monthly
+1101,20250201,4,7.0,Revenue,239056.45,EUR,Monthly
+1102,20250201,4,7.0,Operating Margin,35.67,Percent,Monthly
+1103,20250201,4,8.0,Revenue,188509.69,EUR,Monthly
+1104,20250201,4,8.0,Operating Margin,30.46,Percent,Monthly
+1105,20250201,5,1.0,Revenue,33643.5,EUR,Monthly
+1106,20250201,5,1.0,Operating Margin,39.6,Percent,Monthly
+1107,20250201,5,2.0,Revenue,43602.47,EUR,Monthly
+1108,20250201,5,2.0,Operating Margin,33.64,Percent,Monthly
+1109,20250201,5,3.0,Revenue,228257.74,EUR,Monthly
+1110,20250201,5,3.0,Operating Margin,38.46,Percent,Monthly
+1111,20250201,5,4.0,Revenue,194516.36,EUR,Monthly
+1112,20250201,5,4.0,Operating Margin,22.32,Percent,Monthly
+1113,20250201,5,5.0,Revenue,141732.69,EUR,Monthly
+1114,20250201,5,5.0,Operating Margin,14.23,Percent,Monthly
+1115,20250201,5,6.0,Revenue,52591.93,EUR,Monthly
+1116,20250201,5,6.0,Operating Margin,29.97,Percent,Monthly
+1117,20250201,5,7.0,Revenue,106068.07,EUR,Monthly
+1118,20250201,5,7.0,Operating Margin,25.95,Percent,Monthly
+1119,20250201,5,8.0,Revenue,81720.73,EUR,Monthly
+1120,20250201,5,8.0,Operating Margin,23.27,Percent,Monthly
+1121,20250301,1,1.0,Revenue,271184.6,EUR,Monthly
+1122,20250301,1,1.0,Operating Margin,39.54,Percent,Monthly
+1123,20250301,1,2.0,Revenue,311680.53,EUR,Monthly
+1124,20250301,1,2.0,Operating Margin,33.66,Percent,Monthly
+1125,20250301,1,3.0,Revenue,1745207.61,EUR,Monthly
+1126,20250301,1,3.0,Operating Margin,34.85,Percent,Monthly
+1127,20250301,1,4.0,Revenue,1413436.02,EUR,Monthly
+1128,20250301,1,4.0,Operating Margin,21.68,Percent,Monthly
+1129,20250301,1,5.0,Revenue,1093744.4,EUR,Monthly
+1130,20250301,1,5.0,Operating Margin,16.43,Percent,Monthly
+1131,20250301,1,6.0,Revenue,397028.79,EUR,Monthly
+1132,20250301,1,6.0,Operating Margin,31.48,Percent,Monthly
+1133,20250301,1,7.0,Revenue,769929.07,EUR,Monthly
+1134,20250301,1,7.0,Operating Margin,25.87,Percent,Monthly
+1135,20250301,1,8.0,Revenue,603866.45,EUR,Monthly
+1136,20250301,1,8.0,Operating Margin,23.06,Percent,Monthly
+1137,20250301,2,1.0,Revenue,182451.32,EUR,Monthly
+1138,20250301,2,1.0,Operating Margin,42.0,Percent,Monthly
+1139,20250301,2,2.0,Revenue,229344.53,EUR,Monthly
+1140,20250301,2,2.0,Operating Margin,42.0,Percent,Monthly
+1141,20250301,2,3.0,Revenue,1225370.79,EUR,Monthly
+1142,20250301,2,3.0,Operating Margin,40.96,Percent,Monthly
+1143,20250301,2,4.0,Revenue,946879.04,EUR,Monthly
+1144,20250301,2,4.0,Operating Margin,35.83,Percent,Monthly
+1145,20250301,2,5.0,Revenue,686241.36,EUR,Monthly
+1146,20250301,2,5.0,Operating Margin,38.89,Percent,Monthly
+1147,20250301,2,6.0,Revenue,274507.79,EUR,Monthly
+1148,20250301,2,6.0,Operating Margin,42.0,Percent,Monthly
+1149,20250301,2,7.0,Revenue,560308.0,EUR,Monthly
+1150,20250301,2,7.0,Operating Margin,37.17,Percent,Monthly
+1151,20250301,2,8.0,Revenue,423396.89,EUR,Monthly
+1152,20250301,2,8.0,Operating Margin,36.76,Percent,Monthly
+1153,20250301,3,1.0,Revenue,142267.27,EUR,Monthly
+1154,20250301,3,1.0,Operating Margin,42.0,Percent,Monthly
+1155,20250301,3,2.0,Revenue,177674.32,EUR,Monthly
+1156,20250301,3,2.0,Operating Margin,41.09,Percent,Monthly
+1157,20250301,3,3.0,Revenue,889125.71,EUR,Monthly
+1158,20250301,3,3.0,Operating Margin,37.18,Percent,Monthly
+1159,20250301,3,4.0,Revenue,762089.83,EUR,Monthly
+1160,20250301,3,4.0,Operating Margin,27.8,Percent,Monthly
+1161,20250301,3,5.0,Revenue,559492.37,EUR,Monthly
+1162,20250301,3,5.0,Operating Margin,26.8,Percent,Monthly
+1163,20250301,3,6.0,Revenue,224294.81,EUR,Monthly
+1164,20250301,3,6.0,Operating Margin,37.87,Percent,Monthly
+1165,20250301,3,7.0,Revenue,432542.98,EUR,Monthly
+1166,20250301,3,7.0,Operating Margin,31.89,Percent,Monthly
+1167,20250301,3,8.0,Revenue,323530.36,EUR,Monthly
+1168,20250301,3,8.0,Operating Margin,30.58,Percent,Monthly
+1169,20250301,4,1.0,Revenue,83138.41,EUR,Monthly
+1170,20250301,4,1.0,Operating Margin,42.0,Percent,Monthly
+1171,20250301,4,2.0,Revenue,106124.47,EUR,Monthly
+1172,20250301,4,2.0,Operating Margin,41.53,Percent,Monthly
+1173,20250301,4,3.0,Revenue,554155.09,EUR,Monthly
+1174,20250301,4,3.0,Operating Margin,42.0,Percent,Monthly
+1175,20250301,4,4.0,Revenue,475953.16,EUR,Monthly
+1176,20250301,4,4.0,Operating Margin,34.09,Percent,Monthly
+1177,20250301,4,5.0,Revenue,335534.32,EUR,Monthly
+1178,20250301,4,5.0,Operating Margin,27.53,Percent,Monthly
+1179,20250301,4,6.0,Revenue,120315.67,EUR,Monthly
+1180,20250301,4,6.0,Operating Margin,37.45,Percent,Monthly
+1181,20250301,4,7.0,Revenue,250330.34,EUR,Monthly
+1182,20250301,4,7.0,Operating Margin,33.32,Percent,Monthly
+1183,20250301,4,8.0,Revenue,192133.22,EUR,Monthly
+1184,20250301,4,8.0,Operating Margin,31.01,Percent,Monthly
+1185,20250301,5,1.0,Revenue,34096.0,EUR,Monthly
+1186,20250301,5,1.0,Operating Margin,37.08,Percent,Monthly
+1187,20250301,5,2.0,Revenue,43529.01,EUR,Monthly
+1188,20250301,5,2.0,Operating Margin,28.74,Percent,Monthly
+1189,20250301,5,3.0,Revenue,242332.13,EUR,Monthly
+1190,20250301,5,3.0,Operating Margin,33.36,Percent,Monthly
+1191,20250301,5,4.0,Revenue,197263.77,EUR,Monthly
+1192,20250301,5,4.0,Operating Margin,13.59,Percent,Monthly
+1193,20250301,5,5.0,Revenue,145276.13,EUR,Monthly
+1194,20250301,5,5.0,Operating Margin,8.98,Percent,Monthly
+1195,20250301,5,6.0,Revenue,53176.54,EUR,Monthly
+1196,20250301,5,6.0,Operating Margin,26.15,Percent,Monthly
+1197,20250301,5,7.0,Revenue,105444.15,EUR,Monthly
+1198,20250301,5,7.0,Operating Margin,18.71,Percent,Monthly
+1199,20250301,5,8.0,Revenue,80660.89,EUR,Monthly
+1200,20250301,5,8.0,Operating Margin,20.79,Percent,Monthly
+1201,20250401,1,1.0,Revenue,256364.77,EUR,Monthly
+1202,20250401,1,1.0,Operating Margin,39.7,Percent,Monthly
+1203,20250401,1,2.0,Revenue,336949.52,EUR,Monthly
+1204,20250401,1,2.0,Operating Margin,36.42,Percent,Monthly
+1205,20250401,1,3.0,Revenue,1784159.16,EUR,Monthly
+1206,20250401,1,3.0,Operating Margin,35.83,Percent,Monthly
+1207,20250401,1,4.0,Revenue,1546110.29,EUR,Monthly
+1208,20250401,1,4.0,Operating Margin,26.24,Percent,Monthly
+1209,20250401,1,5.0,Revenue,1035423.67,EUR,Monthly
+1210,20250401,1,5.0,Operating Margin,19.81,Percent,Monthly
+1211,20250401,1,6.0,Revenue,397437.51,EUR,Monthly
+1212,20250401,1,6.0,Operating Margin,33.39,Percent,Monthly
+1213,20250401,1,7.0,Revenue,800629.01,EUR,Monthly
+1214,20250401,1,7.0,Operating Margin,27.42,Percent,Monthly
+1215,20250401,1,8.0,Revenue,619981.48,EUR,Monthly
+1216,20250401,1,8.0,Operating Margin,26.18,Percent,Monthly
+1217,20250401,2,1.0,Revenue,189917.71,EUR,Monthly
+1218,20250401,2,1.0,Operating Margin,42.0,Percent,Monthly
+1219,20250401,2,2.0,Revenue,230678.69,EUR,Monthly
+1220,20250401,2,2.0,Operating Margin,42.0,Percent,Monthly
+1221,20250401,2,3.0,Revenue,1234930.24,EUR,Monthly
+1222,20250401,2,3.0,Operating Margin,42.0,Percent,Monthly
+1223,20250401,2,4.0,Revenue,973830.21,EUR,Monthly
+1224,20250401,2,4.0,Operating Margin,37.39,Percent,Monthly
+1225,20250401,2,5.0,Revenue,741238.87,EUR,Monthly
+1226,20250401,2,5.0,Operating Margin,39.59,Percent,Monthly
+1227,20250401,2,6.0,Revenue,266416.73,EUR,Monthly
+1228,20250401,2,6.0,Operating Margin,42.0,Percent,Monthly
+1229,20250401,2,7.0,Revenue,590741.6,EUR,Monthly
+1230,20250401,2,7.0,Operating Margin,40.24,Percent,Monthly
+1231,20250401,2,8.0,Revenue,420407.56,EUR,Monthly
+1232,20250401,2,8.0,Operating Margin,35.58,Percent,Monthly
+1233,20250401,3,1.0,Revenue,143233.11,EUR,Monthly
+1234,20250401,3,1.0,Operating Margin,42.0,Percent,Monthly
+1235,20250401,3,2.0,Revenue,177545.49,EUR,Monthly
+1236,20250401,3,2.0,Operating Margin,40.69,Percent,Monthly
+1237,20250401,3,3.0,Revenue,978243.3,EUR,Monthly
+1238,20250401,3,3.0,Operating Margin,38.46,Percent,Monthly
+1239,20250401,3,4.0,Revenue,857947.47,EUR,Monthly
+1240,20250401,3,4.0,Operating Margin,31.17,Percent,Monthly
+1241,20250401,3,5.0,Revenue,584826.61,EUR,Monthly
+1242,20250401,3,5.0,Operating Margin,27.02,Percent,Monthly
+1243,20250401,3,6.0,Revenue,233887.57,EUR,Monthly
+1244,20250401,3,6.0,Operating Margin,36.15,Percent,Monthly
+1245,20250401,3,7.0,Revenue,444035.61,EUR,Monthly
+1246,20250401,3,7.0,Operating Margin,33.47,Percent,Monthly
+1247,20250401,3,8.0,Revenue,328881.88,EUR,Monthly
+1248,20250401,3,8.0,Operating Margin,30.28,Percent,Monthly
+1249,20250401,4,1.0,Revenue,86406.6,EUR,Monthly
+1250,20250401,4,1.0,Operating Margin,42.0,Percent,Monthly
+1251,20250401,4,2.0,Revenue,109605.98,EUR,Monthly
+1252,20250401,4,2.0,Operating Margin,40.72,Percent,Monthly
+1253,20250401,4,3.0,Revenue,573764.62,EUR,Monthly
+1254,20250401,4,3.0,Operating Margin,40.78,Percent,Monthly
+1255,20250401,4,4.0,Revenue,478907.78,EUR,Monthly
+1256,20250401,4,4.0,Operating Margin,30.53,Percent,Monthly
+1257,20250401,4,5.0,Revenue,351804.9,EUR,Monthly
+1258,20250401,4,5.0,Operating Margin,22.51,Percent,Monthly
+1259,20250401,4,6.0,Revenue,130690.06,EUR,Monthly
+1260,20250401,4,6.0,Operating Margin,36.47,Percent,Monthly
+1261,20250401,4,7.0,Revenue,265582.66,EUR,Monthly
+1262,20250401,4,7.0,Operating Margin,34.07,Percent,Monthly
+1263,20250401,4,8.0,Revenue,203345.12,EUR,Monthly
+1264,20250401,4,8.0,Operating Margin,29.07,Percent,Monthly
+1265,20250401,5,1.0,Revenue,37953.55,EUR,Monthly
+1266,20250401,5,1.0,Operating Margin,39.5,Percent,Monthly
+1267,20250401,5,2.0,Revenue,45133.25,EUR,Monthly
+1268,20250401,5,2.0,Operating Margin,30.89,Percent,Monthly
+1269,20250401,5,3.0,Revenue,243224.29,EUR,Monthly
+1270,20250401,5,3.0,Operating Margin,36.98,Percent,Monthly
+1271,20250401,5,4.0,Revenue,199991.45,EUR,Monthly
+1272,20250401,5,4.0,Operating Margin,18.98,Percent,Monthly
+1273,20250401,5,5.0,Revenue,148715.42,EUR,Monthly
+1274,20250401,5,5.0,Operating Margin,12.96,Percent,Monthly
+1275,20250401,5,6.0,Revenue,55723.23,EUR,Monthly
+1276,20250401,5,6.0,Operating Margin,30.82,Percent,Monthly
+1277,20250401,5,7.0,Revenue,115651.18,EUR,Monthly
+1278,20250401,5,7.0,Operating Margin,23.83,Percent,Monthly
+1279,20250401,5,8.0,Revenue,85035.1,EUR,Monthly
+1280,20250401,5,8.0,Operating Margin,20.51,Percent,Monthly
+1281,20250501,1,1.0,Revenue,287250.88,EUR,Monthly
+1282,20250501,1,1.0,Operating Margin,42.0,Percent,Monthly
+1283,20250501,1,2.0,Revenue,343470.56,EUR,Monthly
+1284,20250501,1,2.0,Operating Margin,34.86,Percent,Monthly
+1285,20250501,1,3.0,Revenue,1748786.58,EUR,Monthly
+1286,20250501,1,3.0,Operating Margin,35.46,Percent,Monthly
+1287,20250501,1,4.0,Revenue,1554328.54,EUR,Monthly
+1288,20250501,1,4.0,Operating Margin,25.13,Percent,Monthly
+1289,20250501,1,5.0,Revenue,1107006.21,EUR,Monthly
+1290,20250501,1,5.0,Operating Margin,20.3,Percent,Monthly
+1291,20250501,1,6.0,Revenue,431083.64,EUR,Monthly
+1292,20250501,1,6.0,Operating Margin,30.8,Percent,Monthly
+1293,20250501,1,7.0,Revenue,878856.45,EUR,Monthly
+1294,20250501,1,7.0,Operating Margin,27.9,Percent,Monthly
+1295,20250501,1,8.0,Revenue,597099.15,EUR,Monthly
+1296,20250501,1,8.0,Operating Margin,26.25,Percent,Monthly
+1297,20250501,2,1.0,Revenue,195764.14,EUR,Monthly
+1298,20250501,2,1.0,Operating Margin,42.0,Percent,Monthly
+1299,20250501,2,2.0,Revenue,250196.11,EUR,Monthly
+1300,20250501,2,2.0,Operating Margin,42.0,Percent,Monthly
+1301,20250501,2,3.0,Revenue,1251889.29,EUR,Monthly
+1302,20250501,2,3.0,Operating Margin,42.0,Percent,Monthly
+1303,20250501,2,4.0,Revenue,1046857.12,EUR,Monthly
+1304,20250501,2,4.0,Operating Margin,38.61,Percent,Monthly
+1305,20250501,2,5.0,Revenue,732016.08,EUR,Monthly
+1306,20250501,2,5.0,Operating Margin,38.09,Percent,Monthly
+1307,20250501,2,6.0,Revenue,292537.29,EUR,Monthly
+1308,20250501,2,6.0,Operating Margin,40.15,Percent,Monthly
+1309,20250501,2,7.0,Revenue,554500.82,EUR,Monthly
+1310,20250501,2,7.0,Operating Margin,39.57,Percent,Monthly
+1311,20250501,2,8.0,Revenue,410714.29,EUR,Monthly
+1312,20250501,2,8.0,Operating Margin,36.78,Percent,Monthly
+1313,20250501,3,1.0,Revenue,150504.12,EUR,Monthly
+1314,20250501,3,1.0,Operating Margin,42.0,Percent,Monthly
+1315,20250501,3,2.0,Revenue,195807.07,EUR,Monthly
+1316,20250501,3,2.0,Operating Margin,42.0,Percent,Monthly
+1317,20250501,3,3.0,Revenue,1014993.12,EUR,Monthly
+1318,20250501,3,3.0,Operating Margin,40.83,Percent,Monthly
+1319,20250501,3,4.0,Revenue,885672.31,EUR,Monthly
+1320,20250501,3,4.0,Operating Margin,31.18,Percent,Monthly
+1321,20250501,3,5.0,Revenue,605797.06,EUR,Monthly
+1322,20250501,3,5.0,Operating Margin,30.91,Percent,Monthly
+1323,20250501,3,6.0,Revenue,237726.67,EUR,Monthly
+1324,20250501,3,6.0,Operating Margin,37.38,Percent,Monthly
+1325,20250501,3,7.0,Revenue,474502.84,EUR,Monthly
+1326,20250501,3,7.0,Operating Margin,33.22,Percent,Monthly
+1327,20250501,3,8.0,Revenue,337754.97,EUR,Monthly
+1328,20250501,3,8.0,Operating Margin,32.63,Percent,Monthly
+1329,20250501,4,1.0,Revenue,90711.53,EUR,Monthly
+1330,20250501,4,1.0,Operating Margin,42.0,Percent,Monthly
+1331,20250501,4,2.0,Revenue,110548.74,EUR,Monthly
+1332,20250501,4,2.0,Operating Margin,42.0,Percent,Monthly
+1333,20250501,4,3.0,Revenue,558377.69,EUR,Monthly
+1334,20250501,4,3.0,Operating Margin,41.78,Percent,Monthly
+1335,20250501,4,4.0,Revenue,481329.65,EUR,Monthly
+1336,20250501,4,4.0,Operating Margin,32.8,Percent,Monthly
+1337,20250501,4,5.0,Revenue,348934.86,EUR,Monthly
+1338,20250501,4,5.0,Operating Margin,30.93,Percent,Monthly
+1339,20250501,4,6.0,Revenue,140432.8,EUR,Monthly
+1340,20250501,4,6.0,Operating Margin,40.36,Percent,Monthly
+1341,20250501,4,7.0,Revenue,264237.01,EUR,Monthly
+1342,20250501,4,7.0,Operating Margin,35.06,Percent,Monthly
+1343,20250501,4,8.0,Revenue,200268.45,EUR,Monthly
+1344,20250501,4,8.0,Operating Margin,33.31,Percent,Monthly
+1345,20250501,5,1.0,Revenue,40486.69,EUR,Monthly
+1346,20250501,5,1.0,Operating Margin,33.26,Percent,Monthly
+1347,20250501,5,2.0,Revenue,46258.05,EUR,Monthly
+1348,20250501,5,2.0,Operating Margin,20.42,Percent,Monthly
+1349,20250501,5,3.0,Revenue,252635.32,EUR,Monthly
+1350,20250501,5,3.0,Operating Margin,35.56,Percent,Monthly
+1351,20250501,5,4.0,Revenue,216155.88,EUR,Monthly
+1352,20250501,5,4.0,Operating Margin,8.62,Percent,Monthly
+1353,20250501,5,5.0,Revenue,144952.63,EUR,Monthly
+1354,20250501,5,5.0,Operating Margin,9.63,Percent,Monthly
+1355,20250501,5,6.0,Revenue,55227.68,EUR,Monthly
+1356,20250501,5,6.0,Operating Margin,22.12,Percent,Monthly
+1357,20250501,5,7.0,Revenue,115765.83,EUR,Monthly
+1358,20250501,5,7.0,Operating Margin,15.31,Percent,Monthly
+1359,20250501,5,8.0,Revenue,83294.44,EUR,Monthly
+1360,20250501,5,8.0,Operating Margin,12.03,Percent,Monthly
+1361,20250601,1,1.0,Revenue,280101.22,EUR,Monthly
+1362,20250601,1,1.0,Operating Margin,41.38,Percent,Monthly
+1363,20250601,1,2.0,Revenue,352617.15,EUR,Monthly
+1364,20250601,1,2.0,Operating Margin,38.16,Percent,Monthly
+1365,20250601,1,3.0,Revenue,1799668.29,EUR,Monthly
+1366,20250601,1,3.0,Operating Margin,36.68,Percent,Monthly
+1367,20250601,1,4.0,Revenue,1649298.1,EUR,Monthly
+1368,20250601,1,4.0,Operating Margin,27.26,Percent,Monthly
+1369,20250601,1,5.0,Revenue,1141123.9,EUR,Monthly
+1370,20250601,1,5.0,Operating Margin,22.87,Percent,Monthly
+1371,20250601,1,6.0,Revenue,420161.6,EUR,Monthly
+1372,20250601,1,6.0,Operating Margin,36.05,Percent,Monthly
+1373,20250601,1,7.0,Revenue,895730.68,EUR,Monthly
+1374,20250601,1,7.0,Operating Margin,30.84,Percent,Monthly
+1375,20250601,1,8.0,Revenue,624353.4,EUR,Monthly
+1376,20250601,1,8.0,Operating Margin,25.83,Percent,Monthly
+1377,20250601,2,1.0,Revenue,184575.85,EUR,Monthly
+1378,20250601,2,1.0,Operating Margin,42.0,Percent,Monthly
+1379,20250601,2,2.0,Revenue,258256.8,EUR,Monthly
+1380,20250601,2,2.0,Operating Margin,42.0,Percent,Monthly
+1381,20250601,2,3.0,Revenue,1256168.31,EUR,Monthly
+1382,20250601,2,3.0,Operating Margin,40.29,Percent,Monthly
+1383,20250601,2,4.0,Revenue,1110621.68,EUR,Monthly
+1384,20250601,2,4.0,Operating Margin,34.59,Percent,Monthly
+1385,20250601,2,5.0,Revenue,788348.76,EUR,Monthly
+1386,20250601,2,5.0,Operating Margin,40.19,Percent,Monthly
+1387,20250601,2,6.0,Revenue,288266.43,EUR,Monthly
+1388,20250601,2,6.0,Operating Margin,42.0,Percent,Monthly
+1389,20250601,2,7.0,Revenue,590650.83,EUR,Monthly
+1390,20250601,2,7.0,Operating Margin,39.7,Percent,Monthly
+1391,20250601,2,8.0,Revenue,427095.04,EUR,Monthly
+1392,20250601,2,8.0,Operating Margin,34.74,Percent,Monthly
+1393,20250601,3,1.0,Revenue,163539.71,EUR,Monthly
+1394,20250601,3,1.0,Operating Margin,42.0,Percent,Monthly
+1395,20250601,3,2.0,Revenue,194868.66,EUR,Monthly
+1396,20250601,3,2.0,Operating Margin,42.0,Percent,Monthly
+1397,20250601,3,3.0,Revenue,1022003.09,EUR,Monthly
+1398,20250601,3,3.0,Operating Margin,40.59,Percent,Monthly
+1399,20250601,3,4.0,Revenue,854698.84,EUR,Monthly
+1400,20250601,3,4.0,Operating Margin,32.44,Percent,Monthly
+1401,20250601,3,5.0,Revenue,656487.15,EUR,Monthly
+1402,20250601,3,5.0,Operating Margin,31.78,Percent,Monthly
+1403,20250601,3,6.0,Revenue,234910.04,EUR,Monthly
+1404,20250601,3,6.0,Operating Margin,38.34,Percent,Monthly
+1405,20250601,3,7.0,Revenue,467861.17,EUR,Monthly
+1406,20250601,3,7.0,Operating Margin,33.16,Percent,Monthly
+1407,20250601,3,8.0,Revenue,357653.28,EUR,Monthly
+1408,20250601,3,8.0,Operating Margin,31.99,Percent,Monthly
+1409,20250601,4,1.0,Revenue,88254.71,EUR,Monthly
+1410,20250601,4,1.0,Operating Margin,42.0,Percent,Monthly
+1411,20250601,4,2.0,Revenue,119840.85,EUR,Monthly
+1412,20250601,4,2.0,Operating Margin,42.0,Percent,Monthly
+1413,20250601,4,3.0,Revenue,586424.02,EUR,Monthly
+1414,20250601,4,3.0,Operating Margin,41.73,Percent,Monthly
+1415,20250601,4,4.0,Revenue,492935.26,EUR,Monthly
+1416,20250601,4,4.0,Operating Margin,32.35,Percent,Monthly
+1417,20250601,4,5.0,Revenue,358629.8,EUR,Monthly
+1418,20250601,4,5.0,Operating Margin,29.81,Percent,Monthly
+1419,20250601,4,6.0,Revenue,137610.16,EUR,Monthly
+1420,20250601,4,6.0,Operating Margin,39.53,Percent,Monthly
+1421,20250601,4,7.0,Revenue,283784.74,EUR,Monthly
+1422,20250601,4,7.0,Operating Margin,36.22,Percent,Monthly
+1423,20250601,4,8.0,Revenue,210284.56,EUR,Monthly
+1424,20250601,4,8.0,Operating Margin,31.97,Percent,Monthly
+1425,20250601,5,1.0,Revenue,38699.66,EUR,Monthly
+1426,20250601,5,1.0,Operating Margin,38.71,Percent,Monthly
+1427,20250601,5,2.0,Revenue,51504.53,EUR,Monthly
+1428,20250601,5,2.0,Operating Margin,33.8,Percent,Monthly
+1429,20250601,5,3.0,Revenue,250100.52,EUR,Monthly
+1430,20250601,5,3.0,Operating Margin,36.66,Percent,Monthly
+1431,20250601,5,4.0,Revenue,219715.47,EUR,Monthly
+1432,20250601,5,4.0,Operating Margin,18.42,Percent,Monthly
+1433,20250601,5,5.0,Revenue,160270.6,EUR,Monthly
+1434,20250601,5,5.0,Operating Margin,16.05,Percent,Monthly
+1435,20250601,5,6.0,Revenue,61220.63,EUR,Monthly
+1436,20250601,5,6.0,Operating Margin,31.55,Percent,Monthly
+1437,20250601,5,7.0,Revenue,117843.38,EUR,Monthly
+1438,20250601,5,7.0,Operating Margin,25.57,Percent,Monthly
+1439,20250601,5,8.0,Revenue,88422.95,EUR,Monthly
+1440,20250601,5,8.0,Operating Margin,21.69,Percent,Monthly
+1441,20250701,1,1.0,Revenue,277681.64,EUR,Monthly
+1442,20250701,1,1.0,Operating Margin,41.21,Percent,Monthly
+1443,20250701,1,2.0,Revenue,338659.6,EUR,Monthly
+1444,20250701,1,2.0,Operating Margin,32.28,Percent,Monthly
+1445,20250701,1,3.0,Revenue,1956652.64,EUR,Monthly
+1446,20250701,1,3.0,Operating Margin,37.31,Percent,Monthly
+1447,20250701,1,4.0,Revenue,1511168.37,EUR,Monthly
+1448,20250701,1,4.0,Operating Margin,25.15,Percent,Monthly
+1449,20250701,1,5.0,Revenue,1142015.14,EUR,Monthly
+1450,20250701,1,5.0,Operating Margin,18.3,Percent,Monthly
+1451,20250701,1,6.0,Revenue,425511.57,EUR,Monthly
+1452,20250701,1,6.0,Operating Margin,30.58,Percent,Monthly
+1453,20250701,1,7.0,Revenue,837892.61,EUR,Monthly
+1454,20250701,1,7.0,Operating Margin,26.66,Percent,Monthly
+1455,20250701,1,8.0,Revenue,637321.1,EUR,Monthly
+1456,20250701,1,8.0,Operating Margin,22.98,Percent,Monthly
+1457,20250701,2,1.0,Revenue,191940.97,EUR,Monthly
+1458,20250701,2,1.0,Operating Margin,42.0,Percent,Monthly
+1459,20250701,2,2.0,Revenue,248928.9,EUR,Monthly
+1460,20250701,2,2.0,Operating Margin,42.0,Percent,Monthly
+1461,20250701,2,3.0,Revenue,1299417.97,EUR,Monthly
+1462,20250701,2,3.0,Operating Margin,42.0,Percent,Monthly
+1463,20250701,2,4.0,Revenue,1101731.17,EUR,Monthly
+1464,20250701,2,4.0,Operating Margin,33.93,Percent,Monthly
+1465,20250701,2,5.0,Revenue,818499.26,EUR,Monthly
+1466,20250701,2,5.0,Operating Margin,35.96,Percent,Monthly
+1467,20250701,2,6.0,Revenue,303757.72,EUR,Monthly
+1468,20250701,2,6.0,Operating Margin,39.84,Percent,Monthly
+1469,20250701,2,7.0,Revenue,576485.91,EUR,Monthly
+1470,20250701,2,7.0,Operating Margin,36.58,Percent,Monthly
+1471,20250701,2,8.0,Revenue,427598.13,EUR,Monthly
+1472,20250701,2,8.0,Operating Margin,35.09,Percent,Monthly
+1473,20250701,3,1.0,Revenue,149078.51,EUR,Monthly
+1474,20250701,3,1.0,Operating Margin,42.0,Percent,Monthly
+1475,20250701,3,2.0,Revenue,193839.04,EUR,Monthly
+1476,20250701,3,2.0,Operating Margin,41.23,Percent,Monthly
+1477,20250701,3,3.0,Revenue,1013204.07,EUR,Monthly
+1478,20250701,3,3.0,Operating Margin,38.93,Percent,Monthly
+1479,20250701,3,4.0,Revenue,864294.8,EUR,Monthly
+1480,20250701,3,4.0,Operating Margin,32.65,Percent,Monthly
+1481,20250701,3,5.0,Revenue,613645.18,EUR,Monthly
+1482,20250701,3,5.0,Operating Margin,29.22,Percent,Monthly
+1483,20250701,3,6.0,Revenue,232120.82,EUR,Monthly
+1484,20250701,3,6.0,Operating Margin,37.47,Percent,Monthly
+1485,20250701,3,7.0,Revenue,485146.93,EUR,Monthly
+1486,20250701,3,7.0,Operating Margin,36.38,Percent,Monthly
+1487,20250701,3,8.0,Revenue,340565.74,EUR,Monthly
+1488,20250701,3,8.0,Operating Margin,32.46,Percent,Monthly
+1489,20250701,4,1.0,Revenue,89336.67,EUR,Monthly
+1490,20250701,4,1.0,Operating Margin,42.0,Percent,Monthly
+1491,20250701,4,2.0,Revenue,116877.97,EUR,Monthly
+1492,20250701,4,2.0,Operating Margin,39.51,Percent,Monthly
+1493,20250701,4,3.0,Revenue,605595.89,EUR,Monthly
+1494,20250701,4,3.0,Operating Margin,41.29,Percent,Monthly
+1495,20250701,4,4.0,Revenue,515245.42,EUR,Monthly
+1496,20250701,4,4.0,Operating Margin,30.16,Percent,Monthly
+1497,20250701,4,5.0,Revenue,347438.43,EUR,Monthly
+1498,20250701,4,5.0,Operating Margin,23.22,Percent,Monthly
+1499,20250701,4,6.0,Revenue,140981.28,EUR,Monthly
+1500,20250701,4,6.0,Operating Margin,38.78,Percent,Monthly
+1501,20250701,4,7.0,Revenue,266615.27,EUR,Monthly
+1502,20250701,4,7.0,Operating Margin,33.55,Percent,Monthly
+1503,20250701,4,8.0,Revenue,203862.57,EUR,Monthly
+1504,20250701,4,8.0,Operating Margin,28.35,Percent,Monthly
+1505,20250701,5,1.0,Revenue,40536.1,EUR,Monthly
+1506,20250701,5,1.0,Operating Margin,39.16,Percent,Monthly
+1507,20250701,5,2.0,Revenue,47124.78,EUR,Monthly
+1508,20250701,5,2.0,Operating Margin,29.77,Percent,Monthly
+1509,20250701,5,3.0,Revenue,250197.95,EUR,Monthly
+1510,20250701,5,3.0,Operating Margin,34.5,Percent,Monthly
+1511,20250701,5,4.0,Revenue,212175.07,EUR,Monthly
+1512,20250701,5,4.0,Operating Margin,16.59,Percent,Monthly
+1513,20250701,5,5.0,Revenue,149547.82,EUR,Monthly
+1514,20250701,5,5.0,Operating Margin,8.3,Percent,Monthly
+1515,20250701,5,6.0,Revenue,59231.1,EUR,Monthly
+1516,20250701,5,6.0,Operating Margin,27.88,Percent,Monthly
+1517,20250701,5,7.0,Revenue,113795.8,EUR,Monthly
+1518,20250701,5,7.0,Operating Margin,22.94,Percent,Monthly
+1519,20250701,5,8.0,Revenue,88957.35,EUR,Monthly
+1520,20250701,5,8.0,Operating Margin,18.5,Percent,Monthly
+1521,20250801,1,1.0,Revenue,273414.09,EUR,Monthly
+1522,20250801,1,1.0,Operating Margin,39.54,Percent,Monthly
+1523,20250801,1,2.0,Revenue,337043.18,EUR,Monthly
+1524,20250801,1,2.0,Operating Margin,33.71,Percent,Monthly
+1525,20250801,1,3.0,Revenue,1855688.95,EUR,Monthly
+1526,20250801,1,3.0,Operating Margin,34.28,Percent,Monthly
+1527,20250801,1,4.0,Revenue,1525828.05,EUR,Monthly
+1528,20250801,1,4.0,Operating Margin,23.84,Percent,Monthly
+1529,20250801,1,5.0,Revenue,1148565.35,EUR,Monthly
+1530,20250801,1,5.0,Operating Margin,20.17,Percent,Monthly
+1531,20250801,1,6.0,Revenue,418784.12,EUR,Monthly
+1532,20250801,1,6.0,Operating Margin,34.94,Percent,Monthly
+1533,20250801,1,7.0,Revenue,827345.8,EUR,Monthly
+1534,20250801,1,7.0,Operating Margin,28.39,Percent,Monthly
+1535,20250801,1,8.0,Revenue,627905.04,EUR,Monthly
+1536,20250801,1,8.0,Operating Margin,28.05,Percent,Monthly
+1537,20250801,2,1.0,Revenue,192193.91,EUR,Monthly
+1538,20250801,2,1.0,Operating Margin,42.0,Percent,Monthly
+1539,20250801,2,2.0,Revenue,234499.01,EUR,Monthly
+1540,20250801,2,2.0,Operating Margin,42.0,Percent,Monthly
+1541,20250801,2,3.0,Revenue,1263875.21,EUR,Monthly
+1542,20250801,2,3.0,Operating Margin,40.3,Percent,Monthly
+1543,20250801,2,4.0,Revenue,1025045.11,EUR,Monthly
+1544,20250801,2,4.0,Operating Margin,33.3,Percent,Monthly
+1545,20250801,2,5.0,Revenue,756084.8,EUR,Monthly
+1546,20250801,2,5.0,Operating Margin,36.1,Percent,Monthly
+1547,20250801,2,6.0,Revenue,300918.99,EUR,Monthly
+1548,20250801,2,6.0,Operating Margin,39.21,Percent,Monthly
+1549,20250801,2,7.0,Revenue,553625.33,EUR,Monthly
+1550,20250801,2,7.0,Operating Margin,38.78,Percent,Monthly
+1551,20250801,2,8.0,Revenue,435746.36,EUR,Monthly
+1552,20250801,2,8.0,Operating Margin,33.95,Percent,Monthly
+1553,20250801,3,1.0,Revenue,162613.53,EUR,Monthly
+1554,20250801,3,1.0,Operating Margin,42.0,Percent,Monthly
+1555,20250801,3,2.0,Revenue,200112.49,EUR,Monthly
+1556,20250801,3,2.0,Operating Margin,39.75,Percent,Monthly
+1557,20250801,3,3.0,Revenue,978963.71,EUR,Monthly
+1558,20250801,3,3.0,Operating Margin,37.07,Percent,Monthly
+1559,20250801,3,4.0,Revenue,888340.97,EUR,Monthly
+1560,20250801,3,4.0,Operating Margin,29.85,Percent,Monthly
+1561,20250801,3,5.0,Revenue,605441.11,EUR,Monthly
+1562,20250801,3,5.0,Operating Margin,25.41,Percent,Monthly
+1563,20250801,3,6.0,Revenue,244065.87,EUR,Monthly
+1564,20250801,3,6.0,Operating Margin,36.79,Percent,Monthly
+1565,20250801,3,7.0,Revenue,451331.77,EUR,Monthly
+1566,20250801,3,7.0,Operating Margin,32.42,Percent,Monthly
+1567,20250801,3,8.0,Revenue,353277.87,EUR,Monthly
+1568,20250801,3,8.0,Operating Margin,30.33,Percent,Monthly
+1569,20250801,4,1.0,Revenue,88348.78,EUR,Monthly
+1570,20250801,4,1.0,Operating Margin,42.0,Percent,Monthly
+1571,20250801,4,2.0,Revenue,112636.05,EUR,Monthly
+1572,20250801,4,2.0,Operating Margin,41.54,Percent,Monthly
+1573,20250801,4,3.0,Revenue,581604.81,EUR,Monthly
+1574,20250801,4,3.0,Operating Margin,40.52,Percent,Monthly
+1575,20250801,4,4.0,Revenue,507038.99,EUR,Monthly
+1576,20250801,4,4.0,Operating Margin,30.86,Percent,Monthly
+1577,20250801,4,5.0,Revenue,371702.71,EUR,Monthly
+1578,20250801,4,5.0,Operating Margin,24.65,Percent,Monthly
+1579,20250801,4,6.0,Revenue,139074.51,EUR,Monthly
+1580,20250801,4,6.0,Operating Margin,38.6,Percent,Monthly
+1581,20250801,4,7.0,Revenue,264888.62,EUR,Monthly
+1582,20250801,4,7.0,Operating Margin,34.13,Percent,Monthly
+1583,20250801,4,8.0,Revenue,208821.08,EUR,Monthly
+1584,20250801,4,8.0,Operating Margin,31.53,Percent,Monthly
+1585,20250801,5,1.0,Revenue,38283.14,EUR,Monthly
+1586,20250801,5,1.0,Operating Margin,33.09,Percent,Monthly
+1587,20250801,5,2.0,Revenue,46888.36,EUR,Monthly
+1588,20250801,5,2.0,Operating Margin,25.64,Percent,Monthly
+1589,20250801,5,3.0,Revenue,251747.0,EUR,Monthly
+1590,20250801,5,3.0,Operating Margin,35.45,Percent,Monthly
+1591,20250801,5,4.0,Revenue,210580.37,EUR,Monthly
+1592,20250801,5,4.0,Operating Margin,9.67,Percent,Monthly
+1593,20250801,5,5.0,Revenue,152756.66,EUR,Monthly
+1594,20250801,5,5.0,Operating Margin,9.68,Percent,Monthly
+1595,20250801,5,6.0,Revenue,57655.32,EUR,Monthly
+1596,20250801,5,6.0,Operating Margin,22.27,Percent,Monthly
+1597,20250801,5,7.0,Revenue,114990.35,EUR,Monthly
+1598,20250801,5,7.0,Operating Margin,12.07,Percent,Monthly
+1599,20250801,5,8.0,Revenue,91102.83,EUR,Monthly
+1600,20250801,5,8.0,Operating Margin,15.75,Percent,Monthly
+1601,20250901,1,1.0,Revenue,308580.91,EUR,Monthly
+1602,20250901,1,1.0,Operating Margin,42.0,Percent,Monthly
+1603,20250901,1,2.0,Revenue,365256.35,EUR,Monthly
+1604,20250901,1,2.0,Operating Margin,38.54,Percent,Monthly
+1605,20250901,1,3.0,Revenue,1898806.56,EUR,Monthly
+1606,20250901,1,3.0,Operating Margin,35.76,Percent,Monthly
+1607,20250901,1,4.0,Revenue,1621149.78,EUR,Monthly
+1608,20250901,1,4.0,Operating Margin,27.05,Percent,Monthly
+1609,20250901,1,5.0,Revenue,1173481.89,EUR,Monthly
+1610,20250901,1,5.0,Operating Margin,25.44,Percent,Monthly
+1611,20250901,1,6.0,Revenue,446734.63,EUR,Monthly
+1612,20250901,1,6.0,Operating Margin,32.8,Percent,Monthly
+1613,20250901,1,7.0,Revenue,869817.26,EUR,Monthly
+1614,20250901,1,7.0,Operating Margin,31.34,Percent,Monthly
+1615,20250901,1,8.0,Revenue,712017.16,EUR,Monthly
+1616,20250901,1,8.0,Operating Margin,27.04,Percent,Monthly
+1617,20250901,2,1.0,Revenue,196698.85,EUR,Monthly
+1618,20250901,2,1.0,Operating Margin,42.0,Percent,Monthly
+1619,20250901,2,2.0,Revenue,250512.95,EUR,Monthly
+1620,20250901,2,2.0,Operating Margin,42.0,Percent,Monthly
+1621,20250901,2,3.0,Revenue,1308958.8,EUR,Monthly
+1622,20250901,2,3.0,Operating Margin,42.0,Percent,Monthly
+1623,20250901,2,4.0,Revenue,1057102.94,EUR,Monthly
+1624,20250901,2,4.0,Operating Margin,35.53,Percent,Monthly
+1625,20250901,2,5.0,Revenue,804533.47,EUR,Monthly
+1626,20250901,2,5.0,Operating Margin,41.88,Percent,Monthly
+1627,20250901,2,6.0,Revenue,300221.63,EUR,Monthly
+1628,20250901,2,6.0,Operating Margin,40.4,Percent,Monthly
+1629,20250901,2,7.0,Revenue,605055.03,EUR,Monthly
+1630,20250901,2,7.0,Operating Margin,40.22,Percent,Monthly
+1631,20250901,2,8.0,Revenue,447790.53,EUR,Monthly
+1632,20250901,2,8.0,Operating Margin,33.81,Percent,Monthly
+1633,20250901,3,1.0,Revenue,162131.45,EUR,Monthly
+1634,20250901,3,1.0,Operating Margin,42.0,Percent,Monthly
+1635,20250901,3,2.0,Revenue,205010.99,EUR,Monthly
+1636,20250901,3,2.0,Operating Margin,42.0,Percent,Monthly
+1637,20250901,3,3.0,Revenue,1052459.16,EUR,Monthly
+1638,20250901,3,3.0,Operating Margin,37.49,Percent,Monthly
+1639,20250901,3,4.0,Revenue,943457.41,EUR,Monthly
+1640,20250901,3,4.0,Operating Margin,34.81,Percent,Monthly
+1641,20250901,3,5.0,Revenue,648827.7,EUR,Monthly
+1642,20250901,3,5.0,Operating Margin,32.5,Percent,Monthly
+1643,20250901,3,6.0,Revenue,253435.25,EUR,Monthly
+1644,20250901,3,6.0,Operating Margin,38.27,Percent,Monthly
+1645,20250901,3,7.0,Revenue,471087.4,EUR,Monthly
+1646,20250901,3,7.0,Operating Margin,35.56,Percent,Monthly
+1647,20250901,3,8.0,Revenue,368077.07,EUR,Monthly
+1648,20250901,3,8.0,Operating Margin,33.15,Percent,Monthly
+1649,20250901,4,1.0,Revenue,98146.61,EUR,Monthly
+1650,20250901,4,1.0,Operating Margin,42.0,Percent,Monthly
+1651,20250901,4,2.0,Revenue,119492.89,EUR,Monthly
+1652,20250901,4,2.0,Operating Margin,42.0,Percent,Monthly
+1653,20250901,4,3.0,Revenue,602482.01,EUR,Monthly
+1654,20250901,4,3.0,Operating Margin,41.28,Percent,Monthly
+1655,20250901,4,4.0,Revenue,518097.58,EUR,Monthly
+1656,20250901,4,4.0,Operating Margin,30.47,Percent,Monthly
+1657,20250901,4,5.0,Revenue,375212.07,EUR,Monthly
+1658,20250901,4,5.0,Operating Margin,25.68,Percent,Monthly
+1659,20250901,4,6.0,Revenue,137437.24,EUR,Monthly
+1660,20250901,4,6.0,Operating Margin,38.24,Percent,Monthly
+1661,20250901,4,7.0,Revenue,297459.75,EUR,Monthly
+1662,20250901,4,7.0,Operating Margin,34.81,Percent,Monthly
+1663,20250901,4,8.0,Revenue,209115.47,EUR,Monthly
+1664,20250901,4,8.0,Operating Margin,30.23,Percent,Monthly
+1665,20250901,5,1.0,Revenue,40533.13,EUR,Monthly
+1666,20250901,5,1.0,Operating Margin,37.94,Percent,Monthly
+1667,20250901,5,2.0,Revenue,49363.29,EUR,Monthly
+1668,20250901,5,2.0,Operating Margin,32.41,Percent,Monthly
+1669,20250901,5,3.0,Revenue,263126.5,EUR,Monthly
+1670,20250901,5,3.0,Operating Margin,37.04,Percent,Monthly
+1671,20250901,5,4.0,Revenue,216739.6,EUR,Monthly
+1672,20250901,5,4.0,Operating Margin,19.87,Percent,Monthly
+1673,20250901,5,5.0,Revenue,167256.72,EUR,Monthly
+1674,20250901,5,5.0,Operating Margin,12.57,Percent,Monthly
+1675,20250901,5,6.0,Revenue,63407.1,EUR,Monthly
+1676,20250901,5,6.0,Operating Margin,31.19,Percent,Monthly
+1677,20250901,5,7.0,Revenue,127527.74,EUR,Monthly
+1678,20250901,5,7.0,Operating Margin,23.73,Percent,Monthly
+1679,20250901,5,8.0,Revenue,90834.22,EUR,Monthly
+1680,20250901,5,8.0,Operating Margin,22.57,Percent,Monthly
+1681,20251001,1,1.0,Revenue,306990.61,EUR,Monthly
+1682,20251001,1,1.0,Operating Margin,41.73,Percent,Monthly
+1683,20251001,1,2.0,Revenue,385888.59,EUR,Monthly
+1684,20251001,1,2.0,Operating Margin,32.97,Percent,Monthly
+1685,20251001,1,3.0,Revenue,1989000.28,EUR,Monthly
+1686,20251001,1,3.0,Operating Margin,33.8,Percent,Monthly
+1687,20251001,1,4.0,Revenue,1635411.22,EUR,Monthly
+1688,20251001,1,4.0,Operating Margin,25.83,Percent,Monthly
+1689,20251001,1,5.0,Revenue,1216909.97,EUR,Monthly
+1690,20251001,1,5.0,Operating Margin,18.12,Percent,Monthly
+1691,20251001,1,6.0,Revenue,471917.2,EUR,Monthly
+1692,20251001,1,6.0,Operating Margin,30.59,Percent,Monthly
+1693,20251001,1,7.0,Revenue,937615.4,EUR,Monthly
+1694,20251001,1,7.0,Operating Margin,27.62,Percent,Monthly
+1695,20251001,1,8.0,Revenue,704643.09,EUR,Monthly
+1696,20251001,1,8.0,Operating Margin,24.43,Percent,Monthly
+1697,20251001,2,1.0,Revenue,211595.71,EUR,Monthly
+1698,20251001,2,1.0,Operating Margin,42.0,Percent,Monthly
+1699,20251001,2,2.0,Revenue,255072.54,EUR,Monthly
+1700,20251001,2,2.0,Operating Margin,42.0,Percent,Monthly
+1701,20251001,2,3.0,Revenue,1360613.42,EUR,Monthly
+1702,20251001,2,3.0,Operating Margin,42.0,Percent,Monthly
+1703,20251001,2,4.0,Revenue,1120151.23,EUR,Monthly
+1704,20251001,2,4.0,Operating Margin,35.26,Percent,Monthly
+1705,20251001,2,5.0,Revenue,854147.21,EUR,Monthly
+1706,20251001,2,5.0,Operating Margin,39.6,Percent,Monthly
+1707,20251001,2,6.0,Revenue,306151.98,EUR,Monthly
+1708,20251001,2,6.0,Operating Margin,41.74,Percent,Monthly
+1709,20251001,2,7.0,Revenue,620248.72,EUR,Monthly
+1710,20251001,2,7.0,Operating Margin,38.18,Percent,Monthly
+1711,20251001,2,8.0,Revenue,448613.04,EUR,Monthly
+1712,20251001,2,8.0,Operating Margin,33.66,Percent,Monthly
+1713,20251001,3,1.0,Revenue,172024.82,EUR,Monthly
+1714,20251001,3,1.0,Operating Margin,42.0,Percent,Monthly
+1715,20251001,3,2.0,Revenue,217791.08,EUR,Monthly
+1716,20251001,3,2.0,Operating Margin,42.0,Percent,Monthly
+1717,20251001,3,3.0,Revenue,1076499.3,EUR,Monthly
+1718,20251001,3,3.0,Operating Margin,38.16,Percent,Monthly
+1719,20251001,3,4.0,Revenue,986486.75,EUR,Monthly
+1720,20251001,3,4.0,Operating Margin,35.57,Percent,Monthly
+1721,20251001,3,5.0,Revenue,682396.27,EUR,Monthly
+1722,20251001,3,5.0,Operating Margin,34.61,Percent,Monthly
+1723,20251001,3,6.0,Revenue,257180.12,EUR,Monthly
+1724,20251001,3,6.0,Operating Margin,39.8,Percent,Monthly
+1725,20251001,3,7.0,Revenue,504898.79,EUR,Monthly
+1726,20251001,3,7.0,Operating Margin,36.62,Percent,Monthly
+1727,20251001,3,8.0,Revenue,389739.57,EUR,Monthly
+1728,20251001,3,8.0,Operating Margin,34.27,Percent,Monthly
+1729,20251001,4,1.0,Revenue,93254.11,EUR,Monthly
+1730,20251001,4,1.0,Operating Margin,42.0,Percent,Monthly
+1731,20251001,4,2.0,Revenue,126024.48,EUR,Monthly
+1732,20251001,4,2.0,Operating Margin,39.87,Percent,Monthly
+1733,20251001,4,3.0,Revenue,649682.7,EUR,Monthly
+1734,20251001,4,3.0,Operating Margin,40.96,Percent,Monthly
+1735,20251001,4,4.0,Revenue,550118.21,EUR,Monthly
+1736,20251001,4,4.0,Operating Margin,28.49,Percent,Monthly
+1737,20251001,4,5.0,Revenue,402312.57,EUR,Monthly
+1738,20251001,4,5.0,Operating Margin,21.83,Percent,Monthly
+1739,20251001,4,6.0,Revenue,145556.63,EUR,Monthly
+1740,20251001,4,6.0,Operating Margin,35.57,Percent,Monthly
+1741,20251001,4,7.0,Revenue,307910.12,EUR,Monthly
+1742,20251001,4,7.0,Operating Margin,33.44,Percent,Monthly
+1743,20251001,4,8.0,Revenue,225243.49,EUR,Monthly
+1744,20251001,4,8.0,Operating Margin,30.25,Percent,Monthly
+1745,20251001,5,1.0,Revenue,42125.21,EUR,Monthly
+1746,20251001,5,1.0,Operating Margin,38.2,Percent,Monthly
+1747,20251001,5,2.0,Revenue,51169.69,EUR,Monthly
+1748,20251001,5,2.0,Operating Margin,30.62,Percent,Monthly
+1749,20251001,5,3.0,Revenue,282308.87,EUR,Monthly
+1750,20251001,5,3.0,Operating Margin,37.1,Percent,Monthly
+1751,20251001,5,4.0,Revenue,225711.73,EUR,Monthly
+1752,20251001,5,4.0,Operating Margin,14.93,Percent,Monthly
+1753,20251001,5,5.0,Revenue,165466.7,EUR,Monthly
+1754,20251001,5,5.0,Operating Margin,8.52,Percent,Monthly
+1755,20251001,5,6.0,Revenue,61355.56,EUR,Monthly
+1756,20251001,5,6.0,Operating Margin,28.49,Percent,Monthly
+1757,20251001,5,7.0,Revenue,125669.39,EUR,Monthly
+1758,20251001,5,7.0,Operating Margin,21.38,Percent,Monthly
+1759,20251001,5,8.0,Revenue,97637.82,EUR,Monthly
+1760,20251001,5,8.0,Operating Margin,21.41,Percent,Monthly
+1761,20251101,1,1.0,Revenue,318510.93,EUR,Monthly
+1762,20251101,1,1.0,Operating Margin,41.09,Percent,Monthly
+1763,20251101,1,2.0,Revenue,412316.2,EUR,Monthly
+1764,20251101,1,2.0,Operating Margin,34.75,Percent,Monthly
+1765,20251101,1,3.0,Revenue,1967109.85,EUR,Monthly
+1766,20251101,1,3.0,Operating Margin,36.24,Percent,Monthly
+1767,20251101,1,4.0,Revenue,1761236.42,EUR,Monthly
+1768,20251101,1,4.0,Operating Margin,24.54,Percent,Monthly
+1769,20251101,1,5.0,Revenue,1270775.19,EUR,Monthly
+1770,20251101,1,5.0,Operating Margin,21.36,Percent,Monthly
+1771,20251101,1,6.0,Revenue,494458.88,EUR,Monthly
+1772,20251101,1,6.0,Operating Margin,34.37,Percent,Monthly
+1773,20251101,1,7.0,Revenue,941021.55,EUR,Monthly
+1774,20251101,1,7.0,Operating Margin,28.14,Percent,Monthly
+1775,20251101,1,8.0,Revenue,701096.72,EUR,Monthly
+1776,20251101,1,8.0,Operating Margin,25.5,Percent,Monthly
+1777,20251101,2,1.0,Revenue,220559.54,EUR,Monthly
+1778,20251101,2,1.0,Operating Margin,42.0,Percent,Monthly
+1779,20251101,2,2.0,Revenue,274564.88,EUR,Monthly
+1780,20251101,2,2.0,Operating Margin,42.0,Percent,Monthly
+1781,20251101,2,3.0,Revenue,1447625.05,EUR,Monthly
+1782,20251101,2,3.0,Operating Margin,40.8,Percent,Monthly
+1783,20251101,2,4.0,Revenue,1204231.73,EUR,Monthly
+1784,20251101,2,4.0,Operating Margin,37.62,Percent,Monthly
+1785,20251101,2,5.0,Revenue,886412.38,EUR,Monthly
+1786,20251101,2,5.0,Operating Margin,38.96,Percent,Monthly
+1787,20251101,2,6.0,Revenue,310671.3,EUR,Monthly
+1788,20251101,2,6.0,Operating Margin,42.0,Percent,Monthly
+1789,20251101,2,7.0,Revenue,665547.84,EUR,Monthly
+1790,20251101,2,7.0,Operating Margin,38.98,Percent,Monthly
+1791,20251101,2,8.0,Revenue,497301.69,EUR,Monthly
+1792,20251101,2,8.0,Operating Margin,36.17,Percent,Monthly
+1793,20251101,3,1.0,Revenue,186207.74,EUR,Monthly
+1794,20251101,3,1.0,Operating Margin,42.0,Percent,Monthly
+1795,20251101,3,2.0,Revenue,220991.46,EUR,Monthly
+1796,20251101,3,2.0,Operating Margin,42.0,Percent,Monthly
+1797,20251101,3,3.0,Revenue,1114187.79,EUR,Monthly
+1798,20251101,3,3.0,Operating Margin,38.64,Percent,Monthly
+1799,20251101,3,4.0,Revenue,968549.92,EUR,Monthly
+1800,20251101,3,4.0,Operating Margin,32.94,Percent,Monthly
+1801,20251101,3,5.0,Revenue,691017.8,EUR,Monthly
+1802,20251101,3,5.0,Operating Margin,35.38,Percent,Monthly
+1803,20251101,3,6.0,Revenue,277314.5,EUR,Monthly
+1804,20251101,3,6.0,Operating Margin,41.26,Percent,Monthly
+1805,20251101,3,7.0,Revenue,552566.76,EUR,Monthly
+1806,20251101,3,7.0,Operating Margin,38.48,Percent,Monthly
+1807,20251101,3,8.0,Revenue,417213.61,EUR,Monthly
+1808,20251101,3,8.0,Operating Margin,35.44,Percent,Monthly
+1809,20251101,4,1.0,Revenue,99498.26,EUR,Monthly
+1810,20251101,4,1.0,Operating Margin,42.0,Percent,Monthly
+1811,20251101,4,2.0,Revenue,133298.17,EUR,Monthly
+1812,20251101,4,2.0,Operating Margin,42.0,Percent,Monthly
+1813,20251101,4,3.0,Revenue,641913.31,EUR,Monthly
+1814,20251101,4,3.0,Operating Margin,42.0,Percent,Monthly
+1815,20251101,4,4.0,Revenue,580617.48,EUR,Monthly
+1816,20251101,4,4.0,Operating Margin,31.89,Percent,Monthly
+1817,20251101,4,5.0,Revenue,412096.1,EUR,Monthly
+1818,20251101,4,5.0,Operating Margin,26.5,Percent,Monthly
+1819,20251101,4,6.0,Revenue,151749.66,EUR,Monthly
+1820,20251101,4,6.0,Operating Margin,39.47,Percent,Monthly
+1821,20251101,4,7.0,Revenue,304638.66,EUR,Monthly
+1822,20251101,4,7.0,Operating Margin,33.97,Percent,Monthly
+1823,20251101,4,8.0,Revenue,230373.79,EUR,Monthly
+1824,20251101,4,8.0,Operating Margin,31.2,Percent,Monthly
+1825,20251101,5,1.0,Revenue,42290.13,EUR,Monthly
+1826,20251101,5,1.0,Operating Margin,35.29,Percent,Monthly
+1827,20251101,5,2.0,Revenue,53098.64,EUR,Monthly
+1828,20251101,5,2.0,Operating Margin,28.34,Percent,Monthly
+1829,20251101,5,3.0,Revenue,284381.31,EUR,Monthly
+1830,20251101,5,3.0,Operating Margin,36.65,Percent,Monthly
+1831,20251101,5,4.0,Revenue,229865.21,EUR,Monthly
+1832,20251101,5,4.0,Operating Margin,12.12,Percent,Monthly
+1833,20251101,5,5.0,Revenue,164915.79,EUR,Monthly
+1834,20251101,5,5.0,Operating Margin,9.63,Percent,Monthly
+1835,20251101,5,6.0,Revenue,63751.6,EUR,Monthly
+1836,20251101,5,6.0,Operating Margin,25.37,Percent,Monthly
+1837,20251101,5,7.0,Revenue,136141.1,EUR,Monthly
+1838,20251101,5,7.0,Operating Margin,21.15,Percent,Monthly
+1839,20251101,5,8.0,Revenue,95403.27,EUR,Monthly
+1840,20251101,5,8.0,Operating Margin,17.55,Percent,Monthly
+1841,20251201,1,1.0,Revenue,339783.16,EUR,Monthly
+1842,20251201,1,1.0,Operating Margin,42.0,Percent,Monthly
+1843,20251201,1,2.0,Revenue,434114.35,EUR,Monthly
+1844,20251201,1,2.0,Operating Margin,38.48,Percent,Monthly
+1845,20251201,1,3.0,Revenue,2146466.05,EUR,Monthly
+1846,20251201,1,3.0,Operating Margin,37.36,Percent,Monthly
+1847,20251201,1,4.0,Revenue,1851653.1,EUR,Monthly
+1848,20251201,1,4.0,Operating Margin,27.39,Percent,Monthly
+1849,20251201,1,5.0,Revenue,1335202.48,EUR,Monthly
+1850,20251201,1,5.0,Operating Margin,25.31,Percent,Monthly
+1851,20251201,1,6.0,Revenue,509055.5,EUR,Monthly
+1852,20251201,1,6.0,Operating Margin,34.19,Percent,Monthly
+1853,20251201,1,7.0,Revenue,1063188.17,EUR,Monthly
+1854,20251201,1,7.0,Operating Margin,32.81,Percent,Monthly
+1855,20251201,1,8.0,Revenue,774649.76,EUR,Monthly
+1856,20251201,1,8.0,Operating Margin,27.68,Percent,Monthly
+1857,20251201,2,1.0,Revenue,229425.72,EUR,Monthly
+1858,20251201,2,1.0,Operating Margin,42.0,Percent,Monthly
+1859,20251201,2,2.0,Revenue,270015.62,EUR,Monthly
+1860,20251201,2,2.0,Operating Margin,42.0,Percent,Monthly
+1861,20251201,2,3.0,Revenue,1540214.4,EUR,Monthly
+1862,20251201,2,3.0,Operating Margin,41.67,Percent,Monthly
+1863,20251201,2,4.0,Revenue,1248122.05,EUR,Monthly
+1864,20251201,2,4.0,Operating Margin,36.78,Percent,Monthly
+1865,20251201,2,5.0,Revenue,920911.66,EUR,Monthly
+1866,20251201,2,5.0,Operating Margin,40.64,Percent,Monthly
+1867,20251201,2,6.0,Revenue,327409.81,EUR,Monthly
+1868,20251201,2,6.0,Operating Margin,41.59,Percent,Monthly
+1869,20251201,2,7.0,Revenue,652003.59,EUR,Monthly
+1870,20251201,2,7.0,Operating Margin,40.68,Percent,Monthly
+1871,20251201,2,8.0,Revenue,505544.26,EUR,Monthly
+1872,20251201,2,8.0,Operating Margin,35.89,Percent,Monthly
+1873,20251201,3,1.0,Revenue,184615.97,EUR,Monthly
+1874,20251201,3,1.0,Operating Margin,42.0,Percent,Monthly
+1875,20251201,3,2.0,Revenue,224598.94,EUR,Monthly
+1876,20251201,3,2.0,Operating Margin,42.0,Percent,Monthly
+1877,20251201,3,3.0,Revenue,1179999.08,EUR,Monthly
+1878,20251201,3,3.0,Operating Margin,39.38,Percent,Monthly
+1879,20251201,3,4.0,Revenue,1014811.39,EUR,Monthly
+1880,20251201,3,4.0,Operating Margin,35.14,Percent,Monthly
+1881,20251201,3,5.0,Revenue,746286.74,EUR,Monthly
+1882,20251201,3,5.0,Operating Margin,35.16,Percent,Monthly
+1883,20251201,3,6.0,Revenue,282226.34,EUR,Monthly
+1884,20251201,3,6.0,Operating Margin,38.6,Percent,Monthly
+1885,20251201,3,7.0,Revenue,547860.36,EUR,Monthly
+1886,20251201,3,7.0,Operating Margin,38.17,Percent,Monthly
+1887,20251201,3,8.0,Revenue,405344.0,EUR,Monthly
+1888,20251201,3,8.0,Operating Margin,32.32,Percent,Monthly
+1889,20251201,4,1.0,Revenue,106857.53,EUR,Monthly
+1890,20251201,4,1.0,Operating Margin,42.0,Percent,Monthly
+1891,20251201,4,2.0,Revenue,132098.53,EUR,Monthly
+1892,20251201,4,2.0,Operating Margin,40.61,Percent,Monthly
+1893,20251201,4,3.0,Revenue,703408.27,EUR,Monthly
+1894,20251201,4,3.0,Operating Margin,42.0,Percent,Monthly
+1895,20251201,4,4.0,Revenue,582701.29,EUR,Monthly
+1896,20251201,4,4.0,Operating Margin,32.65,Percent,Monthly
+1897,20251201,4,5.0,Revenue,419035.28,EUR,Monthly
+1898,20251201,4,5.0,Operating Margin,29.1,Percent,Monthly
+1899,20251201,4,6.0,Revenue,150163.38,EUR,Monthly
+1900,20251201,4,6.0,Operating Margin,40.35,Percent,Monthly
+1901,20251201,4,7.0,Revenue,301757.5,EUR,Monthly
+1902,20251201,4,7.0,Operating Margin,34.67,Percent,Monthly
+1903,20251201,4,8.0,Revenue,235186.02,EUR,Monthly
+1904,20251201,4,8.0,Operating Margin,30.8,Percent,Monthly
+1905,20251201,5,1.0,Revenue,47601.89,EUR,Monthly
+1906,20251201,5,1.0,Operating Margin,42.0,Percent,Monthly
+1907,20251201,5,2.0,Revenue,58442.35,EUR,Monthly
+1908,20251201,5,2.0,Operating Margin,36.56,Percent,Monthly
+1909,20251201,5,3.0,Revenue,295754.31,EUR,Monthly
+1910,20251201,5,3.0,Operating Margin,38.62,Percent,Monthly
+1911,20251201,5,4.0,Revenue,244315.36,EUR,Monthly
+1912,20251201,5,4.0,Operating Margin,19.92,Percent,Monthly
+1913,20251201,5,5.0,Revenue,175527.8,EUR,Monthly
+1914,20251201,5,5.0,Operating Margin,21.18,Percent,Monthly
+1915,20251201,5,6.0,Revenue,68779.14,EUR,Monthly
+1916,20251201,5,6.0,Operating Margin,31.91,Percent,Monthly
+1917,20251201,5,7.0,Revenue,132690.29,EUR,Monthly
+1918,20251201,5,7.0,Operating Margin,27.73,Percent,Monthly
+1919,20251201,5,8.0,Revenue,105812.98,EUR,Monthly
+1920,20251201,5,8.0,Operating Margin,26.35,Percent,Monthly
+1921,20240101,1,,SLA Compliance,82.0,Percent,Monthly
+1922,20240101,1,,Asset Availability,99.42,Percent,Monthly
+1923,20240101,1,,Customer Satisfaction,3.48,Score,Monthly
+1924,20240101,1,,CO2 Emissions,40303.1,kg,Monthly
+1925,20240101,1,,Energy Consumption,118990.16,kWh,Monthly
+1926,20240101,2,,SLA Compliance,99.0,Percent,Monthly
+1927,20240101,2,,Asset Availability,99.9,Percent,Monthly
+1928,20240101,2,,Customer Satisfaction,4.42,Score,Monthly
+1929,20240101,2,,CO2 Emissions,6780.78,kg,Monthly
+1930,20240101,2,,Energy Consumption,23108.99,kWh,Monthly
+1931,20240101,3,,SLA Compliance,83.28,Percent,Monthly
+1932,20240101,3,,Asset Availability,99.84,Percent,Monthly
+1933,20240101,3,,Customer Satisfaction,4.02,Score,Monthly
+1934,20240101,3,,CO2 Emissions,9107.0,kg,Monthly
+1935,20240101,3,,Energy Consumption,28065.52,kWh,Monthly
+1936,20240101,4,,SLA Compliance,82.0,Percent,Monthly
+1937,20240101,4,,Asset Availability,99.52,Percent,Monthly
+1938,20240101,4,,Customer Satisfaction,3.88,Score,Monthly
+1939,20240101,4,,CO2 Emissions,12636.11,kg,Monthly
+1940,20240101,4,,Energy Consumption,38254.81,kWh,Monthly
+1941,20240101,5,,SLA Compliance,82.0,Percent,Monthly
+1942,20240101,5,,Asset Availability,99.9,Percent,Monthly
+1943,20240101,5,,Customer Satisfaction,3.29,Score,Monthly
+1944,20240101,5,,CO2 Emissions,5233.06,kg,Monthly
+1945,20240101,5,,Energy Consumption,15845.75,kWh,Monthly
+1946,20240201,1,,SLA Compliance,82.0,Percent,Monthly
+1947,20240201,1,,Asset Availability,99.35,Percent,Monthly
+1948,20240201,1,,Customer Satisfaction,3.45,Score,Monthly
+1949,20240201,1,,CO2 Emissions,35326.76,kg,Monthly
+1950,20240201,1,,Energy Consumption,99516.99,kWh,Monthly
+1951,20240201,2,,SLA Compliance,97.51,Percent,Monthly
+1952,20240201,2,,Asset Availability,99.9,Percent,Monthly
+1953,20240201,2,,Customer Satisfaction,4.37,Score,Monthly
+1954,20240201,2,,CO2 Emissions,9122.29,kg,Monthly
+1955,20240201,2,,Energy Consumption,29521.69,kWh,Monthly
+1956,20240201,3,,SLA Compliance,96.46,Percent,Monthly
+1957,20240201,3,,Asset Availability,99.9,Percent,Monthly
+1958,20240201,3,,Customer Satisfaction,4.16,Score,Monthly
+1959,20240201,3,,CO2 Emissions,14458.58,kg,Monthly
+1960,20240201,3,,Energy Consumption,44799.95,kWh,Monthly
+1961,20240201,4,,SLA Compliance,82.0,Percent,Monthly
+1962,20240201,4,,Asset Availability,99.66,Percent,Monthly
+1963,20240201,4,,Customer Satisfaction,3.91,Score,Monthly
+1964,20240201,4,,CO2 Emissions,8428.18,kg,Monthly
+1965,20240201,4,,Energy Consumption,25140.44,kWh,Monthly
+1966,20240201,5,,SLA Compliance,82.0,Percent,Monthly
+1967,20240201,5,,Asset Availability,99.9,Percent,Monthly
+1968,20240201,5,,Customer Satisfaction,3.05,Score,Monthly
+1969,20240201,5,,CO2 Emissions,9514.39,kg,Monthly
+1970,20240201,5,,Energy Consumption,28007.95,kWh,Monthly
+1971,20240301,1,,SLA Compliance,82.0,Percent,Monthly
+1972,20240301,1,,Asset Availability,98.64,Percent,Monthly
+1973,20240301,1,,Customer Satisfaction,3.34,Score,Monthly
+1974,20240301,1,,CO2 Emissions,33924.56,kg,Monthly
+1975,20240301,1,,Energy Consumption,98591.75,kWh,Monthly
+1976,20240301,2,,SLA Compliance,98.82,Percent,Monthly
+1977,20240301,2,,Asset Availability,99.9,Percent,Monthly
+1978,20240301,2,,Customer Satisfaction,4.38,Score,Monthly
+1979,20240301,2,,CO2 Emissions,7689.43,kg,Monthly
+1980,20240301,2,,Energy Consumption,25821.02,kWh,Monthly
+1981,20240301,3,,SLA Compliance,90.62,Percent,Monthly
+1982,20240301,3,,Asset Availability,99.9,Percent,Monthly
+1983,20240301,3,,Customer Satisfaction,4.25,Score,Monthly
+1984,20240301,3,,CO2 Emissions,8597.74,kg,Monthly
+1985,20240301,3,,Energy Consumption,27165.08,kWh,Monthly
+1986,20240301,4,,SLA Compliance,82.0,Percent,Monthly
+1987,20240301,4,,Asset Availability,99.9,Percent,Monthly
+1988,20240301,4,,Customer Satisfaction,4.01,Score,Monthly
+1989,20240301,4,,CO2 Emissions,8485.96,kg,Monthly
+1990,20240301,4,,Energy Consumption,26779.38,kWh,Monthly
+1991,20240301,5,,SLA Compliance,82.0,Percent,Monthly
+1992,20240301,5,,Asset Availability,99.74,Percent,Monthly
+1993,20240301,5,,Customer Satisfaction,3.35,Score,Monthly
+1994,20240301,5,,CO2 Emissions,11622.45,kg,Monthly
+1995,20240301,5,,Energy Consumption,34764.98,kWh,Monthly
+1996,20240401,1,,SLA Compliance,82.0,Percent,Monthly
+1997,20240401,1,,Asset Availability,99.32,Percent,Monthly
+1998,20240401,1,,Customer Satisfaction,3.47,Score,Monthly
+1999,20240401,1,,CO2 Emissions,33040.3,kg,Monthly
+2000,20240401,1,,Energy Consumption,98556.29,kWh,Monthly
+2001,20240401,2,,SLA Compliance,97.34,Percent,Monthly
+2002,20240401,2,,Asset Availability,99.9,Percent,Monthly
+2003,20240401,2,,Customer Satisfaction,4.37,Score,Monthly
+2004,20240401,2,,CO2 Emissions,4612.68,kg,Monthly
+2005,20240401,2,,Energy Consumption,15513.78,kWh,Monthly
+2006,20240401,3,,SLA Compliance,84.14,Percent,Monthly
+2007,20240401,3,,Asset Availability,99.77,Percent,Monthly
+2008,20240401,3,,Customer Satisfaction,4.03,Score,Monthly
+2009,20240401,3,,CO2 Emissions,12067.69,kg,Monthly
+2010,20240401,3,,Energy Consumption,36467.48,kWh,Monthly
+2011,20240401,4,,SLA Compliance,82.0,Percent,Monthly
+2012,20240401,4,,Asset Availability,99.9,Percent,Monthly
+2013,20240401,4,,Customer Satisfaction,3.94,Score,Monthly
+2014,20240401,4,,CO2 Emissions,10513.82,kg,Monthly
+2015,20240401,4,,Energy Consumption,31336.32,kWh,Monthly
+2016,20240401,5,,SLA Compliance,82.0,Percent,Monthly
+2017,20240401,5,,Asset Availability,99.45,Percent,Monthly
+2018,20240401,5,,Customer Satisfaction,3.47,Score,Monthly
+2019,20240401,5,,CO2 Emissions,7930.41,kg,Monthly
+2020,20240401,5,,Energy Consumption,23660.16,kWh,Monthly
+2021,20240501,1,,SLA Compliance,82.0,Percent,Monthly
+2022,20240501,1,,Asset Availability,99.61,Percent,Monthly
+2023,20240501,1,,Customer Satisfaction,3.5,Score,Monthly
+2024,20240501,1,,CO2 Emissions,32542.95,kg,Monthly
+2025,20240501,1,,Energy Consumption,101633.31,kWh,Monthly
+2026,20240501,2,,SLA Compliance,99.0,Percent,Monthly
+2027,20240501,2,,Asset Availability,99.9,Percent,Monthly
+2028,20240501,2,,Customer Satisfaction,4.29,Score,Monthly
+2029,20240501,2,,CO2 Emissions,7106.75,kg,Monthly
+2030,20240501,2,,Energy Consumption,23396.24,kWh,Monthly
+2031,20240501,3,,SLA Compliance,98.4,Percent,Monthly
+2032,20240501,3,,Asset Availability,99.9,Percent,Monthly
+2033,20240501,3,,Customer Satisfaction,4.09,Score,Monthly
+2034,20240501,3,,CO2 Emissions,12075.57,kg,Monthly
+2035,20240501,3,,Energy Consumption,36611.16,kWh,Monthly
+2036,20240501,4,,SLA Compliance,83.03,Percent,Monthly
+2037,20240501,4,,Asset Availability,99.9,Percent,Monthly
+2038,20240501,4,,Customer Satisfaction,3.85,Score,Monthly
+2039,20240501,4,,CO2 Emissions,10665.93,kg,Monthly
+2040,20240501,4,,Energy Consumption,32651.77,kWh,Monthly
+2041,20240501,5,,SLA Compliance,82.0,Percent,Monthly
+2042,20240501,5,,Asset Availability,99.63,Percent,Monthly
+2043,20240501,5,,Customer Satisfaction,3.27,Score,Monthly
+2044,20240501,5,,CO2 Emissions,8073.72,kg,Monthly
+2045,20240501,5,,Energy Consumption,24552.77,kWh,Monthly
+2046,20240601,1,,SLA Compliance,82.0,Percent,Monthly
+2047,20240601,1,,Asset Availability,99.37,Percent,Monthly
+2048,20240601,1,,Customer Satisfaction,3.8,Score,Monthly
+2049,20240601,1,,CO2 Emissions,28508.86,kg,Monthly
+2050,20240601,1,,Energy Consumption,87843.06,kWh,Monthly
+2051,20240601,2,,SLA Compliance,99.0,Percent,Monthly
+2052,20240601,2,,Asset Availability,99.9,Percent,Monthly
+2053,20240601,2,,Customer Satisfaction,4.54,Score,Monthly
+2054,20240601,2,,CO2 Emissions,4593.71,kg,Monthly
+2055,20240601,2,,Energy Consumption,15498.1,kWh,Monthly
+2056,20240601,3,,SLA Compliance,82.39,Percent,Monthly
+2057,20240601,3,,Asset Availability,99.64,Percent,Monthly
+2058,20240601,3,,Customer Satisfaction,4.11,Score,Monthly
+2059,20240601,3,,CO2 Emissions,9546.17,kg,Monthly
+2060,20240601,3,,Energy Consumption,29302.95,kWh,Monthly
+2061,20240601,4,,SLA Compliance,86.94,Percent,Monthly
+2062,20240601,4,,Asset Availability,99.5,Percent,Monthly
+2063,20240601,4,,Customer Satisfaction,3.92,Score,Monthly
+2064,20240601,4,,CO2 Emissions,7337.44,kg,Monthly
+2065,20240601,4,,Energy Consumption,22888.7,kWh,Monthly
+2066,20240601,5,,SLA Compliance,82.0,Percent,Monthly
+2067,20240601,5,,Asset Availability,99.75,Percent,Monthly
+2068,20240601,5,,Customer Satisfaction,3.48,Score,Monthly
+2069,20240601,5,,CO2 Emissions,7585.98,kg,Monthly
+2070,20240601,5,,Energy Consumption,23233.58,kWh,Monthly
+2071,20240701,1,,SLA Compliance,82.0,Percent,Monthly
+2072,20240701,1,,Asset Availability,99.01,Percent,Monthly
+2073,20240701,1,,Customer Satisfaction,3.67,Score,Monthly
+2074,20240701,1,,CO2 Emissions,34815.95,kg,Monthly
+2075,20240701,1,,Energy Consumption,108306.34,kWh,Monthly
+2076,20240701,2,,SLA Compliance,99.0,Percent,Monthly
+2077,20240701,2,,Asset Availability,99.89,Percent,Monthly
+2078,20240701,2,,Customer Satisfaction,4.66,Score,Monthly
+2079,20240701,2,,CO2 Emissions,7564.34,kg,Monthly
+2080,20240701,2,,Energy Consumption,24652.03,kWh,Monthly
+2081,20240701,3,,SLA Compliance,93.88,Percent,Monthly
+2082,20240701,3,,Asset Availability,99.9,Percent,Monthly
+2083,20240701,3,,Customer Satisfaction,4.23,Score,Monthly
+2084,20240701,3,,CO2 Emissions,6435.45,kg,Monthly
+2085,20240701,3,,Energy Consumption,19654.14,kWh,Monthly
+2086,20240701,4,,SLA Compliance,85.16,Percent,Monthly
+2087,20240701,4,,Asset Availability,99.7,Percent,Monthly
+2088,20240701,4,,Customer Satisfaction,3.93,Score,Monthly
+2089,20240701,4,,CO2 Emissions,4108.26,kg,Monthly
+2090,20240701,4,,Energy Consumption,13376.34,kWh,Monthly
+2091,20240701,5,,SLA Compliance,82.0,Percent,Monthly
+2092,20240701,5,,Asset Availability,99.9,Percent,Monthly
+2093,20240701,5,,Customer Satisfaction,3.64,Score,Monthly
+2094,20240701,5,,CO2 Emissions,5439.59,kg,Monthly
+2095,20240701,5,,Energy Consumption,15873.02,kWh,Monthly
+2096,20240801,1,,SLA Compliance,82.0,Percent,Monthly
+2097,20240801,1,,Asset Availability,99.47,Percent,Monthly
+2098,20240801,1,,Customer Satisfaction,3.54,Score,Monthly
+2099,20240801,1,,CO2 Emissions,24216.35,kg,Monthly
+2100,20240801,1,,Energy Consumption,73936.82,kWh,Monthly
+2101,20240801,2,,SLA Compliance,99.0,Percent,Monthly
+2102,20240801,2,,Asset Availability,99.9,Percent,Monthly
+2103,20240801,2,,Customer Satisfaction,4.68,Score,Monthly
+2104,20240801,2,,CO2 Emissions,4618.16,kg,Monthly
+2105,20240801,2,,Energy Consumption,15339.43,kWh,Monthly
+2106,20240801,3,,SLA Compliance,91.92,Percent,Monthly
+2107,20240801,3,,Asset Availability,99.9,Percent,Monthly
+2108,20240801,3,,Customer Satisfaction,4.22,Score,Monthly
+2109,20240801,3,,CO2 Emissions,8214.52,kg,Monthly
+2110,20240801,3,,Energy Consumption,26205.37,kWh,Monthly
+2111,20240801,4,,SLA Compliance,84.46,Percent,Monthly
+2112,20240801,4,,Asset Availability,99.9,Percent,Monthly
+2113,20240801,4,,Customer Satisfaction,3.87,Score,Monthly
+2114,20240801,4,,CO2 Emissions,7358.68,kg,Monthly
+2115,20240801,4,,Energy Consumption,23684.17,kWh,Monthly
+2116,20240801,5,,SLA Compliance,82.0,Percent,Monthly
+2117,20240801,5,,Asset Availability,99.39,Percent,Monthly
+2118,20240801,5,,Customer Satisfaction,3.26,Score,Monthly
+2119,20240801,5,,CO2 Emissions,6232.97,kg,Monthly
+2120,20240801,5,,Energy Consumption,19180.52,kWh,Monthly
+2121,20240901,1,,SLA Compliance,82.0,Percent,Monthly
+2122,20240901,1,,Asset Availability,99.4,Percent,Monthly
+2123,20240901,1,,Customer Satisfaction,3.24,Score,Monthly
+2124,20240901,1,,CO2 Emissions,30257.44,kg,Monthly
+2125,20240901,1,,Energy Consumption,93917.16,kWh,Monthly
+2126,20240901,2,,SLA Compliance,99.0,Percent,Monthly
+2127,20240901,2,,Asset Availability,99.9,Percent,Monthly
+2128,20240901,2,,Customer Satisfaction,4.46,Score,Monthly
+2129,20240901,2,,CO2 Emissions,8302.04,kg,Monthly
+2130,20240901,2,,Energy Consumption,28948.79,kWh,Monthly
+2131,20240901,3,,SLA Compliance,95.35,Percent,Monthly
+2132,20240901,3,,Asset Availability,99.9,Percent,Monthly
+2133,20240901,3,,Customer Satisfaction,4.37,Score,Monthly
+2134,20240901,3,,CO2 Emissions,10248.8,kg,Monthly
+2135,20240901,3,,Energy Consumption,32836.08,kWh,Monthly
+2136,20240901,4,,SLA Compliance,82.84,Percent,Monthly
+2137,20240901,4,,Asset Availability,99.9,Percent,Monthly
+2138,20240901,4,,Customer Satisfaction,3.84,Score,Monthly
+2139,20240901,4,,CO2 Emissions,9061.2,kg,Monthly
+2140,20240901,4,,Energy Consumption,29704.12,kWh,Monthly
+2141,20240901,5,,SLA Compliance,82.0,Percent,Monthly
+2142,20240901,5,,Asset Availability,99.44,Percent,Monthly
+2143,20240901,5,,Customer Satisfaction,3.49,Score,Monthly
+2144,20240901,5,,CO2 Emissions,9716.66,kg,Monthly
+2145,20240901,5,,Energy Consumption,30773.43,kWh,Monthly
+2146,20241001,1,,SLA Compliance,82.0,Percent,Monthly
+2147,20241001,1,,Asset Availability,99.36,Percent,Monthly
+2148,20241001,1,,Customer Satisfaction,3.54,Score,Monthly
+2149,20241001,1,,CO2 Emissions,27453.7,kg,Monthly
+2150,20241001,1,,Energy Consumption,84837.76,kWh,Monthly
+2151,20241001,2,,SLA Compliance,99.0,Percent,Monthly
+2152,20241001,2,,Asset Availability,99.9,Percent,Monthly
+2153,20241001,2,,Customer Satisfaction,4.55,Score,Monthly
+2154,20241001,2,,CO2 Emissions,6222.57,kg,Monthly
+2155,20241001,2,,Energy Consumption,20578.45,kWh,Monthly
+2156,20241001,3,,SLA Compliance,84.34,Percent,Monthly
+2157,20241001,3,,Asset Availability,99.8,Percent,Monthly
+2158,20241001,3,,Customer Satisfaction,4.21,Score,Monthly
+2159,20241001,3,,CO2 Emissions,11120.71,kg,Monthly
+2160,20241001,3,,Energy Consumption,35348.02,kWh,Monthly
+2161,20241001,4,,SLA Compliance,82.0,Percent,Monthly
+2162,20241001,4,,Asset Availability,99.4,Percent,Monthly
+2163,20241001,4,,Customer Satisfaction,3.78,Score,Monthly
+2164,20241001,4,,CO2 Emissions,8249.39,kg,Monthly
+2165,20241001,4,,Energy Consumption,26460.41,kWh,Monthly
+2166,20241001,5,,SLA Compliance,82.0,Percent,Monthly
+2167,20241001,5,,Asset Availability,99.9,Percent,Monthly
+2168,20241001,5,,Customer Satisfaction,3.37,Score,Monthly
+2169,20241001,5,,CO2 Emissions,12483.5,kg,Monthly
+2170,20241001,5,,Energy Consumption,38727.97,kWh,Monthly
+2171,20241101,1,,SLA Compliance,82.0,Percent,Monthly
+2172,20241101,1,,Asset Availability,99.9,Percent,Monthly
+2173,20241101,1,,Customer Satisfaction,3.31,Score,Monthly
+2174,20241101,1,,CO2 Emissions,32390.19,kg,Monthly
+2175,20241101,1,,Energy Consumption,97586.16,kWh,Monthly
+2176,20241101,2,,SLA Compliance,95.73,Percent,Monthly
+2177,20241101,2,,Asset Availability,99.71,Percent,Monthly
+2178,20241101,2,,Customer Satisfaction,4.28,Score,Monthly
+2179,20241101,2,,CO2 Emissions,6401.51,kg,Monthly
+2180,20241101,2,,Energy Consumption,21361.19,kWh,Monthly
+2181,20241101,3,,SLA Compliance,93.51,Percent,Monthly
+2182,20241101,3,,Asset Availability,99.9,Percent,Monthly
+2183,20241101,3,,Customer Satisfaction,4.25,Score,Monthly
+2184,20241101,3,,CO2 Emissions,9305.82,kg,Monthly
+2185,20241101,3,,Energy Consumption,30795.25,kWh,Monthly
+2186,20241101,4,,SLA Compliance,87.81,Percent,Monthly
+2187,20241101,4,,Asset Availability,99.9,Percent,Monthly
+2188,20241101,4,,Customer Satisfaction,4.05,Score,Monthly
+2189,20241101,4,,CO2 Emissions,8870.5,kg,Monthly
+2190,20241101,4,,Energy Consumption,27678.43,kWh,Monthly
+2191,20241101,5,,SLA Compliance,82.0,Percent,Monthly
+2192,20241101,5,,Asset Availability,99.9,Percent,Monthly
+2193,20241101,5,,Customer Satisfaction,3.29,Score,Monthly
+2194,20241101,5,,CO2 Emissions,7121.14,kg,Monthly
+2195,20241101,5,,Energy Consumption,21909.35,kWh,Monthly
+2196,20241201,1,,SLA Compliance,82.0,Percent,Monthly
+2197,20241201,1,,Asset Availability,99.66,Percent,Monthly
+2198,20241201,1,,Customer Satisfaction,3.56,Score,Monthly
+2199,20241201,1,,CO2 Emissions,45040.84,kg,Monthly
+2200,20241201,1,,Energy Consumption,138660.73,kWh,Monthly
+2201,20241201,2,,SLA Compliance,99.0,Percent,Monthly
+2202,20241201,2,,Asset Availability,99.9,Percent,Monthly
+2203,20241201,2,,Customer Satisfaction,4.32,Score,Monthly
+2204,20241201,2,,CO2 Emissions,6367.79,kg,Monthly
+2205,20241201,2,,Energy Consumption,22156.76,kWh,Monthly
+2206,20241201,3,,SLA Compliance,92.82,Percent,Monthly
+2207,20241201,3,,Asset Availability,99.9,Percent,Monthly
+2208,20241201,3,,Customer Satisfaction,4.3,Score,Monthly
+2209,20241201,3,,CO2 Emissions,13493.06,kg,Monthly
+2210,20241201,3,,Energy Consumption,45170.86,kWh,Monthly
+2211,20241201,4,,SLA Compliance,93.75,Percent,Monthly
+2212,20241201,4,,Asset Availability,99.9,Percent,Monthly
+2213,20241201,4,,Customer Satisfaction,4.18,Score,Monthly
+2214,20241201,4,,CO2 Emissions,8693.07,kg,Monthly
+2215,20241201,4,,Energy Consumption,28336.75,kWh,Monthly
+2216,20241201,5,,SLA Compliance,82.0,Percent,Monthly
+2217,20241201,5,,Asset Availability,99.9,Percent,Monthly
+2218,20241201,5,,Customer Satisfaction,4.04,Score,Monthly
+2219,20241201,5,,CO2 Emissions,12176.17,kg,Monthly
+2220,20241201,5,,Energy Consumption,37772.26,kWh,Monthly
+2221,20250101,1,,SLA Compliance,82.0,Percent,Monthly
+2222,20250101,1,,Asset Availability,99.29,Percent,Monthly
+2223,20250101,1,,Customer Satisfaction,3.76,Score,Monthly
+2224,20250101,1,,CO2 Emissions,37036.46,kg,Monthly
+2225,20250101,1,,Energy Consumption,115166.5,kWh,Monthly
+2226,20250101,2,,SLA Compliance,96.27,Percent,Monthly
+2227,20250101,2,,Asset Availability,99.9,Percent,Monthly
+2228,20250101,2,,Customer Satisfaction,4.15,Score,Monthly
+2229,20250101,2,,CO2 Emissions,6166.53,kg,Monthly
+2230,20250101,2,,Energy Consumption,21216.49,kWh,Monthly
+2231,20250101,3,,SLA Compliance,93.19,Percent,Monthly
+2232,20250101,3,,Asset Availability,99.9,Percent,Monthly
+2233,20250101,3,,Customer Satisfaction,4.19,Score,Monthly
+2234,20250101,3,,CO2 Emissions,10061.8,kg,Monthly
+2235,20250101,3,,Energy Consumption,32979.23,kWh,Monthly
+2236,20250101,4,,SLA Compliance,82.0,Percent,Monthly
+2237,20250101,4,,Asset Availability,99.9,Percent,Monthly
+2238,20250101,4,,Customer Satisfaction,3.66,Score,Monthly
+2239,20250101,4,,CO2 Emissions,10909.36,kg,Monthly
+2240,20250101,4,,Energy Consumption,35193.82,kWh,Monthly
+2241,20250101,5,,SLA Compliance,82.0,Percent,Monthly
+2242,20250101,5,,Asset Availability,99.9,Percent,Monthly
+2243,20250101,5,,Customer Satisfaction,3.35,Score,Monthly
+2244,20250101,5,,CO2 Emissions,8491.59,kg,Monthly
+2245,20250101,5,,Energy Consumption,25932.56,kWh,Monthly
+2246,20250201,1,,SLA Compliance,82.0,Percent,Monthly
+2247,20250201,1,,Asset Availability,99.66,Percent,Monthly
+2248,20250201,1,,Customer Satisfaction,3.49,Score,Monthly
+2249,20250201,1,,CO2 Emissions,26332.21,kg,Monthly
+2250,20250201,1,,Energy Consumption,78954.31,kWh,Monthly
+2251,20250201,2,,SLA Compliance,98.13,Percent,Monthly
+2252,20250201,2,,Asset Availability,99.9,Percent,Monthly
+2253,20250201,2,,Customer Satisfaction,4.36,Score,Monthly
+2254,20250201,2,,CO2 Emissions,6481.41,kg,Monthly
+2255,20250201,2,,Energy Consumption,23366.28,kWh,Monthly
+2256,20250201,3,,SLA Compliance,90.26,Percent,Monthly
+2257,20250201,3,,Asset Availability,99.88,Percent,Monthly
+2258,20250201,3,,Customer Satisfaction,4.28,Score,Monthly
+2259,20250201,3,,CO2 Emissions,9735.41,kg,Monthly
+2260,20250201,3,,Energy Consumption,32440.09,kWh,Monthly
+2261,20250201,4,,SLA Compliance,82.0,Percent,Monthly
+2262,20250201,4,,Asset Availability,99.9,Percent,Monthly
+2263,20250201,4,,Customer Satisfaction,3.78,Score,Monthly
+2264,20250201,4,,CO2 Emissions,11426.38,kg,Monthly
+2265,20250201,4,,Energy Consumption,36363.39,kWh,Monthly
+2266,20250201,5,,SLA Compliance,82.0,Percent,Monthly
+2267,20250201,5,,Asset Availability,99.83,Percent,Monthly
+2268,20250201,5,,Customer Satisfaction,3.38,Score,Monthly
+2269,20250201,5,,CO2 Emissions,8043.18,kg,Monthly
+2270,20250201,5,,Energy Consumption,26118.09,kWh,Monthly
+2271,20250301,1,,SLA Compliance,82.0,Percent,Monthly
+2272,20250301,1,,Asset Availability,98.67,Percent,Monthly
+2273,20250301,1,,Customer Satisfaction,3.24,Score,Monthly
+2274,20250301,1,,CO2 Emissions,34934.71,kg,Monthly
+2275,20250301,1,,Energy Consumption,103905.17,kWh,Monthly
+2276,20250301,2,,SLA Compliance,98.94,Percent,Monthly
+2277,20250301,2,,Asset Availability,99.89,Percent,Monthly
+2278,20250301,2,,Customer Satisfaction,4.23,Score,Monthly
+2279,20250301,2,,CO2 Emissions,6653.59,kg,Monthly
+2280,20250301,2,,Energy Consumption,22677.42,kWh,Monthly
+2281,20250301,3,,SLA Compliance,90.13,Percent,Monthly
+2282,20250301,3,,Asset Availability,99.53,Percent,Monthly
+2283,20250301,3,,Customer Satisfaction,4.46,Score,Monthly
+2284,20250301,3,,CO2 Emissions,13162.1,kg,Monthly
+2285,20250301,3,,Energy Consumption,44267.7,kWh,Monthly
+2286,20250301,4,,SLA Compliance,89.82,Percent,Monthly
+2287,20250301,4,,Asset Availability,99.9,Percent,Monthly
+2288,20250301,4,,Customer Satisfaction,4.0,Score,Monthly
+2289,20250301,4,,CO2 Emissions,9822.96,kg,Monthly
+2290,20250301,4,,Energy Consumption,30727.58,kWh,Monthly
+2291,20250301,5,,SLA Compliance,82.0,Percent,Monthly
+2292,20250301,5,,Asset Availability,99.9,Percent,Monthly
+2293,20250301,5,,Customer Satisfaction,3.28,Score,Monthly
+2294,20250301,5,,CO2 Emissions,7461.95,kg,Monthly
+2295,20250301,5,,Energy Consumption,23363.0,kWh,Monthly
+2296,20250401,1,,SLA Compliance,82.0,Percent,Monthly
+2297,20250401,1,,Asset Availability,99.2,Percent,Monthly
+2298,20250401,1,,Customer Satisfaction,3.5,Score,Monthly
+2299,20250401,1,,CO2 Emissions,29408.51,kg,Monthly
+2300,20250401,1,,Energy Consumption,92772.73,kWh,Monthly
+2301,20250401,2,,SLA Compliance,99.0,Percent,Monthly
+2302,20250401,2,,Asset Availability,99.9,Percent,Monthly
+2303,20250401,2,,Customer Satisfaction,4.58,Score,Monthly
+2304,20250401,2,,CO2 Emissions,4813.49,kg,Monthly
+2305,20250401,2,,Energy Consumption,16803.5,kWh,Monthly
+2306,20250401,3,,SLA Compliance,93.73,Percent,Monthly
+2307,20250401,3,,Asset Availability,99.9,Percent,Monthly
+2308,20250401,3,,Customer Satisfaction,4.25,Score,Monthly
+2309,20250401,3,,CO2 Emissions,8333.24,kg,Monthly
+2310,20250401,3,,Energy Consumption,26953.01,kWh,Monthly
+2311,20250401,4,,SLA Compliance,82.0,Percent,Monthly
+2312,20250401,4,,Asset Availability,99.9,Percent,Monthly
+2313,20250401,4,,Customer Satisfaction,3.85,Score,Monthly
+2314,20250401,4,,CO2 Emissions,11932.51,kg,Monthly
+2315,20250401,4,,Energy Consumption,38126.58,kWh,Monthly
+2316,20250401,5,,SLA Compliance,82.0,Percent,Monthly
+2317,20250401,5,,Asset Availability,99.9,Percent,Monthly
+2318,20250401,5,,Customer Satisfaction,3.34,Score,Monthly
+2319,20250401,5,,CO2 Emissions,6417.95,kg,Monthly
+2320,20250401,5,,Energy Consumption,20721.46,kWh,Monthly
+2321,20250501,1,,SLA Compliance,82.0,Percent,Monthly
+2322,20250501,1,,Asset Availability,99.47,Percent,Monthly
+2323,20250501,1,,Customer Satisfaction,3.65,Score,Monthly
+2324,20250501,1,,CO2 Emissions,25041.45,kg,Monthly
+2325,20250501,1,,Energy Consumption,82131.42,kWh,Monthly
+2326,20250501,2,,SLA Compliance,98.93,Percent,Monthly
+2327,20250501,2,,Asset Availability,99.9,Percent,Monthly
+2328,20250501,2,,Customer Satisfaction,4.38,Score,Monthly
+2329,20250501,2,,CO2 Emissions,7942.22,kg,Monthly
+2330,20250501,2,,Energy Consumption,28046.94,kWh,Monthly
+2331,20250501,3,,SLA Compliance,94.05,Percent,Monthly
+2332,20250501,3,,Asset Availability,99.9,Percent,Monthly
+2333,20250501,3,,Customer Satisfaction,3.98,Score,Monthly
+2334,20250501,3,,CO2 Emissions,9584.84,kg,Monthly
+2335,20250501,3,,Energy Consumption,31056.42,kWh,Monthly
+2336,20250501,4,,SLA Compliance,82.0,Percent,Monthly
+2337,20250501,4,,Asset Availability,99.9,Percent,Monthly
+2338,20250501,4,,Customer Satisfaction,3.78,Score,Monthly
+2339,20250501,4,,CO2 Emissions,7971.05,kg,Monthly
+2340,20250501,4,,Energy Consumption,25911.12,kWh,Monthly
+2341,20250501,5,,SLA Compliance,82.0,Percent,Monthly
+2342,20250501,5,,Asset Availability,99.64,Percent,Monthly
+2343,20250501,5,,Customer Satisfaction,3.22,Score,Monthly
+2344,20250501,5,,CO2 Emissions,7039.0,kg,Monthly
+2345,20250501,5,,Energy Consumption,22734.21,kWh,Monthly
+2346,20250601,1,,SLA Compliance,82.0,Percent,Monthly
+2347,20250601,1,,Asset Availability,99.52,Percent,Monthly
+2348,20250601,1,,Customer Satisfaction,3.58,Score,Monthly
+2349,20250601,1,,CO2 Emissions,21891.62,kg,Monthly
+2350,20250601,1,,Energy Consumption,72149.94,kWh,Monthly
+2351,20250601,2,,SLA Compliance,95.32,Percent,Monthly
+2352,20250601,2,,Asset Availability,99.9,Percent,Monthly
+2353,20250601,2,,Customer Satisfaction,4.42,Score,Monthly
+2354,20250601,2,,CO2 Emissions,4193.58,kg,Monthly
+2355,20250601,2,,Energy Consumption,15031.97,kWh,Monthly
+2356,20250601,3,,SLA Compliance,93.67,Percent,Monthly
+2357,20250601,3,,Asset Availability,99.56,Percent,Monthly
+2358,20250601,3,,Customer Satisfaction,4.23,Score,Monthly
+2359,20250601,3,,CO2 Emissions,8259.25,kg,Monthly
+2360,20250601,3,,Energy Consumption,27335.75,kWh,Monthly
+2361,20250601,4,,SLA Compliance,87.59,Percent,Monthly
+2362,20250601,4,,Asset Availability,99.9,Percent,Monthly
+2363,20250601,4,,Customer Satisfaction,4.0,Score,Monthly
+2364,20250601,4,,CO2 Emissions,9016.63,kg,Monthly
+2365,20250601,4,,Energy Consumption,30089.21,kWh,Monthly
+2366,20250601,5,,SLA Compliance,82.0,Percent,Monthly
+2367,20250601,5,,Asset Availability,99.82,Percent,Monthly
+2368,20250601,5,,Customer Satisfaction,3.65,Score,Monthly
+2369,20250601,5,,CO2 Emissions,5109.31,kg,Monthly
+2370,20250601,5,,Energy Consumption,15853.12,kWh,Monthly
+2371,20250701,1,,SLA Compliance,82.0,Percent,Monthly
+2372,20250701,1,,Asset Availability,99.05,Percent,Monthly
+2373,20250701,1,,Customer Satisfaction,3.6,Score,Monthly
+2374,20250701,1,,CO2 Emissions,25655.74,kg,Monthly
+2375,20250701,1,,Energy Consumption,82349.61,kWh,Monthly
+2376,20250701,2,,SLA Compliance,98.8,Percent,Monthly
+2377,20250701,2,,Asset Availability,99.9,Percent,Monthly
+2378,20250701,2,,Customer Satisfaction,4.21,Score,Monthly
+2379,20250701,2,,CO2 Emissions,3576.74,kg,Monthly
+2380,20250701,2,,Energy Consumption,12479.03,kWh,Monthly
+2381,20250701,3,,SLA Compliance,83.15,Percent,Monthly
+2382,20250701,3,,Asset Availability,99.9,Percent,Monthly
+2383,20250701,3,,Customer Satisfaction,4.27,Score,Monthly
+2384,20250701,3,,CO2 Emissions,11122.56,kg,Monthly
+2385,20250701,3,,Energy Consumption,36886.07,kWh,Monthly
+2386,20250701,4,,SLA Compliance,82.0,Percent,Monthly
+2387,20250701,4,,Asset Availability,99.52,Percent,Monthly
+2388,20250701,4,,Customer Satisfaction,3.65,Score,Monthly
+2389,20250701,4,,CO2 Emissions,6484.02,kg,Monthly
+2390,20250701,4,,Energy Consumption,21713.46,kWh,Monthly
+2391,20250701,5,,SLA Compliance,82.0,Percent,Monthly
+2392,20250701,5,,Asset Availability,99.7,Percent,Monthly
+2393,20250701,5,,Customer Satisfaction,3.4,Score,Monthly
+2394,20250701,5,,CO2 Emissions,9692.79,kg,Monthly
+2395,20250701,5,,Energy Consumption,31612.05,kWh,Monthly
+2396,20250801,1,,SLA Compliance,82.0,Percent,Monthly
+2397,20250801,1,,Asset Availability,99.39,Percent,Monthly
+2398,20250801,1,,Customer Satisfaction,3.45,Score,Monthly
+2399,20250801,1,,CO2 Emissions,28456.31,kg,Monthly
+2400,20250801,1,,Energy Consumption,91155.99,kWh,Monthly
+2401,20250801,2,,SLA Compliance,99.0,Percent,Monthly
+2402,20250801,2,,Asset Availability,99.9,Percent,Monthly
+2403,20250801,2,,Customer Satisfaction,4.63,Score,Monthly
+2404,20250801,2,,CO2 Emissions,4903.83,kg,Monthly
+2405,20250801,2,,Energy Consumption,17706.26,kWh,Monthly
+2406,20250801,3,,SLA Compliance,87.27,Percent,Monthly
+2407,20250801,3,,Asset Availability,99.36,Percent,Monthly
+2408,20250801,3,,Customer Satisfaction,4.15,Score,Monthly
+2409,20250801,3,,CO2 Emissions,10865.45,kg,Monthly
+2410,20250801,3,,Energy Consumption,37879.51,kWh,Monthly
+2411,20250801,4,,SLA Compliance,82.0,Percent,Monthly
+2412,20250801,4,,Asset Availability,99.9,Percent,Monthly
+2413,20250801,4,,Customer Satisfaction,3.81,Score,Monthly
+2414,20250801,4,,CO2 Emissions,8009.47,kg,Monthly
+2415,20250801,4,,Energy Consumption,25561.53,kWh,Monthly
+2416,20250801,5,,SLA Compliance,82.0,Percent,Monthly
+2417,20250801,5,,Asset Availability,99.13,Percent,Monthly
+2418,20250801,5,,Customer Satisfaction,3.4,Score,Monthly
+2419,20250801,5,,CO2 Emissions,5652.37,kg,Monthly
+2420,20250801,5,,Energy Consumption,18808.27,kWh,Monthly
+2421,20250901,1,,SLA Compliance,82.0,Percent,Monthly
+2422,20250901,1,,Asset Availability,99.55,Percent,Monthly
+2423,20250901,1,,Customer Satisfaction,3.62,Score,Monthly
+2424,20250901,1,,CO2 Emissions,26112.82,kg,Monthly
+2425,20250901,1,,Energy Consumption,82946.09,kWh,Monthly
+2426,20250901,2,,SLA Compliance,99.0,Percent,Monthly
+2427,20250901,2,,Asset Availability,99.9,Percent,Monthly
+2428,20250901,2,,Customer Satisfaction,4.49,Score,Monthly
+2429,20250901,2,,CO2 Emissions,5656.15,kg,Monthly
+2430,20250901,2,,Energy Consumption,19926.66,kWh,Monthly
+2431,20250901,3,,SLA Compliance,93.64,Percent,Monthly
+2432,20250901,3,,Asset Availability,99.9,Percent,Monthly
+2433,20250901,3,,Customer Satisfaction,4.26,Score,Monthly
+2434,20250901,3,,CO2 Emissions,8138.35,kg,Monthly
+2435,20250901,3,,Energy Consumption,28829.93,kWh,Monthly
+2436,20250901,4,,SLA Compliance,82.0,Percent,Monthly
+2437,20250901,4,,Asset Availability,99.9,Percent,Monthly
+2438,20250901,4,,Customer Satisfaction,3.59,Score,Monthly
+2439,20250901,4,,CO2 Emissions,7561.22,kg,Monthly
+2440,20250901,4,,Energy Consumption,25404.6,kWh,Monthly
+2441,20250901,5,,SLA Compliance,82.0,Percent,Monthly
+2442,20250901,5,,Asset Availability,99.9,Percent,Monthly
+2443,20250901,5,,Customer Satisfaction,3.28,Score,Monthly
+2444,20250901,5,,CO2 Emissions,5274.56,kg,Monthly
+2445,20250901,5,,Energy Consumption,16460.54,kWh,Monthly
+2446,20251001,1,,SLA Compliance,82.0,Percent,Monthly
+2447,20251001,1,,Asset Availability,99.06,Percent,Monthly
+2448,20251001,1,,Customer Satisfaction,3.54,Score,Monthly
+2449,20251001,1,,CO2 Emissions,24483.96,kg,Monthly
+2450,20251001,1,,Energy Consumption,78797.43,kWh,Monthly
+2451,20251001,2,,SLA Compliance,99.0,Percent,Monthly
+2452,20251001,2,,Asset Availability,99.9,Percent,Monthly
+2453,20251001,2,,Customer Satisfaction,4.48,Score,Monthly
+2454,20251001,2,,CO2 Emissions,8544.99,kg,Monthly
+2455,20251001,2,,Energy Consumption,30644.85,kWh,Monthly
+2456,20251001,3,,SLA Compliance,96.05,Percent,Monthly
+2457,20251001,3,,Asset Availability,99.9,Percent,Monthly
+2458,20251001,3,,Customer Satisfaction,4.18,Score,Monthly
+2459,20251001,3,,CO2 Emissions,14321.8,kg,Monthly
+2460,20251001,3,,Energy Consumption,48123.04,kWh,Monthly
+2461,20251001,4,,SLA Compliance,82.0,Percent,Monthly
+2462,20251001,4,,Asset Availability,99.37,Percent,Monthly
+2463,20251001,4,,Customer Satisfaction,3.69,Score,Monthly
+2464,20251001,4,,CO2 Emissions,6502.31,kg,Monthly
+2465,20251001,4,,Energy Consumption,20796.16,kWh,Monthly
+2466,20251001,5,,SLA Compliance,82.0,Percent,Monthly
+2467,20251001,5,,Asset Availability,99.83,Percent,Monthly
+2468,20251001,5,,Customer Satisfaction,3.22,Score,Monthly
+2469,20251001,5,,CO2 Emissions,9748.65,kg,Monthly
+2470,20251001,5,,Energy Consumption,31474.98,kWh,Monthly
+2471,20251101,1,,SLA Compliance,82.0,Percent,Monthly
+2472,20251101,1,,Asset Availability,99.21,Percent,Monthly
+2473,20251101,1,,Customer Satisfaction,3.55,Score,Monthly
+2474,20251101,1,,CO2 Emissions,25270.25,kg,Monthly
+2475,20251101,1,,Energy Consumption,80752.25,kWh,Monthly
+2476,20251101,2,,SLA Compliance,99.0,Percent,Monthly
+2477,20251101,2,,Asset Availability,99.9,Percent,Monthly
+2478,20251101,2,,Customer Satisfaction,4.37,Score,Monthly
+2479,20251101,2,,CO2 Emissions,5401.58,kg,Monthly
+2480,20251101,2,,Energy Consumption,20013.98,kWh,Monthly
+2481,20251101,3,,SLA Compliance,96.95,Percent,Monthly
+2482,20251101,3,,Asset Availability,99.9,Percent,Monthly
+2483,20251101,3,,Customer Satisfaction,4.04,Score,Monthly
+2484,20251101,3,,CO2 Emissions,10662.38,kg,Monthly
+2485,20251101,3,,Energy Consumption,35542.63,kWh,Monthly
+2486,20251101,4,,SLA Compliance,82.0,Percent,Monthly
+2487,20251101,4,,Asset Availability,99.9,Percent,Monthly
+2488,20251101,4,,Customer Satisfaction,3.57,Score,Monthly
+2489,20251101,4,,CO2 Emissions,10481.1,kg,Monthly
+2490,20251101,4,,Energy Consumption,34824.58,kWh,Monthly
+2491,20251101,5,,SLA Compliance,82.0,Percent,Monthly
+2492,20251101,5,,Asset Availability,99.78,Percent,Monthly
+2493,20251101,5,,Customer Satisfaction,3.26,Score,Monthly
+2494,20251101,5,,CO2 Emissions,9563.35,kg,Monthly
+2495,20251101,5,,Energy Consumption,30714.06,kWh,Monthly
+2496,20251201,1,,SLA Compliance,82.0,Percent,Monthly
+2497,20251201,1,,Asset Availability,99.9,Percent,Monthly
+2498,20251201,1,,Customer Satisfaction,3.49,Score,Monthly
+2499,20251201,1,,CO2 Emissions,34443.84,kg,Monthly
+2500,20251201,1,,Energy Consumption,113836.32,kWh,Monthly
+2501,20251201,2,,SLA Compliance,99.0,Percent,Monthly
+2502,20251201,2,,Asset Availability,99.9,Percent,Monthly
+2503,20251201,2,,Customer Satisfaction,4.41,Score,Monthly
+2504,20251201,2,,CO2 Emissions,9490.37,kg,Monthly
+2505,20251201,2,,Energy Consumption,34556.76,kWh,Monthly
+2506,20251201,3,,SLA Compliance,98.7,Percent,Monthly
+2507,20251201,3,,Asset Availability,99.9,Percent,Monthly
+2508,20251201,3,,Customer Satisfaction,4.31,Score,Monthly
+2509,20251201,3,,CO2 Emissions,11920.44,kg,Monthly
+2510,20251201,3,,Energy Consumption,39673.33,kWh,Monthly
+2511,20251201,4,,SLA Compliance,82.0,Percent,Monthly
+2512,20251201,4,,Asset Availability,99.5,Percent,Monthly
+2513,20251201,4,,Customer Satisfaction,3.62,Score,Monthly
+2514,20251201,4,,CO2 Emissions,10115.54,kg,Monthly
+2515,20251201,4,,Energy Consumption,35373.85,kWh,Monthly
+2516,20251201,5,,SLA Compliance,82.0,Percent,Monthly
+2517,20251201,5,,Asset Availability,99.53,Percent,Monthly
+2518,20251201,5,,Customer Satisfaction,3.56,Score,Monthly
+2519,20251201,5,,CO2 Emissions,9229.93,kg,Monthly
+2520,20251201,5,,Energy Consumption,30342.11,kWh,Monthly
