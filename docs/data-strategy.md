@@ -1,6 +1,6 @@
 # Data Strategy
 
-NovaEnergy Services uses synthetic enterprise data to demonstrate dimensional modeling, KPI design, and analytics storytelling without exposing confidential business information.
+NovaEnergy Services uses synthetic enterprise data to demonstrate dimensional modeling, ETL design, KPI planning, and analytics storytelling without exposing confidential business information.
 
 ## Why Synthetic Data Is Used
 
@@ -38,30 +38,39 @@ The generator is designed to preserve business logic that will matter in later a
 - Older assets consume more energy, which increases CO2 emissions.
 - Renewable energy share improves gradually from 2024 to 2025.
 
+## ETL Loader v1 Scope
+
+ETL Loader v1 reads the generated CSV files from `data/sample/`, applies light type coercion, validates foreign key relationships before load, truncates the warehouse tables in replace mode, loads the tables in dependency order, and resets PostgreSQL SERIAL sequences after explicit-ID inserts.
+
+The loader currently focuses only on clean ingestion into PostgreSQL. It does not yet create KPI views, semantic models, API business endpoints, or AI-generated insights.
+
 ## Data Quality And Validation
 
-After generation, the workflow validates that:
+Before loading, the ETL workflow validates that:
 
-- every expected CSV file is created
-- primary key fields are populated and unique
-- foreign key references match the dimension tables
-- generated values respect major schema constraints
+- every expected CSV file is present
+- every dataset is non-empty
+- primary key columns are populated
+- columns match the expected warehouse schema
+- foreign key references are valid before database load
 - Python source files compile successfully
 
-This validation happens before any future load step into PostgreSQL.
+This validation happens before any truncate-and-reload step is executed against PostgreSQL.
 
 ## Refresh Approach
 
-Synthetic data can be refreshed by rerunning:
+The working refresh flow is:
 
 ```bash
 python -m data_generation.generate_synthetic_data
+python -m etl.run_pipeline --source data/sample --mode replace
 ```
 
-Configuration values such as the random seed, date range, and target row counts are managed in `data_generation/config.py`.
+Configuration values for synthetic data generation live in `data_generation/config.py`. Database connection settings for ETL are read from environment variables via `python-dotenv`.
 
 ## Governance Notes
 
 - No real company or customer data is included.
-- The generated datasets are designed for analytics development, demos, and dashboard prototyping.
+- The generated datasets are designed for analytics development, ETL validation, demos, and dashboard prototyping.
 - The warehouse schema remains the source-of-truth contract for column definitions and allowed value domains.
+- Replace mode is intended for local development and portfolio demonstration, not for production-grade incremental loading.

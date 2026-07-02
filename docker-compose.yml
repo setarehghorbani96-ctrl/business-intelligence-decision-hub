@@ -25,6 +25,8 @@ services:
     container_name: bi_decision_hub_api
     env_file:
       - .env
+    environment:
+      DATABASE_HOST: postgres
     depends_on:
       postgres:
         condition: service_healthy
@@ -41,6 +43,8 @@ services:
     container_name: bi_decision_hub_streamlit
     env_file:
       - .env
+    environment:
+      DATABASE_HOST: postgres
     depends_on:
       api:
         condition: service_started
