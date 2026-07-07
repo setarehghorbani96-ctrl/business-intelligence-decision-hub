@@ -41,10 +41,13 @@ services:
       context: .
       dockerfile: app/Dockerfile
     container_name: bi_decision_hub_streamlit
+    working_dir: /workspace
     env_file:
       - .env
     environment:
-      DATABASE_HOST: postgres
+      API_HOST: api
+      API_PORT: 8000
+      PYTHONPATH: /workspace
     depends_on:
       api:
         condition: service_started

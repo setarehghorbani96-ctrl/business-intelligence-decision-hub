@@ -1,8 +1,8 @@
-﻿# Business Intelligence Decision Hub
+# Business Intelligence Decision Hub
 
 Business Intelligence Decision Hub is a professional portfolio project for a role-based business intelligence and decision-support platform built around the fictional company NovaEnergy Services.
 
-The current implementation includes the Docker-ready project foundation, PostgreSQL Schema v1, a reproducible synthetic data generator, ETL Loader v1, KPI SQL Views v1, and FastAPI KPI Endpoints v1 for dashboard-ready backend access.
+The current implementation includes the Docker-ready project foundation, PostgreSQL Schema v1, a reproducible synthetic data generator, ETL Loader v1, KPI SQL Views v1, FastAPI KPI Endpoints v1, and Streamlit Executive Dashboard v1 for executive-level KPI visibility.
 
 ## Current Scope
 
@@ -14,8 +14,8 @@ The current implementation includes the Docker-ready project foundation, Postgre
 - ETL Loader v1 for CSV validation and PostgreSQL loading
 - KPI SQL Views v1 for finance, operations, assets, customers, ESG, executive scorecards, and rule-based recommendations
 - FastAPI KPI endpoints for health, KPI views, and decision recommendations
+- Streamlit Executive Command Center connected to FastAPI
 - Sample CSV outputs in `data/sample/`
-- Streamlit placeholder application shell
 - Starter folders for AI insights, analytics assets, tests, and documentation
 
 ## Setup
@@ -28,7 +28,7 @@ docker compose down -v
 docker compose up --build
 ```
 
-The example environment file defaults the host-side ETL workflow to `localhost`, while Docker overrides container-side database access to `postgres` for the API and Streamlit services.
+The example environment file defaults the host-side ETL workflow to `localhost`, while Docker overrides container-side database access to `postgres` for the API and `api:8000` for the Streamlit dashboard.
 
 ## Generate Synthetic Data
 
@@ -75,7 +75,7 @@ docker compose exec postgres psql -U postgres -d bi_decision_hub -c "SELECT * FR
 
 ## API Endpoints
 
-The backend now exposes the KPI views directly through FastAPI for the future Streamlit dashboard.
+The backend exposes KPI views directly through FastAPI so the dashboard can consume a stable, governed API contract instead of querying PostgreSQL directly.
 
 Example test URLs:
 
@@ -89,7 +89,54 @@ Additional example filters:
 
 - http://localhost:8000/kpis/executive?year=2025&region=North-West
 - http://localhost:8000/kpis/operations?year=2025&month=6
-- http://localhost:8000/kpis/assets?region=South-East&limit=25
+- http://localhost:8000/kpis/assets?region=South&limit=25
+
+## Streamlit Executive Dashboard v1
+
+The repository now includes an Executive Command Center built in Streamlit for NovaEnergy Services leadership review. It focuses on the executive layer only and uses FastAPI as the data access boundary.
+
+### What it includes
+
+- Sidebar filters for year, month, and region selection
+- KPI cards for revenue, margin, SLA, customer satisfaction, downtime, CO2 emissions, health score, and risk index
+- Plotly charts for revenue trend, margin trend, SLA trend, and regional KPI comparisons
+- A recommendations panel powered by `GET /recommendations/actions`
+- Friendly empty and error states for API, database, and no-data scenarios
+
+### Dashboard Region Comparison
+
+Users can compare one region, several regions, or all regions directly in the executive dashboard. Streamlit consumes the FastAPI KPI endpoints, then filters and aggregates the returned dataframes locally for multi-region comparison. The dashboard does not query PostgreSQL directly.
+
+### Start Docker
+
+```powershell
+Copy-Item .env.example .env -Force
+docker compose down -v
+docker compose up --build
+```
+
+### Access The Dashboard
+
+- Streamlit: http://localhost:8501
+- API health: http://localhost:8000/health
+- API database health: http://localhost:8000/health/database
+- Executive KPI endpoint: http://localhost:8000/kpis/executive?limit=5
+
+### Backend API URLs Used By Streamlit
+
+- `GET /kpis/executive`
+- `GET /kpis/finance`
+- `GET /kpis/operations`
+- `GET /recommendations/actions`
+
+The Streamlit app reads `API_HOST` and `API_PORT`. Inside Docker Compose it connects to FastAPI at `http://api:8000`. If you run Streamlit locally outside Docker, it falls back to `http://localhost:8000` when the Docker hostname is not reachable.
+
+### Troubleshooting
+
+- If Streamlit shows `API is not available`, start the stack with `docker compose up --build` and confirm http://localhost:8000/health responds.
+- If Streamlit shows a database availability error, reload CSV data with the ETL pipeline and reapply `database/views.sql`.
+- If charts are empty, verify data exists with http://localhost:8000/kpis/executive?limit=5 and confirm your selected filters match available rows.
+- If Docker was already running before the KPI views changed, reapply the views manually with `docker compose exec postgres psql -U postgres -d bi_decision_hub -f /docker-entrypoint-initdb.d/views.sql`.
 
 ## Verify The Load
 
@@ -158,10 +205,10 @@ The SQL view layer is intended to:
 
 ## What Is Not Implemented Yet
 
-- Streamlit dashboard pages and KPI visualizations
+- Additional department-specific Streamlit dashboards
 - AI insight generation
 - Scenario analysis workflows
 
 ## Next Planned Phase
 
-The next recommended step is to connect the new KPI API endpoints to the Streamlit dashboard layer, keeping the PostgreSQL views as the source of truth and the API as the stable contract between backend metrics and frontend decision workflows.
+The next recommended step is to extend the executive experience into drill-down dashboards for finance, operations, assets, customers, and ESG while keeping FastAPI as the stable contract between business metrics and the UI.

@@ -1,1 +1,1 @@
-"""Streamlit pages package placeholder."""
+"""Reserved package for future Streamlit pages."""
