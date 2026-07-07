@@ -1,8 +1,8 @@
-# Business Intelligence Decision Hub
+﻿# Business Intelligence Decision Hub
 
 Business Intelligence Decision Hub is a professional portfolio project for a role-based business intelligence and decision-support platform built around the fictional company NovaEnergy Services.
 
-The current implementation includes the Docker-ready project foundation, PostgreSQL Schema v1, a reproducible synthetic data generator, ETL Loader v1, and KPI SQL Views v1 for reusable analytical reporting.
+The current implementation includes the Docker-ready project foundation, PostgreSQL Schema v1, a reproducible synthetic data generator, ETL Loader v1, KPI SQL Views v1, and FastAPI KPI Endpoints v1 for dashboard-ready backend access.
 
 ## Current Scope
 
@@ -13,8 +13,8 @@ The current implementation includes the Docker-ready project foundation, Postgre
 - Synthetic data generator for dimensions, fact tables, and KPI targets
 - ETL Loader v1 for CSV validation and PostgreSQL loading
 - KPI SQL Views v1 for finance, operations, assets, customers, ESG, executive scorecards, and rule-based recommendations
+- FastAPI KPI endpoints for health, KPI views, and decision recommendations
 - Sample CSV outputs in `data/sample/`
-- FastAPI placeholder service with a health endpoint
 - Streamlit placeholder application shell
 - Starter folders for AI insights, analytics assets, tests, and documentation
 
@@ -73,6 +73,24 @@ docker compose exec postgres psql -U postgres -d bi_decision_hub -c "SELECT * FR
 docker compose exec postgres psql -U postgres -d bi_decision_hub -c "SELECT * FROM vw_decision_recommendations ORDER BY priority_score DESC LIMIT 10;"
 ```
 
+## API Endpoints
+
+The backend now exposes the KPI views directly through FastAPI for the future Streamlit dashboard.
+
+Example test URLs:
+
+- http://localhost:8000/health
+- http://localhost:8000/health/database
+- http://localhost:8000/kpis/executive?limit=5
+- http://localhost:8000/kpis/finance?year=2025&limit=5
+- http://localhost:8000/recommendations/actions?limit=10
+
+Additional example filters:
+
+- http://localhost:8000/kpis/executive?year=2025&region=North-West
+- http://localhost:8000/kpis/operations?year=2025&month=6
+- http://localhost:8000/kpis/assets?region=South-East&limit=25
+
 ## Verify The Load
 
 You can verify a loaded fact table with:
@@ -103,7 +121,7 @@ docker compose exec postgres psql -U postgres -d bi_decision_hub -f /docker-entr
 The SQL view layer is intended to:
 
 - centralize business KPI definitions in PostgreSQL
-- keep future dashboard queries simple and consistent
+- keep dashboard and API queries simple and consistent
 - support API endpoints with reusable analytical surfaces
 - give future AI insight workflows a stable semantic layer
 - surface executive risk and recommendation signals without hardcoding them in application code
@@ -112,6 +130,7 @@ The SQL view layer is intended to:
 
 - FastAPI: http://localhost:8000
 - FastAPI health check: http://localhost:8000/health
+- FastAPI database health check: http://localhost:8000/health/database
 - Streamlit: http://localhost:8501
 - PostgreSQL: localhost:5432
 
@@ -140,10 +159,9 @@ The SQL view layer is intended to:
 ## What Is Not Implemented Yet
 
 - Streamlit dashboard pages and KPI visualizations
-- FastAPI business endpoints beyond placeholders
 - AI insight generation
 - Scenario analysis workflows
 
 ## Next Planned Phase
 
-The next recommended step is to expose the KPI views through application-facing APIs and dashboard surfaces, while preserving the SQL layer as the source of truth for metric definitions.
+The next recommended step is to connect the new KPI API endpoints to the Streamlit dashboard layer, keeping the PostgreSQL views as the source of truth and the API as the stable contract between backend metrics and frontend decision workflows.
