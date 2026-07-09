@@ -10,6 +10,7 @@ from app.components.kpi_cards import render_kpi_grid
 from app.components.layout import (
     apply_theme,
     render_empty_state,
+    render_guide_box,
     render_highlight_box,
     render_page_header,
     render_section_header,
@@ -30,6 +31,7 @@ MONTH_OPTIONS = ["All", *range(1, 13)]
 REGION_OPTIONS = ["North-West", "North-East", "Central", "South", "Islands"]
 DATA_LIMIT = 500
 RECOMMENDATION_LIMIT = 10
+PLOTLY_CONFIG = {"displayModeBar": False, "responsive": True}
 
 
 st.set_page_config(page_title=PAGE_TITLE, layout="wide")
@@ -267,7 +269,11 @@ def build_region_metric(
     return grouped_df
 
 
-def build_region_summary(finance_df: pd.DataFrame, operations_df: pd.DataFrame, executive_df: pd.DataFrame) -> pd.DataFrame:
+def build_region_summary(
+    finance_df: pd.DataFrame,
+    operations_df: pd.DataFrame,
+    executive_df: pd.DataFrame,
+) -> pd.DataFrame:
     """Create a region-level summary for comparison insights and tables."""
     summary_frames: list[pd.DataFrame] = []
 
@@ -393,7 +399,6 @@ def prepare_recommendations(dataframe: pd.DataFrame) -> pd.DataFrame:
     selected_columns = [
         "region_name",
         "recommendation_area",
-        "issue_detected",
         "recommended_action",
         "impact_level",
         "urgency_level",
@@ -409,7 +414,6 @@ def prepare_recommendations(dataframe: pd.DataFrame) -> pd.DataFrame:
         columns={
             "region_name": "Region",
             "recommendation_area": "Area",
-            "issue_detected": "Issue Detected",
             "recommended_action": "Recommended Action",
             "impact_level": "Impact",
             "urgency_level": "Urgency",
@@ -420,15 +424,16 @@ def prepare_recommendations(dataframe: pd.DataFrame) -> pd.DataFrame:
 
 with st.sidebar:
     st.header("Executive Filters")
-    selected_year = st.selectbox("Reporting year", YEAR_OPTIONS, index=0)
-    selected_month = st.selectbox("Reporting month", MONTH_OPTIONS, index=0)
+    st.caption("Compare one region, several regions, or the full company view from the same dashboard.")
+    selected_year = st.selectbox("Reporting Year", YEAR_OPTIONS, index=0)
+    selected_month = st.selectbox("Reporting Month", MONTH_OPTIONS, index=0)
     selected_regions_input = st.multiselect(
-        "Regions to compare",
+        "Compare Regions",
         REGION_OPTIONS,
         default=REGION_OPTIONS,
         help="Select one or more regions for comparison. Leaving this empty defaults back to all regions.",
     )
-    refresh_requested = st.button("Refresh dashboard", use_container_width=True)
+    refresh_requested = st.button("Refresh Dashboard", use_container_width=True)
     st.caption("Data source: FastAPI KPI endpoints")
 
 if refresh_requested:
@@ -439,7 +444,7 @@ year_filter = normalize_filter_value(selected_year)
 month_filter = normalize_filter_value(selected_month)
 selected_regions, defaulted_to_all = normalize_region_selection(selected_regions_input)
 if defaulted_to_all:
-    st.sidebar.info("No specific region selected. Showing all regions by default.")
+    st.sidebar.info("No regions were selected, so the dashboard returned to the full company view.")
 
 region_filter = region_api_filter(selected_regions)
 
@@ -453,9 +458,16 @@ render_page_header(
     ),
 )
 
-st.caption(f"Current Scope: {scope_label(year_filter, month_filter, selected_regions)}")
+scope_col, guide_col = st.columns([1.3, 1.0])
+with scope_col:
+    st.caption(f"Current Scope: {scope_label(year_filter, month_filter, selected_regions)}")
+with guide_col:
+    render_guide_box(
+        "How to read this dashboard",
+        "KPI cards summarize the selected scope, charts compare selected regions over time, recommendations surface management actions from KPI thresholds, and all data is served through FastAPI on top of PostgreSQL KPI views.",
+    )
 
-with st.spinner("Loading KPI data from FastAPI..."):
+with st.spinner("Loading dashboard data..."):
     executive_response = get_executive_kpis(
         year=year_filter,
         month=month_filter,
@@ -488,7 +500,7 @@ recommendations_df = filter_regions(dataframe_from_response(recommendations_resp
 
 if executive_df.empty and finance_df.empty and operations_df.empty:
     render_empty_state(
-        title="No KPI data available for the selected filters.",
+        title="No KPI data is available for the selected filters.",
         message=(
             "Please make sure the API is running, data has been loaded, and the selected year, month, "
             "and regions have matching KPI records."
@@ -564,62 +576,62 @@ else:
             with column:
                 render_highlight_box(insight[0], insight[1])
     else:
-        st.info("Comparison insights will appear when enough regional KPI data is available.")
+        st.info("Regional comparison insights will appear when enough comparison data is available.")
 
     render_section_header(
         "Trend Comparison",
-        "Monthly comparison of selected regions across financial and operational KPIs.",
+        "Monthly comparison of selected regions across financial and operational indicators.",
     )
-    trend_col_1, trend_col_2, trend_col_3 = st.columns(3)
 
     revenue_trend = build_revenue_trend(finance_df)
     margin_trend = build_margin_trend(finance_df)
     sla_trend = build_sla_trend(operations_df)
 
-    with trend_col_1:
+    trend_row_1_col_1, trend_row_1_col_2 = st.columns(2)
+
+    with trend_row_1_col_1:
         revenue_chart = build_line_chart(
             revenue_trend,
-            x="period_label",
+            x="period_date",
             y="total_revenue",
             color_column="region_name",
-            title="Revenue Trend by Month and Region",
+            title="Revenue Trend",
             xaxis_title="Month",
             yaxis_title="Revenue",
         )
         if revenue_chart is not None:
-            st.plotly_chart(revenue_chart, use_container_width=True)
+            st.plotly_chart(revenue_chart, use_container_width=True, config=PLOTLY_CONFIG)
         else:
             st.info("Revenue trend data is not available for the selected scope.")
 
-    with trend_col_2:
+    with trend_row_1_col_2:
         margin_chart = build_line_chart(
             margin_trend,
-            x="period_label",
+            x="period_date",
             y="operating_margin_pct",
             color_column="region_name",
-            title="Operating Margin Trend by Month and Region",
+            title="Operating Margin Trend",
             xaxis_title="Month",
             yaxis_title="Margin %",
         )
         if margin_chart is not None:
-            st.plotly_chart(margin_chart, use_container_width=True)
+            st.plotly_chart(margin_chart, use_container_width=True, config=PLOTLY_CONFIG)
         else:
             st.info("Operating margin trend data is not available for the selected scope.")
 
-    with trend_col_3:
-        sla_chart = build_line_chart(
-            sla_trend,
-            x="period_label",
-            y="sla_compliance_pct",
-            color_column="region_name",
-            title="SLA Compliance by Month and Region",
-            xaxis_title="Month",
-            yaxis_title="SLA %",
-        )
-        if sla_chart is not None:
-            st.plotly_chart(sla_chart, use_container_width=True)
-        else:
-            st.info("SLA trend data is not available for the selected scope.")
+    sla_chart = build_line_chart(
+        sla_trend,
+        x="period_date",
+        y="sla_compliance_pct",
+        color_column="region_name",
+        title="SLA Compliance Trend",
+        xaxis_title="Month",
+        yaxis_title="SLA %",
+    )
+    if sla_chart is not None:
+        st.plotly_chart(sla_chart, use_container_width=True, config=PLOTLY_CONFIG)
+    else:
+        st.info("SLA trend data is not available for the selected scope.")
 
     render_section_header(
         "Regional Performance",
@@ -657,7 +669,7 @@ else:
             yaxis_title="Average Risk Index",
         )
         if risk_chart is not None:
-            st.plotly_chart(risk_chart, use_container_width=True)
+            st.plotly_chart(risk_chart, use_container_width=True, config=PLOTLY_CONFIG)
         else:
             st.info("Risk comparison data is not available for the selected scope.")
 
@@ -672,7 +684,7 @@ else:
             yaxis_title="CO2 Emissions (kg)",
         )
         if co2_chart is not None:
-            st.plotly_chart(co2_chart, use_container_width=True)
+            st.plotly_chart(co2_chart, use_container_width=True, config=PLOTLY_CONFIG)
         else:
             st.info("CO2 comparison data is not available for the selected scope.")
 
@@ -687,16 +699,29 @@ else:
             yaxis_title="Region",
         )
         if satisfaction_chart is not None:
-            st.plotly_chart(satisfaction_chart, use_container_width=True)
+            st.plotly_chart(satisfaction_chart, use_container_width=True, config=PLOTLY_CONFIG)
         else:
             st.info("Customer satisfaction comparison data is not available for the selected scope.")
 
     render_section_header(
-        "Recommendations",
-        "Rule-based management actions generated from KPI thresholds.",
+        "Management Recommendations",
+        "Top management actions ranked by urgency and impact across the current scope.",
     )
     recommendations_table = prepare_recommendations(recommendations_df)
     if recommendations_table.empty:
         st.info("No management recommendations are available for the current selected scope.")
     else:
-        st.dataframe(recommendations_table, use_container_width=True, hide_index=True)
+        st.caption("Top 10 recommendations sorted by priority score.")
+        st.dataframe(
+            recommendations_table,
+            use_container_width=True,
+            hide_index=True,
+            column_config={
+                "Region": st.column_config.TextColumn(width="small"),
+                "Area": st.column_config.TextColumn(width="small"),
+                "Recommended Action": st.column_config.TextColumn(width="large"),
+                "Impact": st.column_config.TextColumn(width="small"),
+                "Urgency": st.column_config.TextColumn(width="small"),
+                "Priority Score": st.column_config.TextColumn(width="small"),
+            },
+        )

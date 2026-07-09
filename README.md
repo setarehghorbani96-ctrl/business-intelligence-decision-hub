@@ -98,14 +98,18 @@ The repository now includes an Executive Command Center built in Streamlit for N
 ### What it includes
 
 - Sidebar filters for year, month, and region selection
-- KPI cards for revenue, margin, SLA, customer satisfaction, downtime, CO2 emissions, health score, and risk index
-- Plotly charts for revenue trend, margin trend, SLA trend, and regional KPI comparisons
-- A recommendations panel powered by `GET /recommendations/actions`
+- Executive KPI cards for revenue, margin, SLA, customer satisfaction, downtime, CO2 emissions, health score, and risk index
+- Multi-region trend charts for revenue, margin, and SLA comparison
+- Rule-based recommendations powered by `GET /recommendations/actions`
 - Friendly empty and error states for API, database, and no-data scenarios
 
 ### Dashboard Region Comparison
 
 Users can compare one region, several regions, or all regions directly in the executive dashboard. Streamlit consumes the FastAPI KPI endpoints, then filters and aggregates the returned dataframes locally for multi-region comparison. The dashboard does not query PostgreSQL directly.
+
+### Executive Dashboard Demo Polish v1
+
+The latest polish pass focuses on demo quality: cleaner executive KPI cards, more readable trend charts, multi-region comparison clarity, and a tighter recommendations table. The dashboard remains fully FastAPI-backed and recruiter-friendly.
 
 ### Start Docker
 
